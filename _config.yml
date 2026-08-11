@@ -1,13 +1,11 @@
 title: "AI Dictionary of Terms"
 description: "A curated, living dictionary of AI/ML terminology with clear, accessible explanations."
 url: "https://alexnubla.github.io"
-baseurl: "/ai-dictionary" # <--- THIS IS THE CRITICAL FIX
+baseurl: "/ai-dictionary"
 
-include:
-  - terms
-  - categories
+# Jekyll automatically processes folders containing files with YAML front matter.
+# No need to explicitly include 'terms' or 'categories'.
 
-# Ensures clean URLs with trailing slashes (e.g., /categories/architecture/)
 permalink: pretty
 
 defaults:
