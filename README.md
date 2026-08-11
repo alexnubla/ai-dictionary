@@ -35,7 +35,7 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
 - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
 
-🔍 **[Search the Dictionary](./search.html)**
+🔍 **[Search the Dictionary]({{ site.baseurl }}/search.html)** | 📚 **[View All Terms]({{ site.baseurl }}/terms/)**
 
 ---
 
