@@ -35,7 +35,7 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
 - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
 
-🔍 **[Search the Dictionary]({{ site.baseurl }}/search.html)** | 📚 **[View All Terms]({{ site.baseurl }}/terms/)**
+   🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms]({{ site.baseurl }}/terms/)**
 
 ---
 
@@ -45,7 +45,7 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 We welcome contributions! Whether you're clarifying a definition or adding a new term, follow these steps:
 
 1. **Fork** this repository.
-2. **Copy** the [Term Template](./.github/term-template.md) to create a new file in the `/terms/` directory (e.g., `terms/new-term.md`).
+2. **Copy** the [Term Template](./templates/term-template/) to create a new file in the `/terms/` directory (e.g., `terms/new-term.md`).
 3. **Fill out** all sections, including "The Simple Version" for accessibility.
 4. **Update** this README to include your new term in the Category and A-Z lists.
 5. **Submit** a Pull Request.
