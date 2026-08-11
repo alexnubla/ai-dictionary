@@ -87,7 +87,10 @@ Counting words in an essay for a class assignment. Your teacher says the essay m
 Tokens are like that, but for AI. The tokenizer is the "word counter" that decides how to break text into pieces. Different tokenizers might count differently, just like different people might count "don't" differently. The important thing is that the AI and the tokenizer agree on the rules.
 
 ## Code Example
-```python
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
 # Tokenization examples using Hugging Face Transformers
 from transformers import AutoTokenizer
 
@@ -99,20 +102,28 @@ text = "The quick brown fox jumps over the lazy dog."
 
 # Tokenize
 tokens = tokenizer.tokenize(text)
-print(f"Tokens: {tokens}")
-# Output: ['The', ' quick', ' brown', ' fox', ' jumps', ' over', ' the', ' lazy', ' dog', '.']
+print("Tokens:", tokens)
 
 # Get token IDs
 token_ids = tokenizer.encode(text)
-print(f"Token IDs: {token_ids}")
-print(f"Number of tokens: {len(token_ids)}")
-# Output: Number of tokens: 12
+print("Token IDs:", token_ids)
+print("Number of tokens:", len(token_ids))
 
 # Decode back to text
 decoded = tokenizer.decode(token_ids)
-print(f"Decoded: {decoded}")
+print("Decoded:", decoded)
 
 # Compare with a word that might be split into subwords
 complex_word = "unbelievable"
 tokens_complex = tokenizer.tokenize(complex_word)
-print(f"Tokens for 'unbelievable':
+print("Tokens for 'unbelievable':", tokens_complex)
+
+# Count tokens for cost estimation
+long_text = "This is a much longer document that would cost more to process..."
+token_count = len(tokenizer.encode(long_text))
+cost_per_1k = 0.03
+estimated_cost = (token_count / 1000) * cost_per_1k
+print("Token count:", token_count, "Estimated cost: $", round(estimated_cost, 4))
+{% endhighlight %}
+</div>
+{% endraw %}
