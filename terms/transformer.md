@@ -31,7 +31,9 @@ Transformers are the underlying architecture for almost all modern enterprise AI
 Imagine reading a mystery novel. Instead of remembering every single word in order, your brain instantly connects the detective's clue in Chapter 1 to the suspect's alibi in Chapter 10. That's self-attention.
 
 ## Code Example
-```python
+
+<div markdown="1">
+{% highlight python %}
 # Minimal example using Hugging Face Transformers
 from transformers import pipeline
 
@@ -39,3 +41,5 @@ from transformers import pipeline
 classifier = pipeline("sentiment-analysis")
 result = classifier("The new CI/CD pipeline deployment was successful!")
 # Output: [{'label': 'POSITIVE', 'score': 0.9998}]
+{% endhighlight %}
+</div>
