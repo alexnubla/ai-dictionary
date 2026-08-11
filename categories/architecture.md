@@ -38,4 +38,4 @@ Understanding architecture helps technical leaders make informed decisions about
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
