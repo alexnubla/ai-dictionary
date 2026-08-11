@@ -38,4 +38,4 @@ Understanding enterprise AI helps organizations build sustainable, secure, and g
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
