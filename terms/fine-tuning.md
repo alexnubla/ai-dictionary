@@ -57,11 +57,10 @@ Hiring an experienced professional and giving them company-specific training. In
 **Step 1: Prepare Training Data**
 Create 50-100 examples of ideal email responses:
 
-Input: "Customer asks about return policy"
-Output: "Thank you for reaching out! I'd be happy to explain our return policy..."
-
-Input: "Customer reports shipping delay"
-Output: "I understand your frustration, and I'm here to help resolve this..."
+| Input | Output |
+|-------|--------|
+| "Customer asks about return policy" | "Thank you for reaching out! I'd be happy to explain our return policy..." |
+| "Customer reports shipping delay" | "I understand your frustration, and I'm here to help resolve this..." |
 
 **Step 2: Apply LoRA Fine-tuning**
 - Base model: Llama-2-7B (frozen)
@@ -75,3 +74,21 @@ Output: "I understand your frustration, and I'm here to help resolve this..."
 - Use for all company email generation
 
 **Result:** The model now writes emails that match your company's voice, format, and tone — without needing to retrain the entire model.
+
+## Common Misconceptions
+- **Myth:** Fine-tuning teaches the model completely new knowledge.
+- **Reality:** Fine-tuning adjusts the model's existing knowledge to better fit your specific use case. It can't learn facts it never encountered during pre-training.
+
+- **Myth:** You need millions of examples to fine-tune effectively.
+- **Reality:** With modern techniques like LoRA, you can achieve good results with just hundreds or thousands of high-quality examples.
+
+## Related Terms
+- [Transfer Learning](./transfer-learning/)
+- [LoRA](./lora/)
+- [RLHF](./rlhf/)
+- [Pre-training](./pre-training/)
+
+## Sources & Further Reading
+- [LoRA: Low-Rank Adaptation of Large Language Models (arXiv)](https://arxiv.org/abs/2106.09685)
+- [Hugging Face PEFT Documentation](https://huggingface.co/docs/peft)
+- [A Practical Guide to Fine-Tuning LLMs](https://www.philschmid.de/fine-tune-llms)
