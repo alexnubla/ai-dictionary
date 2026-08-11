@@ -94,38 +94,48 @@ class SimpleRNN(nn.Module):
         self.num_layers = num_layers
         
         # RNN layer
-        self.rnn = nn.RNN(input_size, hidden_size, num_layers, batch_first=True)
+        self.rnn = nn.RNN(
+            input_size=input_size,
+            hidden_size=hidden_size,
+            num_layers=num_layers,
+            batch_first=True
+        )
         
-        # Fully connected layer for classification
+        # Output layer
         self.fc = nn.Linear(hidden_size, num_classes)
         
     def forward(self, x):
-        # Initialize hidden state
-        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size)
+        # Initialize hidden state with zeros
+        batch_size = x.size(0)
+        h0 = torch.zeros(self.num_layers, batch_size, self.hidden_size)
         
-        # Forward propagate RNN
+        # Forward pass through RNN
         out, _ = self.rnn(x, h0)
         
-        # Decode only the last time step
+        # Get output from last time step
         out = self.fc(out[:, -1, :])
         
         return out
 
-# Example usage
-input_size = 10
+# Create model with sample parameters
+model = SimpleRNN(
+    input_size=10,      # Number of input features
+    hidden_size=64,     # Number of hidden units
+    num_layers=2,       # Number of RNN layers
+    num_classes=5       # Number of output classes
+)
+
+# Test with sample input
+batch_size = 32
 sequence_length = 20
-hidden_size = 64
-num_layers = 2
-num_classes = 5
+input_features = 10
 
-model = SimpleRNN(input_size, hidden_size, num_layers, num_classes)
+sample_input = torch.randn(batch_size, sequence_length, input_features)
+output = model(sample_input)
 
-# Sample input (batch_size=32, sequence_length=20, input_size=10)
-x = torch.randn(32, sequence_length, input_size)
-output = model(x)
-
-print("Input shape:", x.shape)
+print("Input shape:", sample_input.shape)
 print("Output shape:", output.shape)
+print("Output:", output[0])  # First sample's predictions
 {% endhighlight %}
 </div>
 {% endraw %}
