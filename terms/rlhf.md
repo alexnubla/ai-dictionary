@@ -76,3 +76,40 @@ RLHF is critical for enterprise AI deployment because it addresses the fundament
 Training a new customer service representative. First, they learn the basics from a training manual (pre-training). Then, they shadow experienced reps and practice with sample scenarios (supervised fine-tuning). Finally, a supervisor listens to their calls and provides feedback on tone, accuracy, and helpfulness (reward model). The rep uses this feedback to improve their approach (reinforcement learning), gradually becoming more aligned with company standards.
 
 ## Code Example
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
+# Conceptual RLHF pipeline (simplified)
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Phase 1: Start with supervised fine-tuned model
+policy_model = AutoModelForCausalLM.from_pretrained("sft-model")
+reference_model = AutoModelForCausalLM.from_pretrained("sft-model")
+reward_model = AutoModelForCausalLM.from_pretrained("reward-model")
+
+# Phase 2: Generate responses
+prompt = "Explain quantum computing to a 10-year-old."
+inputs = tokenizer(prompt, return_tensors="pt")
+
+# Generate multiple candidate responses
+responses = []
+for _ in range(4):
+    output = policy_model.generate(**inputs, max_length=100, do_sample=True)
+    responses.append(tokenizer.decode(output[0]))
+
+# Phase 3: Score responses with reward model
+scores = []
+for response in responses:
+    combined = prompt + response
+    score = reward_model(combined)
+    scores.append(score)
+
+# Phase 4: Use PPO to update policy model
+# - Higher-scoring responses are reinforced
+# - KL penalty prevents drift from reference model
+# - Policy model weights are updated
+{% endhighlight %}
+</div>
+{% endraw %}
