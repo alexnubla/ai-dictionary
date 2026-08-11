@@ -37,5 +37,4 @@ As organizations adopt AI more broadly, they face unique challenges that go beyo
 Understanding enterprise AI helps organizations build sustainable, secure, and governable AI programs that deliver value while managing risk.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
