@@ -41,5 +41,4 @@ Organizations that neglect AI ethics and safety face:
 Proactive ethics and safety practices are not just morally right — they're essential for sustainable, responsible AI deployment.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
