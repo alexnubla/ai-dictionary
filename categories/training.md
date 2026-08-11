@@ -38,5 +38,4 @@ The training approach has profound implications for:
 Understanding training helps organizations make informed decisions about whether to use off-the-shelf models, fine-tune existing ones, or invest in custom training.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
