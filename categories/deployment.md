@@ -36,5 +36,4 @@ A brilliant AI model is useless if it can't be deployed effectively. Deployment 
 Understanding deployment helps organizations move from AI experiments to production-ready solutions that deliver real business value.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
