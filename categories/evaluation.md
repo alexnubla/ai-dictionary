@@ -39,5 +39,4 @@ Without proper evaluation, organizations cannot:
 Robust evaluation is essential for responsible AI deployment and continuous improvement.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
