@@ -37,4 +37,4 @@ Understanding deployment helps organizations move from AI experiments to product
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
