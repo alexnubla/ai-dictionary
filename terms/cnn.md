@@ -72,7 +72,10 @@ CNNs are essential for enterprise applications involving visual data:
 Looking at a painting through a series of magnifying glasses. First, you use a small magnifying glass to see brush strokes and colors. Then a larger one to see shapes and forms. Finally, you step back to see the whole composition. Each level of magnification reveals different details, and together they help you understand the entire artwork.
 
 ## Code Example
-```python
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
 # Simple CNN for image classification using PyTorch
 import torch
 import torch.nn as nn
@@ -83,7 +86,7 @@ class SimpleCNN(nn.Module):
         super(SimpleCNN, self).__init__()
         
         # Convolutional layers
-        self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)  # 3 input channels (RGB)
+        self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)
         self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
         self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
         
@@ -91,14 +94,13 @@ class SimpleCNN(nn.Module):
         self.pool = nn.MaxPool2d(2, 2)
         
         # Fully connected layers
-        self.fc1 = nn.Linear(128 * 4 * 4, 512)  # Assuming 32x32 input images
+        self.fc1 = nn.Linear(128 * 4 * 4, 512)
         self.fc2 = nn.Linear(512, num_classes)
         
     def forward(self, x):
-        # Conv -> ReLU -> Pool
-        x = self.pool(F.relu(self.conv1(x)))  # Output: 32 x 16 x 16
-        x = self.pool(F.relu(self.conv2(x)))  # Output: 64 x 8 x 8
-        x = self.pool(F.relu(self.conv3(x)))  # Output: 128 x 4 x 4
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        x = self.pool(F.relu(self.conv3(x)))
         
         # Flatten
         x = x.view(-1, 128 * 4 * 4)
@@ -111,4 +113,8 @@ class SimpleCNN(nn.Module):
 
 # Initialize model
 model = SimpleCNN(num_classes=10)
-print(f"Total parameters: {sum(p.numel() for p in model.parameters()):,}")
+total_params = sum(p.numel() for p in model.parameters())
+print("Total parameters:", total_params)
+{% endhighlight %}
+</div>
+{% endraw %}
