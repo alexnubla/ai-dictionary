@@ -7,7 +7,7 @@ date_added: 2026-08-11
 
 # Transformer
 
-A deep learning architecture introduced in the 2017 paper *"Attention Is All You Need"* that revolutionized natural language processing by replacing recurrent layers with self-attention mechanisms.
+A deep learning architecture introduced in the 2017 paper ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762) that revolutionized natural language processing by replacing recurrent layers with self-attention mechanisms.
 
 ## The Simple Version
 Imagine you're trying to understand a long, complicated story. The older way computers read was like listening to someone read the story to you one single word at a time, very slowly. By the time you got to the end of a long sentence, you might have forgotten how it began!
