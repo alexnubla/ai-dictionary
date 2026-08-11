@@ -67,49 +67,9 @@ Few-shot learning is transformative for enterprises because it dramatically redu
 ## Real-World Analogy
 Teaching a new employee a specific task by showing them 2-3 examples of how it's done, rather than sending them to a week-long training course. They watch the examples, understand the pattern, and can immediately apply it to new situations.
 
-## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
-# Few-shot prompting with OpenAI API (current format)
-from openai import OpenAI
-
-client = OpenAI()
-
-# Define few-shot examples in the system message
-system_prompt = """You are a sentiment classifier. Use these examples to understand the task:
-
-Example 1:
-Review: "The product arrived quickly and works perfectly!"
-Sentiment: Positive
-
-Example 2:
-Review: "Terrible quality. Broke after one use."
-Sentiment: Negative
-
-Example 3:
-Review: "It's okay. Does what it's supposed to do."
-Sentiment: Neutral
-
-Now classify the following review:"""
-
-# New input to classify
-user_message = "The customer service was helpful, but shipping took forever."
-
-# Call the API
-response = client.chat.completions.create(
-    model="gpt-4",
-    messages=[
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_message}
-    ],
-    temperature=0
-)
-
-classification = response.choices[0].message.content.strip()
-print("Review:", user_message)
 print("Classification:", classification)
 {% endhighlight %}
 </div>
 {% endraw %}
+
