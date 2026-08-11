@@ -39,4 +39,4 @@ Understanding training helps organizations make informed decisions about whether
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
