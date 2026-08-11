@@ -83,6 +83,8 @@ LoRA has revolutionized enterprise AI by making model customization accessible t
 Adding a specialized lens to a camera. Your camera (the base model) is already excellent at taking photos. But for macro photography, you add a macro lens (LoRA adapter). The lens is small and inexpensive compared to buying a whole new camera system, but it gives you specialized capabilities for close-up shots. You can swap lenses for different photography styles without buying multiple cameras.
 
 ## Code Example
+
+{% raw %}
 ```python
 # LoRA fine-tuning using Hugging Face PEFT library
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
