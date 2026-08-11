@@ -79,3 +79,53 @@ While Transformers have largely replaced RNNs for many NLP tasks, RNNs and their
 Following a recipe while cooking. You don't just look at the current step — you remember what you did before. If step 5 says "add the mixture from step 3," you need to remember what you did in step 3. Your memory of previous steps helps you understand and execute the current step correctly.
 
 ## Code Example
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
+# Simple RNN for sequence classification using PyTorch
+import torch
+import torch.nn as nn
+
+class SimpleRNN(nn.Module):
+    def __init__(self, input_size, hidden_size, num_layers, num_classes):
+        super(SimpleRNN, self).__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+        
+        # RNN layer
+        self.rnn = nn.RNN(input_size, hidden_size, num_layers, batch_first=True)
+        
+        # Fully connected layer for classification
+        self.fc = nn.Linear(hidden_size, num_classes)
+        
+    def forward(self, x):
+        # Initialize hidden state
+        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size)
+        
+        # Forward propagate RNN
+        out, _ = self.rnn(x, h0)
+        
+        # Decode only the last time step
+        out = self.fc(out[:, -1, :])
+        
+        return out
+
+# Example usage
+input_size = 10
+sequence_length = 20
+hidden_size = 64
+num_layers = 2
+num_classes = 5
+
+model = SimpleRNN(input_size, hidden_size, num_layers, num_classes)
+
+# Sample input (batch_size=32, sequence_length=20, input_size=10)
+x = torch.randn(32, sequence_length, input_size)
+output = model(x)
+
+print("Input shape:", x.shape)
+print("Output shape:", output.shape)
+{% endhighlight %}
+</div>
+{% endraw %}
