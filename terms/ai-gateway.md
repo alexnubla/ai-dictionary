@@ -37,7 +37,9 @@ In an enterprise environment, an AI Gateway is essential for governance and cost
 A corporate travel department. Instead of every employee booking flights directly with various airlines (managing their own bills, policies, and receipts), they submit requests to the travel department, which books the flight, ensures it meets company policy, and handles the centralized billing.
 
 ## Code Example
-```javascript
+
+<div markdown="1">
+{% highlight javascript %}
 // Application code talks to the internal gateway, not the vendor directly
 const response = await fetch('https://ai-gateway.company.internal/v1/chat/completions', {
   method: 'POST',
@@ -50,3 +52,5 @@ const response = await fetch('https://ai-gateway.company.internal/v1/chat/comple
     messages: [{ role: "user", content: "Summarize this customer complaint." }]
   })
 });
+{% endhighlight %}
+</div>
