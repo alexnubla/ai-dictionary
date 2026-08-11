@@ -33,12 +33,21 @@ In an enterprise environment, RAG is essential for customer support, internal kn
 Taking an open-book exam. Instead of memorizing the entire textbook (pre-training), you are allowed to look up the exact page you need (retrieval) to answer the specific question (generation).
 
 ## Code Example
-```python
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
 # Conceptual RAG flow
 query = "What is the compliance validation rule for this document?"
+
 # 1. Retrieve relevant chunks from vector DB
-context = vector_db.search(query, top_k=3) 
+context = vector_db.search(query, top_k=3)
+
 # 2. Augment prompt
-prompt = f"Answer based on this context: {context}\n\nQuestion: {query}"
+prompt = "Answer based on this context: " + context + "\n\nQuestion: " + query
+
 # 3. Generate
 response = ai_gateway.generate(prompt)
+{% endhighlight %}
+</div>
+{% endraw %}
