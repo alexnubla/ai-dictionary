@@ -1,21 +1,21 @@
 title: "AI Dictionary of Terms"
 description: "A curated, living dictionary of AI/ML terminology with clear, accessible explanations."
-url: "" # Leave empty for GitHub Pages root
-baseurl: "" # Leave empty for GitHub Pages root
+url: "https://alexnubla.github.io"
+baseurl: "/ai-dictionary" # <--- THIS IS THE CRITICAL FIX
 
-# Include folders that Jekyll should process
 include:
   - terms
   - categories
 
-# Default settings for pages
+# Ensures clean URLs with trailing slashes (e.g., /categories/architecture/)
+permalink: pretty
+
 defaults:
   - scope:
-      path: "" # Applies to all files
+      path: ""
     values:
       layout: "default"
 
-# Plugins (GitHub Pages supports these natively)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
