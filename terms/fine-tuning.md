@@ -51,8 +51,11 @@ Cost considerations:
 Hiring an experienced professional and giving them company-specific training. Instead of hiring a fresh graduate and teaching them everything from scratch, you hire someone with 10 years of experience and spend a few weeks teaching them your company's specific processes, tools, and culture.
 
 ## Code Example
-```python
-# Example using Hugging Face Transformers with LoRA (Parameter-Efficient Fine-Tuning)
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
+# Example using Hugging Face Transformers with LoRA
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import LoraConfig, get_peft_model
 
@@ -63,7 +66,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 # Configure LoRA for efficient fine-tuning
 lora_config = LoraConfig(
-    r=8,  # Rank (lower = fewer parameters to train)
+    r=8,
     lora_alpha=32,
     target_modules=["q_proj", "v_proj"],
     lora_dropout=0.05,
@@ -78,3 +81,6 @@ model.print_trainable_parameters()
 
 # Now train on your specific dataset
 # trainer.train()
+{% endhighlight %}
+</div>
+{% endraw %}
