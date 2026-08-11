@@ -37,5 +37,4 @@ The choice of architecture has profound implications for:
 Understanding architecture helps technical leaders make informed decisions about which AI tools and models to adopt for their specific needs.
 
 ---
-
-*[← Back to Home](../) | [View All Terms](../terms/)*
+*[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
