@@ -81,35 +81,50 @@ Training a new customer service representative. First, they learn the basics fro
 <div markdown="1">
 {% highlight python %}
 # Conceptual RLHF pipeline (simplified)
-import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# Phase 1: Start with supervised fine-tuned model
+# Phase 1: Load models
 policy_model = AutoModelForCausalLM.from_pretrained("sft-model")
-reference_model = AutoModelForCausalLM.from_pretrained("sft-model")
-reward_model = AutoModelForCausalLM.from_pretrained("reward-model")
+reference_model = AutoModelForCausalLM.from_pretrained("sft-model")  # Frozen copy
+reward_model = AutoModelForCausalLM.from_pretrained("reward-model")  # Trained on human preferences
+tokenizer = AutoTokenizer.from_pretrained("sft-model")
 
-# Phase 2: Generate responses
+# Phase 2: Generate multiple responses to the same prompt
 prompt = "Explain quantum computing to a 10-year-old."
 inputs = tokenizer(prompt, return_tensors="pt")
 
-# Generate multiple candidate responses
+# Generate 4 candidate responses with sampling
 responses = []
-for _ in range(4):
-    output = policy_model.generate(**inputs, max_length=100, do_sample=True)
-    responses.append(tokenizer.decode(output[0]))
+for i in range(4):
+    output = policy_model.generate(
+        **inputs,
+        max_length=100,
+        do_sample=True,
+        temperature=0.7
+    )
+    response_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    responses.append(response_text)
+    print(f"Response {i+1}: {response_text}")
 
-# Phase 3: Score responses with reward model
+# Phase 3: Score each response with the reward model
+# (The reward model predicts human preference scores)
 scores = []
 for response in responses:
-    combined = prompt + response
-    score = reward_model(combined)
+    # Combine prompt + response for scoring
+    combined = tokenizer.encode(prompt + response, return_tensors="pt")
+    # Reward model outputs a score (higher = more aligned with human preferences)
+    score = reward_model(combined).logits[0, -1].item()
     scores.append(score)
+    print(f"Score: {score:.2f}")
 
-# Phase 4: Use PPO to update policy model
-# - Higher-scoring responses are reinforced
-# - KL penalty prevents drift from reference model
-# - Policy model weights are updated
+# Phase 4: Reinforcement Learning (PPO algorithm)
+# - Compare scores to identify best responses
+# - Update policy_model weights to favor high-scoring responses
+# - Apply KL penalty to prevent drift from reference_model
+# - Repeat across many prompts to improve alignment
+
+# After training, the policy_model generates responses that score
+# higher with the reward model (more helpful, harmless, honest)
 {% endhighlight %}
 </div>
 {% endraw %}
