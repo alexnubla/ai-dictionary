@@ -84,50 +84,46 @@ Adding a specialized lens to a camera. Your camera (the base model) is already e
 
 ## Code Example
 
-{% raw %}
-python
-LoRA fine-tuning using Hugging Face PEFT library
+<div markdown="1">
+{% highlight python %}
+# LoRA fine-tuning using Hugging Face PEFT library
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
 from peft import LoraConfig, get_peft_model, TaskType
-from trl import SFTTrainer
-Load base model and tokenizer
+
+# Load base model and tokenizer
 model_name = "meta-llama/Llama-2-7b-hf"
-model = AutoModelForCausalLM.from_pretrained(
-model_name,
-torch_dtype="auto",
-device_map="auto"
-)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-Configure LoRA
+
+# Configure LoRA
 lora_config = LoraConfig(
-task_type=TaskType.CAUSAL_LM,
-r=16,
-lora_alpha=32,
-target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
-lora_dropout=0.05,
-bias="none",
+    task_type=TaskType.CAUSAL_LM,
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+    lora_dropout=0.05,
+    bias="none",
 )
-Apply LoRA to model
+
+# Apply LoRA to model
 model = get_peft_model(model, lora_config)
-Print trainable parameters
 model.print_trainable_parameters()
-Training arguments
+
+# Training arguments
 training_args = TrainingArguments(
-output_dir="./lora-model",
-num_train_epochs=3,
-per_device_train_batch_size=4,
-gradient_accumulation_steps=4,
-learning_rate=2e-4,
-fp16=True,
-logging_steps=10,
-save_strategy="epoch",
+    output_dir="./lora-model",
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    learning_rate=2e-4,
+    fp16=True,
 )
-Save the LoRA adapter (only about 16MB instead of full model)
+
+# Save and merge for deployment
 model.save_pretrained("./lora-adapter")
-Merge LoRA weights with base model for deployment
 merged_model = model.merge_and_unload()
 merged_model.save_pretrained("./merged-model")
-{% endraw %}
+{% endhighlight %}
+</div>
 
 ## Common Misconceptions
 - **Myth:** LoRA significantly reduces model quality compared to full fine-tuning.
