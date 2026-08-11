@@ -22,6 +22,9 @@ Training encompasses several phases:
 | Term | Description |
 |------|-------------|
 | [Fine-tuning](../terms/fine-tuning.md) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
+| [Few-Shot Learning](../terms/few-shot-learning.md) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
+| [RLHF](../terms/rlhf.md) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
+| [LoRA](../terms/lora.md) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
 
 ## Why Training Matters
 
