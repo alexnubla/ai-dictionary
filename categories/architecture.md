@@ -22,6 +22,9 @@ Different architectures are suited for different tasks:
 | Term | Description |
 |------|-------------|
 | [Transformer](../terms/transformer.md) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs like GPT, BERT, and Claude. |
+| [Attention Mechanism](../terms/attention-mechanism.md) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context and relationships between different elements. |
+| [CNN (Convolutional Neural Network)](../terms/cnn.md) | A specialized neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images, making it the foundation of modern computer vision. |
+| [RNN (Recurrent Neural Network)](../terms/rnn.md) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs, allowing it to handle tasks where context and order matter. |
 
 ## Why Architecture Matters
 
