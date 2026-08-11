@@ -68,7 +68,10 @@ Few-shot learning is transformative for enterprises because it dramatically redu
 Teaching a new employee a specific task by showing them 2-3 examples of how it's done, rather than sending them to a week-long training course. They watch the examples, understand the pattern, and can immediately apply it to new situations.
 
 ## Code Example
-```python
+
+{% raw %}
+<div markdown="1">
+{% highlight python %}
 # Few-shot prompting with an LLM
 import openai
 
@@ -95,7 +98,7 @@ Now classify this review:
 new_review = "The customer service was helpful, but shipping took forever."
 
 # Construct the prompt
-prompt = examples + f"Review: \"{new_review}\"\nSentiment:"
+prompt = examples + 'Review: "' + new_review + '"\nSentiment:'
 
 # Call the LLM
 response = openai.ChatCompletion.create(
@@ -103,9 +106,11 @@ response = openai.ChatCompletion.create(
     messages=[
         {"role": "user", "content": prompt}
     ],
-    temperature=0  # Low temperature for consistent outputs
+    temperature=0
 )
 
 classification = response.choices[0].message.content.strip()
-print(f"Classification: {classification}")
-# Output: Classification: Negative (or Neutral, depending on model interpretation)
+print("Classification:", classification)
+{% endhighlight %}
+</div>
+{% endraw %}
