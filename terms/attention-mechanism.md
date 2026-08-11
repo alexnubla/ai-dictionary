@@ -50,16 +50,16 @@ Organizations should understand that attention-based models (Transformers) excel
 Reading a mystery novel. As you read, you don't treat every word equally. When you encounter "the detective," your mind automatically connects it back to earlier mentions of the character, their clues, and their motivations. You're paying attention to the most relevant information for understanding the story.
 
 ## Code Example
-```python
+
+<div markdown="1">
+{% highlight python %}
 # Conceptual self-attention calculation
 import torch
 import torch.nn.functional as F
 
-# Input sequence (simplified - in reality, these are high-dimensional embeddings)
+# Input sequence (simplified embeddings)
 sequence_length = 5
 embedding_dim = 64
-
-# Input embeddings
 x = torch.randn(sequence_length, embedding_dim)
 
 # Linear projections to Query, Key, Value
@@ -71,12 +71,14 @@ Q = x @ W_q  # Queries
 K = x @ W_k  # Keys
 V = x @ W_v  # Values
 
-# Compute attention scores
-scores = Q @ K.T / (embedding_dim ** 0.5)  # Scaled dot-product
-attention_weights = F.softmax(scores, dim=-1)  # Normalize to probabilities
+# Compute attention scores (scaled dot-product)
+scores = Q @ K.T / (embedding_dim ** 0.5)
+attention_weights = F.softmax(scores, dim=-1)
 
 # Apply attention to values
 output = attention_weights @ V
 
 print(f"Attention weights shape: {attention_weights.shape}")
 print(f"Output shape: {output.shape}")
+{% endhighlight %}
+</div>
