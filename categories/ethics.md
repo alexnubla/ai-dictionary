@@ -42,4 +42,4 @@ Proactive ethics and safety practices are not just morally right — they're ess
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
