@@ -18,9 +18,11 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 |----------|-------------|-----------|
 | 🏗️ [Architecture](./categories/architecture.md) | Core model designs and structures | [Transformer](./terms/transformer.md), CNN, RNN |
 | ⚙️ [Training](./categories/training.md) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning.md), RLHF, LoRA |
-| 🚀 [Deployment](./categories/deployment.md) | Putting models into production | [RAG](./terms/rag.md), Quantization, [AI Gateway](./terms/ai-gateway.md) |
+| 🚀 [Deployment](./categories/deployment.md) | Putting models into production | [RAG](./terms/rag.md), Quantization |
 | 📏 [Evaluation](./categories/evaluation.md) | Measuring model performance | Perplexity, Hallucination, Benchmarking |
 | 🛡️ [Ethics & Safety](./categories/ethics.md) | Responsible AI practices | Alignment, Bias, Red Teaming, SOC2 Compliance |
+| 🏢 [Enterprise AI](./categories/enterprise-ai.md) | AI infrastructure, governance, and management | [AI Gateway](./terms/ai-gateway.md) |
+
 
 ---
 
