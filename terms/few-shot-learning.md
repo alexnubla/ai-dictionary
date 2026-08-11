@@ -2,7 +2,7 @@
 title: "Few-Shot Learning"
 category: "Training"
 related: ["Zero-Shot Learning", "Prompt Engineering", "In-Context Learning", "Fine-tuning"]
-date_added: 2026-08-12
+date_added: 2026-08-11
 ---
 
 # Few-Shot Learning
@@ -67,9 +67,57 @@ Few-shot learning is transformative for enterprises because it dramatically redu
 ## Real-World Analogy
 Teaching a new employee a specific task by showing them 2-3 examples of how it's done, rather than sending them to a week-long training course. They watch the examples, understand the pattern, and can immediately apply it to new situations.
 
+## Example Prompt
 
-print("Classification:", classification)
-{% endhighlight %}
-</div>
-{% endraw %}
+**Scenario:** You want an AI to classify customer support tickets by urgency.
 
+**The Prompt:**
+
+> Classify the urgency of these customer support tickets as High, Medium, or Low.
+>
+> **Example 1:**
+> Ticket: "My order hasn't arrived and I need it for tomorrow's event."
+> Urgency: High
+>
+> **Example 2:**
+> Ticket: "I'd like to change my shipping address for an order placed last week."
+> Urgency: Medium
+>
+> **Example 3:**
+> Ticket: "Can you tell me more about your loyalty program?"
+> Urgency: Low
+>
+> Now classify this ticket:
+> Ticket: "The website keeps crashing when I try to checkout."
+> Urgency:
+
+**The AI's Response:** `High`
+
+**Why this works:**
+- The AI sees 3 examples and understands the pattern
+- No model retraining required
+- No code changes needed
+- Just update the prompt with new examples
+
+**To add more examples:** Simply add Example 4, Example 5, etc. Most models handle 3-10 examples well.
+
+## Common Misconceptions
+- **Myth:** Few-shot learning works perfectly for any task with just a few examples.
+- **Reality:** It works well for many tasks, but complex or highly specialized tasks may still require fine-tuning or more examples. Performance varies by task complexity and model capability.
+
+- **Myth:** Few-shot learning is the same as fine-tuning.
+- **Reality:** Few-shot learning happens at inference time through prompting — no model weights change. Fine-tuning actually updates model parameters through training.
+
+- **Myth:** More examples always improve performance.
+- **Reality:** There's a sweet spot (usually 3-5 examples). Too many examples can confuse the model or exceed context limits. Quality matters more than quantity.
+
+## Related Terms
+- [Prompt Engineering](./prompt-engineering/)
+- [Fine-tuning](./fine-tuning/)
+- [Zero-Shot Learning](./zero-shot-learning/)
+- [In-Context Learning](./in-context-learning/)
+
+## Sources & Further Reading
+- [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)
+- [A Systematic Survey of Prompt Engineering in Large Language Models](https://arxiv.org/abs/2307.06435)
+- [An Explanation of In-context Learning as Implicit Bayesian Inference](https://arxiv.org/abs/2111.02080)
