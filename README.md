@@ -16,8 +16,8 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 
 | Category | Description | Key Terms |
 |----------|-------------|-----------|
-| 🏗️ [Architecture](./categories/architecture.md) | Core model designs and structures | [Transformer](./terms/transformer.md), CNN, RNN |
-| ⚙️ [Training](./categories/training.md) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning.md), RLHF, LoRA |
+| 🏗️ [Architecture](./categories/architecture.md) | Core model designs and structures | [Transformer](./terms/transformer.md), [Attention Mechanism](./terms/attention-mechanism.md), [CNN](./terms/cnn.md), [RNN](./terms/rnn.md) |
+| ⚙️ [Training](./categories/training.md) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning.md), [Few-Shot Learning](./terms/few-shot-learning.md), [RLHF](./terms/rlhf.md), [LoRA](./terms/lora.md) |
 | 🚀 [Deployment](./categories/deployment.md) | Putting models into production | [RAG](./terms/rag.md), Quantization |
 | 📏 [Evaluation](./categories/evaluation.md) | Measuring model performance | Perplexity, Hallucination, Benchmarking |
 | 🛡️ [Ethics & Safety](./categories/ethics.md) | Responsible AI practices | Alignment, Bias, Red Teaming, SOC2 Compliance |
