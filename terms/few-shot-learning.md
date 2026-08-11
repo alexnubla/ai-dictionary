@@ -72,12 +72,13 @@ Teaching a new employee a specific task by showing them 2-3 examples of how it's
 {% raw %}
 <div markdown="1">
 {% highlight python %}
-# Few-shot prompting with an LLM
-import openai
+# Few-shot prompting with OpenAI API (current format)
+from openai import OpenAI
 
-# Define few-shot examples
-examples = """
-Classify the sentiment of customer reviews as Positive, Negative, or Neutral.
+client = OpenAI()
+
+# Define few-shot examples in the system message
+system_prompt = """You are a sentiment classifier. Use these examples to understand the task:
 
 Example 1:
 Review: "The product arrived quickly and works perfectly!"
@@ -91,25 +92,23 @@ Example 3:
 Review: "It's okay. Does what it's supposed to do."
 Sentiment: Neutral
 
-Now classify this review:
-"""
+Now classify the following review:"""
 
 # New input to classify
-new_review = "The customer service was helpful, but shipping took forever."
+user_message = "The customer service was helpful, but shipping took forever."
 
-# Construct the prompt
-prompt = examples + 'Review: "' + new_review + '"\nSentiment:'
-
-# Call the LLM
-response = openai.ChatCompletion.create(
+# Call the API
+response = client.chat.completions.create(
     model="gpt-4",
     messages=[
-        {"role": "user", "content": prompt}
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_message}
     ],
     temperature=0
 )
 
 classification = response.choices[0].message.content.strip()
+print("Review:", user_message)
 print("Classification:", classification)
 {% endhighlight %}
 </div>
