@@ -50,37 +50,28 @@ Cost considerations:
 ## Real-World Analogy
 Hiring an experienced professional and giving them company-specific training. Instead of hiring a fresh graduate and teaching them everything from scratch, you hire someone with 10 years of experience and spend a few weeks teaching them your company's specific processes, tools, and culture.
 
-## Code Example
+## Example Workflow
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
-# Example using Hugging Face Transformers with LoRA
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import LoraConfig, get_peft_model
+**Scenario:** You want a model to write emails in your company's specific tone and format.
 
-# Load pre-trained model
-model_name = "meta-llama/Llama-2-7b-hf"
-model = AutoModelForCausalLM.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
+**Step 1: Prepare Training Data**
+Create 50-100 examples of ideal email responses:
 
-# Configure LoRA for efficient fine-tuning
-lora_config = LoraConfig(
-    r=8,
-    lora_alpha=32,
-    target_modules=["q_proj", "v_proj"],
-    lora_dropout=0.05,
-    bias="none",
-    task_type="CAUSAL_LM"
-)
+Input: "Customer asks about return policy"
+Output: "Thank you for reaching out! I'd be happy to explain our return policy..."
 
-# Apply LoRA to the model
-model = get_peft_model(model, lora_config)
-model.print_trainable_parameters()
-# Output: trainable params: 4,194,304 || all params: 6,742,609,920 || trainable%: 0.0622
+Input: "Customer reports shipping delay"
+Output: "I understand your frustration, and I'm here to help resolve this..."
 
-# Now train on your specific dataset
-# trainer.train()
-{% endhighlight %}
-</div>
-{% endraw %}
+**Step 2: Apply LoRA Fine-tuning**
+- Base model: Llama-2-7B (frozen)
+- LoRA rank: 8 (only 0.06% of parameters trainable)
+- Training time: ~2 hours on a single GPU
+- Cost: ~$50-100 (vs. $10,000+ for full fine-tuning)
+
+**Step 3: Deploy**
+- Merge LoRA weights with base model
+- Deploy as a single model file
+- Use for all company email generation
+
+**Result:** The model now writes emails that match your company's voice, format, and tone — without needing to retrain the entire model.
