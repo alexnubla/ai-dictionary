@@ -40,4 +40,4 @@ Robust evaluation is essential for responsible AI deployment and continuous impr
 
 ---
 
-*[← Back to Home](../README.md) | [View All Terms](../terms/)*
+*[← Back to Home](../) | [View All Terms](../terms/)*
