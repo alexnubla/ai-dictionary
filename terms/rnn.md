@@ -147,9 +147,9 @@ print("Output:", output[0])  # First sample's predictions
 - **Reality:** RNNs can process batches of sequences in parallel, but the time dimension must be processed sequentially.
 
 ## Related Terms
-- [Transformer](./transformer/)
-- [LSTM](./lstm/)
-- [Attention Mechanism](./attention-mechanism/)
+- [Transformer](../transformer/)
+- [LSTM](../lstm/)
+- [Attention Mechanism](../attention-mechanism/)
 
 ## Sources & Further Reading
 - [Finding Structure in Time (Elman, 1990)](https://crl.ucsd.edu/~elman/Papers/fsit.pdf)
