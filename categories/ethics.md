@@ -23,12 +23,12 @@ Ethics and safety include:
 
 | Term | Description |
 |------|-------------|
-| [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back to the ecosystem. |
-| [AI Washing](/ai-dictionary/terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of technological sophistication that doesn't match reality. |
 | [AI Slop](/ai-dictionary/terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem and making it harder to find trustworthy information. |
-| [Spiralism (Model Collapse)](/ai-dictionary/terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
+| [AI Washing](/ai-dictionary/terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of technological sophistication that doesn't match reality. |
 | [Guardrails](/ai-dictionary/terms/guardrails/) | Safety mechanisms and filters that prevent AI systems from producing harmful, inappropriate, or non-compliant outputs. |
 | [HITL (Human in the Loop)](/ai-dictionary/terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
+| [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back to the ecosystem. |
+| [Spiralism (Model Collapse)](/ai-dictionary/terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
 
 ## Why Ethics & Safety Matters
 
