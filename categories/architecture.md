@@ -31,6 +31,7 @@ Different architectures are suited for different tasks:
 | [GRU (Gated Recurrent Unit)](../terms/gru/) | A streamlined RNN variant with two gates that achieves similar performance to LSTM with fewer parameters and faster training. |
 | [LSTM (Long Short-Term Memory)](../terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
 | [Object Detection](../terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
+| [LRM (Large Reasoning Model)](../terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy on tasks requiring deep reasoning. |
 
 ## Why Architecture Matters
 
