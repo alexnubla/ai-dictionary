@@ -5,6 +5,8 @@ related: ["Tokenizer", "LLM", "Context Window", "Embedding"]
 date_added: 2026-08-12
 ---
 
+# Token
+
 The basic unit of text that AI language models process, where text is broken down into smaller pieces (words, subwords, or characters) that the model can understand and work with.
 
 ## The Simple Version
