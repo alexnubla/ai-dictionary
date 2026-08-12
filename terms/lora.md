@@ -139,9 +139,9 @@ merged_model.save_pretrained("./merged-model")
 - **Reality:** Once merged with the base model, LoRA has zero inference overhead. The merged model is identical in size and speed to the original.
 
 ## Related Terms
-- [Fine-tuning](./fine-tuning/)
-- [QLoRA](./qlora/)
-- [Parameter-Efficient Fine-Tuning](./peft/)
+- [Fine-tuning](../fine-tuning/)
+- [QLoRA](../qlora/)
+- [Parameter-Efficient Fine-Tuning](../peft/)
 
 ## Sources & Further Reading
 - [LoRA: Low-Rank Adaptation of Large Language Models (Original Paper)](https://arxiv.org/abs/2106.09685)
