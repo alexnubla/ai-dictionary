@@ -5,6 +5,8 @@ related: ["Vector Database", "LLM", "Prompt Engineering", "Knowledge Base"]
 date_added: 2026-08-11
 ---
 
+# RAG (Retrieval-Augmented Generation)
+
 An AI framework that improves the accuracy and reliability of Large Language Models by grounding their responses in external, up-to-date, or proprietary data sources.
 
 ## The Simple Version
