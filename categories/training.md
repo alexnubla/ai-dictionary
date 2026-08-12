@@ -33,6 +33,9 @@ Training encompasses several phases:
 | [Distillation (Knowledge Distillation)](../terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
 | [Context Engineering](../terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs — including prompts, retrieved information, tools, and memory — to elicit desired behaviors. |
 | [Backpropagation](../terms/backpropagation/) | The fundamental algorithm for training neural networks by calculating and propagating error gradients backward to update weights. |
+| [Training](../terms/training/) | The process of teaching a machine learning model to recognize patterns by exposing it to data and adjusting its internal parameters. |
+| [Prompt](../terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
+| [Chain of Thought (CoT)](../terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
 
 ## Why Training Matters
 
