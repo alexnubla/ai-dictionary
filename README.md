@@ -9,7 +9,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
-- **Terms:** 21
+- **Terms:** 29
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 12, 2026
 
@@ -18,29 +18,32 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 ## 📂 Browse by Category
 
 | Category | Description | Key Terms |
-|:---------|:------------|:----------|
-| 🏗️ [Architecture](./categories/architecture/) | Core model designs, neural network architectures, and foundational structures that power AI systems | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/) |
-| ⚙️ [Training](./categories/training/) | How AI models learn from data, adapt to tasks, and improve performance through various training methodologies | [Fine-tuning](./terms/fine-tuning/), [Few-Shot Learning](./terms/few-shot-learning/), [RLHF](./terms/rlhf/), [LoRA](./terms/lora/), [Prompt Engineering](./terms/prompt-engineering/), [Zero-Shot Learning](./terms/zero-shot-learning/), [In-Context Learning](./terms/in-context-learning/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/) |
-| 🚀 [Deployment](./categories/deployment/) | Techniques and frameworks for putting AI models into production environments and serving them at scale | [RAG](./terms/rag/) |
-| 📏 [Evaluation](./categories/evaluation/) | Methods and metrics for measuring AI model performance, quality, and reliability | *Coming soon* |
-| 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI practices, governance frameworks, and risk mitigation strategies | *Coming soon* |
-| 🏢 [Enterprise AI](./categories/enterprise-ai/) | AI infrastructure, governance, management, and organizational considerations for enterprise deployment | [AI Gateway](./terms/ai-gateway/) |
+|----------|-------------|-----------|
+| 🏗️ [Architecture](./categories/architecture/) | Core model designs and neural network structures | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [LRM](./terms/lrm/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/) |
+| ⚙️ [Training](./categories/training/) | How models learn, adapt, and improve | [Fine-tuning](./terms/fine-tuning/), [LoRA](./terms/lora/), [RLHF](./terms/rlhf/), [Distillation](./terms/distillation/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/), [Prompt Engineering](./terms/prompt-engineering/), [Context Engineering](./terms/context-engineering/) |
+| 🚀 [Deployment](./categories/deployment/) | Putting models into production | [RAG](./terms/rag/) |
+| 📏 [Evaluation](./categories/evaluation/) | Measuring model performance and quality | *Coming soon* |
+| 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI and risk mitigation | [AI Washing](./terms/ai-washing/), [AI Slop](./terms/ai-slop/), [Parasitic AI](./terms/parasitic-ai/), [Spiralism](./terms/spiralism/) |
+| 🏢 [Enterprise AI](./categories/enterprise-ai/) | AI infrastructure and governance | [AI Gateway](./terms/ai-gateway/), [Vibe Coding](./terms/vibe-coding/) |
 
 ---
 
 ## 🔤 Browse All Terms (A-Z)
 
-- **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
-- **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/)
+- **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/)
+- **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/)
+- **D** → [Distillation](./terms/distillation/)
 - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
 - **G** → [GRU](./terms/gru/)
 - **I** → [In-Context Learning](./terms/in-context-learning/)
-- **L** → [LoRA](./terms/lora/), [LSTM](./terms/lstm/)
+- **L** → [LoRA](./terms/lora/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
 - **N** → [Neural Network](./terms/neural-network/)
 - **O** → [Object Detection](./terms/object-detection/)
-- **P** → [Pre-training](./terms/pre-training/), [Prompt Engineering](./terms/prompt-engineering/)
+- **P** → [Parasitic AI](./terms/parasitic-ai/), [Pre-training](./terms/pre-training/), [Prompt Engineering](./terms/prompt-engineering/)
 - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
+- **S** → [Spiralism](./terms/spiralism/)
 - **T** → [Token](./terms/token/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
+- **V** → [Vibe Coding](./terms/vibe-coding/)
 - **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
