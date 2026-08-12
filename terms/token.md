@@ -138,10 +138,10 @@ print("Token count:", token_count, "Estimated cost: $", round(estimated_cost, 4)
 - **Reality:** While longer context windows allow processing more information, there are diminishing returns. Models may struggle to attend to all information in very long contexts ("lost in the middle" problem).
 
 ## Related Terms
-- [Tokenizer](./tokenizer/)
-- [Context Window](./context-window/)
-- [Embedding](./embedding/)
-- [LLM](./llm/)
+- [Tokenizer](../tokenizer/)
+- [Context Window](../context-window/)
+- [Embedding](../embedding/)
+- [LLM](../llm/)
 
 ## Sources & Further Reading
 - [Hugging Face Tokenizers Documentation](https://huggingface.co/docs/tokenizers)
