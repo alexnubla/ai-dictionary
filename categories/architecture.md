@@ -21,24 +21,25 @@ Different architectures are suited for different tasks:
 
 | Term | Description |
 |------|-------------|
-| [Attention Mechanism](../terms/attention-mechanism/) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context. |
-| [CNN (Convolutional Neural Network)](../terms/cnn/) | A specialized neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images. |
-| [RNN (Recurrent Neural Network)](../terms/rnn/) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs. |
-| [Token](../terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
-| [Transformer](../terms/transformer/) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs. |
-| [Neural Network](../terms/neural-network/) | A computational model inspired by the human brain, consisting of interconnected layers of nodes that process input data and learn patterns. |
-| [Computer Vision](../terms/computer-vision/) | A field of AI that enables computers to derive meaningful information from digital images, videos, and other visual inputs. |
-| [GRU (Gated Recurrent Unit)](../terms/gru/) | A streamlined RNN variant with two gates that achieves similar performance to LSTM with fewer parameters and faster training. |
-| [LSTM (Long Short-Term Memory)](../terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
-| [Object Detection](../terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
-| [LRM (Large Reasoning Model)](../terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy on tasks requiring deep reasoning. |
-| [Deep Learning](../terms/deep-learning/) | A subset of machine learning based on multi-layered neural networks that progressively extract complex features from raw data. |
-| [BERT](../terms/bert/) | A bidirectional transformer model optimized for language understanding tasks like classification and extraction. |
-| [GPT](../terms/gpt/) | A generative, decoder-only transformer model that predicts the next token to produce human-like text. |
-| [Embedding](../terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
-| [Foundation Model](../terms/foundation-model/) | A large-scale AI model trained on vast datasets that serves as a versatile foundation adaptable to many downstream tasks. |
-| [Reasoning Model](../terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
-| [Context Window](../terms/context-window/) | The maximum number of tokens a language model can process in a single interaction, defining its "working memory." |
+| [Attention Mechanism](/ai-dictionary/terms/attention-mechanism/) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context. |
+| [BERT](/ai-dictionary/terms/bert/) | A bidirectional transformer model optimized for language understanding tasks like classification and extraction. |
+| [CNN (Convolutional Neural Network)](/ai-dictionary/terms/cnn/) | A specialized neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images. |
+| [Computer Vision](/ai-dictionary/terms/computer-vision/) | A field of AI that enables computers to derive meaningful information from digital images, videos, and other visual inputs. |
+| [Context Window](/ai-dictionary/terms/context-window/) | The maximum number of tokens a language model can process in a single interaction, defining its "working memory." |
+| [Deep Learning](/ai-dictionary/terms/deep-learning/) | A subset of machine learning based on multi-layered neural networks that progressively extract complex features from raw data. |
+| [Embedding](/ai-dictionary/terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
+| [Foundation Model](/ai-dictionary/terms/foundation-model/) | A large-scale AI model trained on vast datasets that serves as a versatile foundation adaptable to many downstream tasks. |
+| [GPT](/ai-dictionary/terms/gpt/) | A generative, decoder-only transformer model that predicts the next token to produce human-like text. |
+| [GRU (Gated Recurrent Unit)](/ai-dictionary/terms/gru/) | A streamlined RNN variant with two gates that achieves similar performance to LSTM with fewer parameters and faster training. |
+| [LLM (Large Language Model)](/ai-dictionary/terms/llm/) | A type of AI model designed to understand and generate human language, trained on massive text datasets using Transformer architectures. |
+| [LRM (Large Reasoning Model)](/ai-dictionary/terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy on tasks requiring deep reasoning. |
+| [LSTM (Long Short-Term Memory)](/ai-dictionary/terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
+| [Neural Network](/ai-dictionary/terms/neural-network/) | A computational model inspired by the human brain, consisting of interconnected layers of nodes that process input data and learn patterns. |
+| [Object Detection](/ai-dictionary/terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
+| [Reasoning Model](/ai-dictionary/terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
+| [RNN (Recurrent Neural Network)](/ai-dictionary/terms/rnn/) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs. |
+| [Token](/ai-dictionary/terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
+| [Transformer](/ai-dictionary/terms/transformer/) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs. |
 
 ## Why Architecture Matters
 
