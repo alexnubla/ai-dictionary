@@ -21,13 +21,12 @@ Ethics and safety include:
 
 ## Terms in This Category
 
-*Coming soon — planned terms include:*
-- Alignment
-- Bias
-- Interpretability
-- Red Teaming
-- SOC2 Compliance
-- Responsible AI
+| Term | Description |
+|------|-------------|
+| [Parasitic AI](../terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back to the ecosystem. |
+| [AI Washing](../terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of technological sophistication that doesn't match reality. |
+| [AI Slop](../terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem and making it harder to find trustworthy information. |
+| [Spiralism (Model Collapse)](../terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
 
 ## Why Ethics & Safety Matters
 
