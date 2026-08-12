@@ -1,15 +1,17 @@
 # 🤖 AI Dictionary of Terms
 
 A curated, living dictionary of artificial intelligence and machine learning terminology.  
-Built for developers, IT leaders, and anyone navigating the modern AI landscape.
+Built for **everyone** — from complete beginners to seasoned practitioners.
 
-> **💡 Goal:** To promote AI literacy by providing clear, concise, and business-relevant definitions of complex AI concepts.  
-> Every term includes a "Simple Version" for non-technical readers and detailed explanations for practitioners.
+> **Created and curated by [Alex Nubla](https://www.linkedin.com/in/alexnubla/).**
+
+> **💡 Goal:** To promote AI literacy by providing clear, accessible explanations of complex AI concepts.  
+> Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
 - **Terms:** 11
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
-- **Last Updated:** August 11, 2026
+- **Last Updated:** August 12, 2026
 
 ---
 
@@ -35,20 +37,21 @@ Built for developers, IT leaders, and anyone navigating the modern AI landscape.
 - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
 - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
 
-   🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms]({{ site.baseurl }}/terms/)**
+🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
+
 
 ---
 
 
 ## 🤝 How to Contribute
 
-We welcome contributions! Whether you're clarifying a definition or adding a new term, follow these steps:
+We welcome contributions! Whether you're clarifying a definition or adding a new term, here's how to get involved:
 
 1. **Fork** this repository.
 2. **Copy** the [Term Template](./templates/term-template/) to create a new file in the `/terms/` directory (e.g., `terms/new-term.md`).
-3. **Fill out** all sections, including "The Simple Version" for accessibility.
-4. **Update** this README to include your new term in the Category and A-Z lists.
-5. **Submit** a Pull Request.
+3. **Fill out** all sections, including **"The Simple Version"** for accessibility.
+4. **Send me your term file** — I'll review it, update the README to include your new term in the Category and A-Z lists, and merge it into the dictionary.
+5. **Submit** a Pull Request with your term file.
 
 **Contribution Standards:**
 - Every term must include "The Simple Version" for non-technical readers.
