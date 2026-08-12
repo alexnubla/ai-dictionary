@@ -142,6 +142,7 @@ merged_model.save_pretrained("./merged-model")
 - [Fine-tuning](../fine-tuning/)
 - [QLoRA](../qlora/)
 - [Parameter-Efficient Fine-Tuning](../peft/)
+- [Distillation](../distillation/)
 
 ## Sources & Further Reading
 - [LoRA: Low-Rank Adaptation of Large Language Models (Original Paper)](https://arxiv.org/abs/2106.09685)
