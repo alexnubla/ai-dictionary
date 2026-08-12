@@ -5,6 +5,8 @@ related: ["RNN", "LSTM", "Sequence Modeling", "Time Series"]
 date_added: 2026-08-13
 ---
 
+# GRU (Gated Recurrent Unit)
+
 A streamlined variant of the LSTM architecture that uses only two gates (reset and update) instead of three, achieving similar performance with fewer parameters and faster training times.
 
 ## The Simple Version
