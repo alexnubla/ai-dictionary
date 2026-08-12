@@ -33,7 +33,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
    - **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
    - **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/)
    - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
-   - **L** → [LoRA](./terms/lora/)
+   - **L** → [LoRA](./terms/lora/), [LSTM](./terms/lstm/)
    - **N** → [Neural Network](./terms/neural-network/)
    - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
    - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
