@@ -5,6 +5,8 @@ related: ["Neural Network", "Computer Vision", "Feature Extraction", "Image Reco
 date_added: 2026-08-12
 ---
 
+# CNN (Convolutional Neural Network)
+
 A specialized type of neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images, making it the foundation of modern computer vision.
 
 ## The Simple Version
