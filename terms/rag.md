@@ -53,8 +53,8 @@ response = ai_gateway.generate(prompt)
 - **Reality:** RAG does not change the model's weights at all; it only changes the input prompt dynamically.
 
 ## Related Terms
-- [Vector Database](./vector-database/)
-- [Fine-tuning](./fine-tuning/)
+- [Vector Database](../vector-database/)
+- [Fine-tuning](../fine-tuning/)
 
 ## Sources & Further Reading
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (arXiv)](https://arxiv.org/abs/2005.11401)
