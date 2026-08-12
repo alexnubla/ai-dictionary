@@ -23,10 +23,11 @@ Enterprise AI encompasses:
 
 | Term | Description |
 |------|-------------|
-| [AI Gateway](../terms/ai-gateway.md) | A centralized infrastructure layer that manages, secures, and monitors all traffic between an organization's applications and AI models, providing unified control over authentication, routing, cost tracking, and compliance. |
-| [Vibe Coding](../terms/vibe-coding/) | A software development approach where developers write code by describing what they want in natural language and letting AI generate the implementation, going by "vibes" rather than deeply understanding every line. |
-| [Agentic AI](../terms/agentic-ai/) | AI systems designed to autonomously perceive, plan, use tools, and execute multi-step tasks to achieve high-level goals. |
-| [Agent](../terms/agent/) | An autonomous AI entity that combines an LLM with tools, memory, and planning to execute multi-step tasks toward goals. |
+| [Agent](/ai-dictionary/terms/agent/) | An autonomous AI entity that combines an LLM with tools, memory, and planning to execute multi-step tasks toward goals. |
+| [Agentic AI](/ai-dictionary/terms/agentic-ai/) | AI systems designed to autonomously perceive, plan, use tools, and execute multi-step tasks to achieve high-level goals. |
+| [AI Gateway](/ai-dictionary/terms/ai-gateway/) | A centralized infrastructure layer that manages, secures, and monitors all traffic between an organization's applications and AI models, providing unified control over authentication, routing, cost tracking, and compliance. |
+| [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers write code by describing what they want in natural language and letting AI generate the implementation, going by "vibes" rather than deeply understanding every line. |
+
 
 ## Why Enterprise AI Matters
 
