@@ -9,7 +9,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
-- **Terms:** 29
+- **Terms:** 41
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 12, 2026
 
