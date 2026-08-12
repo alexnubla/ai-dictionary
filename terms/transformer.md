@@ -165,6 +165,8 @@ print("Sentiment:", result)
 - [BERT](../bert/)
 - [GPT](../gpt/)
 - [LRM](../lrm/)
+- [Context Window](../context-window/)
+- [Foundation Model](../foundation-model/)
 
 ## Sources & Further Reading
 - [Attention Is All You Need (Original Transformer Paper)](https://arxiv.org/abs/1706.03762)
