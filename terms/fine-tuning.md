@@ -83,10 +83,10 @@ Create 50-100 examples of ideal email responses:
 - **Reality:** With modern techniques like LoRA, you can achieve good results with just hundreds or thousands of high-quality examples.
 
 ## Related Terms
-- [Transfer Learning](./transfer-learning/)
-- [LoRA](./lora/)
-- [RLHF](./rlhf/)
-- [Pre-training](./pre-training/)
+- [Transfer Learning](../transfer-learning/)
+- [LoRA](../lora/)
+- [RLHF](../rlhf/)
+- [Pre-training](../pre-training/)
 
 ## Sources & Further Reading
 - [LoRA: Low-Rank Adaptation of Large Language Models (arXiv)](https://arxiv.org/abs/2106.09685)
