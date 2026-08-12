@@ -111,6 +111,7 @@ class SimpleCNN(nn.Module):
 model = SimpleCNN(num_classes=10)
 total_params = sum(p.numel() for p in model.parameters())
 print("Total parameters:", total_params)
+```
 
 ## Common Misconceptions
 - **Myth:** CNNs only work for images.
