@@ -17,42 +17,42 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 📂 Browse by Category
 
----
+
 
 ### 🏗️ Architecture · 26 terms
 *Core model designs and neural network structures*
 
 [Activation Function](./terms/activation-function/) · [Attention Mechanism](./terms/attention-mechanism/) · [Autoregressive](./terms/autoregressive/) · [BERT](./terms/bert/) · [CNN](./terms/cnn/) · [Computer Vision](./terms/computer-vision/) · [Context Window](./terms/context-window/) · [Deep Learning](./terms/deep-learning/) · [Diffusion Model](./terms/diffusion-model/) · [Embedding](./terms/embedding/) · [Encoder-Decoder](./terms/encoder-decoder/) · [Foundation Model](./terms/foundation-model/) · [GAN](./terms/gan/) · [GPT](./terms/gpt/) · [GRU](./terms/gru/) · [LLM](./terms/llm/) · [LRM](./terms/lrm/) · [LSTM](./terms/lstm/) · [Mixture of Experts (MoE)](./terms/moe/) · [Multimodal](./terms/multimodal/) · [Neural Network](./terms/neural-network/) · [Object Detection](./terms/object-detection/) · [RNN](./terms/rnn/) · [Reasoning Model](./terms/reasoning-model/) · [Token](./terms/token/) · [Transformer](./terms/transformer/)
 
----
+
 
 ### ⚙️ Training · 29 terms
 *How models learn, adapt, and improve*
 
 [Backpropagation](./terms/backpropagation/) · [Catastrophic Forgetting](./terms/catastrophic-forgetting/) · [Chain of Thought](./terms/chain-of-thought/) · [Context Engineering](./terms/context-engineering/) · [Distillation](./terms/distillation/) · [DPO](./terms/dpo/) · [Few-Shot Learning](./terms/few-shot-learning/) · [Fine-tuning](./terms/fine-tuning/) · [Gradient Descent](./terms/gradient-descent/) · [In-Context Learning](./terms/in-context-learning/) · [Learning Rate](./terms/learning-rate/) · [LoRA](./terms/lora/) · [Loss Function](./terms/loss-function/) · [Optimizer](./terms/optimizer/) · [Overfitting / Underfitting](./terms/overfitting-underfitting/) · [PEFT](./terms/peft/) · [Pre-training](./terms/pre-training/) · [Prompt](./terms/prompt/) · [Prompt Engineering](./terms/prompt-engineering/) · [Reward Model](./terms/reward-model/) · [RLHF](./terms/rlhf/) · [Scaling Laws](./terms/scaling-laws/) · [Self-Supervised Learning](./terms/self-supervised-learning/) · [Supervised Learning](./terms/supervised-learning/) · [Synthetic Data](./terms/synthetic-data/) · [Training](./terms/training/) · [Transfer Learning](./terms/transfer-learning/) · [Unsupervised Learning](./terms/unsupervised-learning/) · [Zero-Shot Learning](./terms/zero-shot-learning/)
 
----
+
 
 ### 🚀 Deployment · 17 terms
 *Putting models into production*
 
 [Batch Processing](./terms/batch-processing/) · [Caching](./terms/caching/) · [Edge Computing](./terms/edge-computing/) · [Grounding](./terms/grounding/) · [Inference](./terms/inference/) · [Inference-Time Compute](./terms/inference-time-compute/) · [Latency](./terms/latency/) · [MCP](./terms/mcp/) · [Observability](./terms/observability/) · [Orchestration](./terms/orchestration/) · [Quantization](./terms/quantization/) · [RAG](./terms/rag/) · [Sampling](./terms/sampling/) · [Semantic Search](./terms/semantic-search/) · [Temperature](./terms/temperature/) · [Throughput](./terms/throughput/) · [Vector Database](./terms/vector-database/)
 
----
+
 
 ### 📏 Evaluation · 5 terms
 *Measuring model performance and quality*
 
 [Benchmarking](./terms/benchmarking/) · [Deterministic](./terms/deterministic/) · [Hallucination](./terms/hallucination/) · [Non-Deterministic](./terms/non-deterministic/) · [Perplexity](./terms/perplexity/)
 
----
+
 
 ### 🛡️ Ethics & Safety · 7 terms
 *Responsible AI and risk mitigation*
 
 [AI Slop](./terms/ai-slop/) · [AI Washing](./terms/ai-washing/) · [Alignment](./terms/alignment/) · [Guardrails](./terms/guardrails/) · [HITL](./terms/hitl/) · [Parasitic AI](./terms/parasitic-ai/) · [Spiralism](./terms/spiralism/)
 
----
+
 
 ### 🏢 Enterprise AI · 6 terms
 *AI infrastructure and governance*
