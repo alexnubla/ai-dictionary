@@ -5,8 +5,6 @@ related: ["Tokenizer", "LLM", "Context Window", "Embedding"]
 date_added: 2026-08-12
 ---
 
-# Token
-
 The basic unit of text that AI language models process, where text is broken down into smaller pieces (words, subwords, or characters) that the model can understand and work with.
 
 ## The Simple Version
@@ -88,9 +86,7 @@ Tokens are like that, but for AI. The tokenizer is the "word counter" that decid
 
 ## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
+```python
 # Tokenization examples using Hugging Face Transformers
 from transformers import AutoTokenizer
 
@@ -124,6 +120,29 @@ token_count = len(tokenizer.encode(long_text))
 cost_per_1k = 0.03
 estimated_cost = (token_count / 1000) * cost_per_1k
 print("Token count:", token_count, "Estimated cost: $", round(estimated_cost, 4))
-{% endhighlight %}
-</div>
-{% endraw %}
+```
+
+## Common Misconceptions
+- **Myth:** One token always equals one word.
+- **Reality:** Tokens are typically subwords. Common words might be 1 token, but complex or rare words can be 2-5+ tokens. On average, 1 token ≈ 0.75 words in English.
+
+- **Myth:** All AI models use the same tokenization.
+- **Reality:** Different models have different tokenizers with different vocabularies. GPT-4, Claude, and Llama all tokenize text differently, so the same text will have different token counts across models.
+
+- **Myth:** Tokens are only relevant for text generation.
+- **Reality:** Tokens matter for everything: input processing, context limits, API costs, embedding generation, and even multimodal models (images are also converted to tokens).
+
+- **Myth:** More tokens always means better understanding.
+- **Reality:** While longer context windows allow processing more information, there are diminishing returns. Models may struggle to attend to all information in very long contexts ("lost in the middle" problem).
+
+## Related Terms
+- [Tokenizer](./tokenizer/)
+- [Context Window](./context-window/)
+- [Embedding](./embedding/)
+- [LLM](./llm/)
+
+## Sources & Further Reading
+- [Hugging Face Tokenizers Documentation](https://huggingface.co/docs/tokenizers)
+- [GPT-3 Tokenizer Explained](https://beta.openai.com/tokenizer)
+- [SentencePiece: A simple and language independent subword tokenizer](https://arxiv.org/abs/1808.06226)
+- [Understanding GPT Tokenizers by Simon Willison](https://simonwillison.net/2023/Apr/14/understanding-gpt-tokenizers/)
