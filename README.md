@@ -18,13 +18,13 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 ## 📂 Browse by Category
 
 | Category | Description | Key Terms |
-|----------|-------------|-----------|
-| 🏗️ [Architecture](./categories/architecture/) | Core model designs and structures | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/), ... |
-| ⚙️ [Training](./categories/training/) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning/), [Few-Shot Learning](./terms/few-shot-learning/), [RLHF](./terms/rlhf/), [LoRA](./terms/lora/), [Prompt Engineering](./terms/prompt-engineering/), [Zero-Shot Learning](./terms/zero-shot-learning/), [In-Context Learning](./terms/in-context-learning/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/), ... |
-| 🚀 [Deployment](./categories/deployment/) | Putting models into production | [RAG](./terms/rag/) |
-| 📏 [Evaluation](./categories/evaluation/) | Measuring model performance | *Coming soon* |
-| 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI practices | *Coming soon* |
-| 🏢 [Enterprise AI](./categories/enterprise-ai/) | AI infrastructure, governance, and management | [AI Gateway](./terms/ai-gateway/) |
+|:---------|:------------|:----------|
+| 🏗️ [Architecture](./categories/architecture/) | Core model designs, neural network architectures, and foundational structures that power AI systems | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/) |
+| ⚙️ [Training](./categories/training/) | How AI models learn from data, adapt to tasks, and improve performance through various training methodologies | [Fine-tuning](./terms/fine-tuning/), [Few-Shot Learning](./terms/few-shot-learning/), [RLHF](./terms/rlhf/), [LoRA](./terms/lora/), [Prompt Engineering](./terms/prompt-engineering/), [Zero-Shot Learning](./terms/zero-shot-learning/), [In-Context Learning](./terms/in-context-learning/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/) |
+| 🚀 [Deployment](./categories/deployment/) | Techniques and frameworks for putting AI models into production environments and serving them at scale | [RAG](./terms/rag/) |
+| 📏 [Evaluation](./categories/evaluation/) | Methods and metrics for measuring AI model performance, quality, and reliability | *Coming soon* |
+| 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI practices, governance frameworks, and risk mitigation strategies | *Coming soon* |
+| 🏢 [Enterprise AI](./categories/enterprise-ai/) | AI infrastructure, governance, management, and organizational considerations for enterprise deployment | [AI Gateway](./terms/ai-gateway/) |
 
 ---
 
