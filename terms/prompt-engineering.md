@@ -132,7 +132,8 @@ Writing a detailed brief for a freelance writer. If you say "write an article ab
 - [Few-Shot Learning](../few-shot-learning/)
 - [Zero-Shot Learning](../zero-shot-learning/)
 - [In-Context Learning](../in-context-learning/)
-- [Fine-tuning](../fine-tuning/)
+- [Context Engineering](../context-engineering/)
+- [Vibe Coding](../vibe-coding/)
 
 ## Sources & Further Reading
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
