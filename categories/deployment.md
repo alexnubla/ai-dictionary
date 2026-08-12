@@ -23,6 +23,10 @@ Deployment involves:
 | Term | Description |
 |------|-------------|
 | [RAG (Retrieval-Augmented Generation)](../terms/rag.md) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations and ensuring factual correctness. |
+| [Inference](../terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
+| [Vector Database](../terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
+| [MCP (Model Context Protocol)](../terms/mcp/) | An open standard protocol for universally connecting LLMs to external data sources, tools, and systems. |
+| [Grounding](../terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
 
 ## Why Deployment Matters
 
