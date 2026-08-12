@@ -21,21 +21,22 @@ Training encompasses several phases:
 
 | Term | Description |
 |------|-------------|
-| [Prompt Engineering](../terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
-| [Zero-Shot Learning](../terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
-| [In-Context Learning](../terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
-| [Pre-training](../terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
-| [Transfer Learning](../terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
-| [Fine-tuning](../terms/fine-tuning.md) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
-| [Few-Shot Learning](../terms/few-shot-learning.md) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
-| [RLHF](../terms/rlhf.md) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
-| [LoRA](../terms/lora.md) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
-| [Distillation (Knowledge Distillation)](../terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
-| [Context Engineering](../terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs — including prompts, retrieved information, tools, and memory — to elicit desired behaviors. |
-| [Backpropagation](../terms/backpropagation/) | The fundamental algorithm for training neural networks by calculating and propagating error gradients backward to update weights. |
-| [Training](../terms/training/) | The process of teaching a machine learning model to recognize patterns by exposing it to data and adjusting its internal parameters. |
-| [Prompt](../terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
-| [Chain of Thought (CoT)](../terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
+| [Backpropagation](/ai-dictionary/terms/backpropagation/) | The fundamental algorithm for training neural networks by calculating and propagating error gradients backward to update weights. |
+| [Chain of Thought (CoT)](/ai-dictionary/terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
+| [Context Engineering](/ai-dictionary/terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs — including prompts, retrieved information, tools, and memory — to elicit desired behaviors. |
+| [Distillation (Knowledge Distillation)](/ai-dictionary/terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
+| [Few-Shot Learning](/ai-dictionary/terms/few-shot-learning/) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
+| [Fine-tuning](/ai-dictionary/terms/fine-tuning/) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
+| [In-Context Learning](/ai-dictionary/terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
+| [LoRA](/ai-dictionary/terms/lora/) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
+| [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
+| [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
+| [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
+| [RLHF](/ai-dictionary/terms/rlhf/) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
+| [Training](/ai-dictionary/terms/training/) | The process of teaching a machine learning model to recognize patterns by exposing it to data and adjusting its internal parameters. |
+| [Transfer Learning](/ai-dictionary/terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
+| [Zero-Shot Learning](/ai-dictionary/terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
+
 
 ## Why Training Matters
 
