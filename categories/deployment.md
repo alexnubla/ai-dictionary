@@ -30,6 +30,9 @@ Deployment involves:
 | [Orchestration](../terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
 | [Temperature](../terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
 | [Inference-Time Compute](../terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
+| [Latency](../terms/latency/) | The time delay between a request and response, critical for user experience and system responsiveness. |
+| [Throughput](../terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
+| [Observability](../terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
 
 ## Why Deployment Matters
 
