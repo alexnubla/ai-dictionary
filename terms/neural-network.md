@@ -80,9 +80,9 @@ print("Predictions shape:", predictions.shape)
 - **Reality:** Adding too many layers to a simple problem leads to overfitting (memorizing the training data) and wasted compute resources.
 
 ## Related Terms
-- [Deep Learning](./deep-learning/)
-- [Backpropagation](./backpropagation/)
-- [CNN](./cnn/)
+- [Deep Learning](../deep-learning/)
+- [Backpropagation](../backpropagation/)
+- [CNN](../cnn/)
 
 ## Sources & Further Reading
 - [Neural Networks and Deep Learning by Michael Nielsen](http://neuralnetworksanddeeplearning.com/)
