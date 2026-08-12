@@ -25,6 +25,7 @@ Ethics and safety include:
 |------|-------------|
 | [AI Slop](/ai-dictionary/terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem and making it harder to find trustworthy information. |
 | [AI Washing](/ai-dictionary/terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of technological sophistication that doesn't match reality. |
+| [Alignment](/ai-dictionary/terms/alignment/) | The field focused on ensuring AI systems behave in accordance with human intentions, values, and ethical principles. |
 | [Guardrails](/ai-dictionary/terms/guardrails/) | Safety mechanisms and filters that prevent AI systems from producing harmful, inappropriate, or non-compliant outputs. |
 | [HITL (Human in the Loop)](/ai-dictionary/terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
 | [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back to the ecosystem. |
