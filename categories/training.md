@@ -30,6 +30,8 @@ Training encompasses several phases:
 | [Few-Shot Learning](../terms/few-shot-learning.md) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
 | [RLHF](../terms/rlhf.md) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
 | [LoRA](../terms/lora.md) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
+| [Distillation (Knowledge Distillation)](../terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
+| [Context Engineering](../terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs — including prompts, retrieved information, tools, and memory — to elicit desired behaviors. |
 
 ## Why Training Matters
 
