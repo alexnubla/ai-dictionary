@@ -134,6 +134,9 @@ Writing a detailed brief for a freelance writer. If you say "write an article ab
 - [In-Context Learning](../in-context-learning/)
 - [Context Engineering](../context-engineering/)
 - [Vibe Coding](../vibe-coding/)
+- [Prompt](../prompt/)
+- [Chain of Thought](../chain-of-thought/)
+- [Temperature](../temperature/)
 
 ## Sources & Further Reading
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
