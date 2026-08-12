@@ -71,9 +71,7 @@ Looking at a painting through a series of magnifying glasses. First, you use a s
 
 ## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
+```python
 # Simple CNN for image classification using PyTorch
 import torch
 import torch.nn as nn
@@ -113,9 +111,6 @@ class SimpleCNN(nn.Module):
 model = SimpleCNN(num_classes=10)
 total_params = sum(p.numel() for p in model.parameters())
 print("Total parameters:", total_params)
-{% endhighlight %}
-</div>
-{% endraw %}
 
 ## Common Misconceptions
 - **Myth:** CNNs only work for images.
