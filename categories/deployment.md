@@ -22,6 +22,9 @@ Deployment involves:
 
 | Term | Description |
 |------|-------------|
+| [Batch Processing](/ai-dictionary/terms/batch-processing/) | Grouping multiple inference requests together for simultaneous processing, maximizing GPU utilization and throughput. |
+| [Caching](/ai-dictionary/terms/caching/) | Storing and reusing previous computation results to avoid redundant work, reducing latency and costs. |
+| [Edge Computing](/ai-dictionary/terms/edge-computing/) | Running AI inference on local devices rather than cloud infrastructure, enabling low-latency, privacy-preserving applications. |
 | [Grounding](/ai-dictionary/terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
 | [Inference](/ai-dictionary/terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
 | [Inference-Time Compute](/ai-dictionary/terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
@@ -30,10 +33,11 @@ Deployment involves:
 | [Observability](/ai-dictionary/terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
 | [Orchestration](/ai-dictionary/terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
 | [RAG (Retrieval-Augmented Generation)](/ai-dictionary/terms/rag/) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations and ensuring factual correctness. |
+| [Sampling](/ai-dictionary/terms/sampling/) | The process of selecting the next token from a model's probability distribution, controlling the trade-off between determinism and diversity. |
+| [Semantic Search](/ai-dictionary/terms/semantic-search/) | A search methodology that retrieves results based on meaning and intent rather than exact keyword matches, using vector embeddings. |
 | [Temperature](/ai-dictionary/terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
 | [Throughput](/ai-dictionary/terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
 | [Vector Database](/ai-dictionary/terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
-
 
 ## Why Deployment Matters
 
