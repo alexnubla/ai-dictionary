@@ -27,6 +27,9 @@ Deployment involves:
 | [Vector Database](../terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
 | [MCP (Model Context Protocol)](../terms/mcp/) | An open standard protocol for universally connecting LLMs to external data sources, tools, and systems. |
 | [Grounding](../terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
+| [Orchestration](../terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
+| [Temperature](../terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
+| [Inference-Time Compute](../terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
 
 ## Why Deployment Matters
 
