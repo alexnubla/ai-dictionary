@@ -112,10 +112,10 @@ Teaching a new employee a specific task by showing them 2-3 examples of how it's
 - **Reality:** There's a sweet spot (usually 3-5 examples). Too many examples can confuse the model or exceed context limits. Quality matters more than quantity.
 
 ## Related Terms
-- [Prompt Engineering](./prompt-engineering/)
-- [Fine-tuning](./fine-tuning/)
-- [Zero-Shot Learning](./zero-shot-learning/)
-- [In-Context Learning](./in-context-learning/)
+- [Prompt Engineering](../prompt-engineering/)
+- [Fine-tuning](../fine-tuning/)
+- [Zero-Shot Learning](../zero-shot-learning/)
+- [In-Context Learning](../in-context-learning/)
 
 ## Sources & Further Reading
 - [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)
