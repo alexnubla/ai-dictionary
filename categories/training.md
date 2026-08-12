@@ -27,12 +27,16 @@ Training encompasses several phases:
 | [Distillation (Knowledge Distillation)](/ai-dictionary/terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
 | [Few-Shot Learning](/ai-dictionary/terms/few-shot-learning/) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
 | [Fine-tuning](/ai-dictionary/terms/fine-tuning/) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
+| [Gradient Descent](/ai-dictionary/terms/gradient-descent/) | An iterative optimization algorithm that minimizes a loss function by updating model parameters in the direction of steepest descent. |
 | [In-Context Learning](/ai-dictionary/terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
 | [LoRA](/ai-dictionary/terms/lora/) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
+| [Loss Function](/ai-dictionary/terms/loss-function/) | A mathematical function that quantifies the difference between model predictions and ground truth, guiding the training process. |
 | [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
 | [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
 | [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
 | [RLHF](/ai-dictionary/terms/rlhf/) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
+| [Scaling Laws](/ai-dictionary/terms/scaling-laws/) | Empirical relationships describing how AI model performance improves predictably as you increase model size, data, and compute. |
+| [Self-Supervised Learning](/ai-dictionary/terms/self-supervised-learning/) | A learning paradigm where models learn from unlabeled data by creating their own supervision signals through pretext tasks. |
 | [Training](/ai-dictionary/terms/training/) | The process of teaching a machine learning model to recognize patterns by exposing it to data and adjusting its internal parameters. |
 | [Transfer Learning](/ai-dictionary/terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
 | [Zero-Shot Learning](/ai-dictionary/terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
