@@ -5,6 +5,8 @@ related: ["LSTM", "GRU", "Sequence Modeling", "Time Series", "Transformer"]
 date_added: 2026-08-12
 ---
 
+# RNN (Recurrent Neural Network)
+
 A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs, allowing it to handle tasks where context and order matter, such as language, time series, and speech.
 
 ## The Simple Version
