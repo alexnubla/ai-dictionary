@@ -30,12 +30,13 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-- **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
-- **C** → [CNN](./terms/cnn/)
-- **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
-- **L** → [LoRA](./terms/lora/)
-- **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
-- **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
+   - **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
+   - **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/)
+   - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
+   - **L** → [LoRA](./terms/lora/)
+   - **N** → [Neural Network](./terms/neural-network/)
+   - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
+   - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
 
