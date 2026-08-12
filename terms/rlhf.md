@@ -5,6 +5,8 @@ related: ["Fine-tuning", "Alignment", "Reward Model", "PPO", "Constitutional AI"
 date_added: 2026-08-12
 ---
 
+# RLHF (Reinforcement Learning from Human Feedback)
+
 A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs.
 
 ## The Simple Version
