@@ -141,6 +141,7 @@ for batch in massive_dataset:  # Trillions of tokens
 ## Related Terms
 - [Fine-tuning](../fine-tuning/)
 - [Transfer Learning](../transfer-learning/)
+- [Distillation](../distillation/)
 - [Foundation Model](../foundation-model/)
 - [Self-Supervised Learning](../self-supervised-learning/)
 
