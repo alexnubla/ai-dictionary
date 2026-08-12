@@ -24,6 +24,8 @@ Evaluation includes:
 |------|-------------|
 | [Perplexity](../terms/perplexity/) | A core metric measuring how "surprised" a language model is by the next word; lower is better. |
 | [Hallucination](../terms/hallucination/) | When an AI confidently generates factually incorrect or fabricated information with no basis in reality. |
+| [Deterministic](../terms/deterministic/) | A property where the same input always produces exactly the same output, essential for testing and reproducibility. |
+| [Non-Deterministic](../terms/non-deterministic/) | A property where the same input can produce different outputs, introducing variability and creativity. |
 
 ## Why Evaluation Matters
 
