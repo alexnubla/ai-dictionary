@@ -21,6 +21,11 @@ Training encompasses several phases:
 
 | Term | Description |
 |------|-------------|
+| [Prompt Engineering](../terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
+| [Zero-Shot Learning](../terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
+| [In-Context Learning](../terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
+| [Pre-training](../terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
+| [Transfer Learning](../terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
 | [Fine-tuning](../terms/fine-tuning.md) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
 | [Few-Shot Learning](../terms/few-shot-learning.md) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
 | [RLHF](../terms/rlhf.md) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
