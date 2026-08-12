@@ -166,6 +166,7 @@ trainer.save_model("./sentiment-model-final")
 ## Related Terms
 - [Pre-training](../pre-training/)
 - [Fine-tuning](../fine-tuning/)
+- [Distillation](../distillation/)
 - [LoRA](../lora/)
 - [Foundation Model](../foundation-model/)
 
