@@ -180,6 +180,9 @@ in the minimum time, how should they allocate production across factories?
 - [Chain-of-Thought](../chain-of-thought/)
 - [Transformer](../transformer/)
 - [Inference-Time Compute](../inference-time-compute/)
+- [Reasoning Model](../reasoning-model/)
+- [Inference-Time Compute](../inference-time-compute/)
+- [Chain of Thought](../chain-of-thought/)
 
 ## Sources & Further Reading
 - [OpenAI o1 System Card](https://openai.com/index/openai-o1-system-card/)
