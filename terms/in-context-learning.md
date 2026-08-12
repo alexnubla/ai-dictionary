@@ -121,6 +121,7 @@ Learning to dance by watching. Instead of taking formal lessons (traditional tra
 - [Few-Shot Learning](../few-shot-learning/)
 - [Zero-Shot Learning](../zero-shot-learning/)
 - [Prompt Engineering](../prompt-engineering/)
+- [Context Engineering](../context-engineering/)
 - [Transformer](../transformer/)
 
 ## Sources & Further Reading
