@@ -20,12 +20,10 @@ Evaluation includes:
 
 ## Terms in This Category
 
-*Coming soon — planned terms include:*
-- Perplexity
-- BLEU Score
-- Hallucination
-- Benchmarking
-- Red Teaming
+| Term | Description |
+|------|-------------|
+| [Perplexity](../terms/perplexity/) | A core metric measuring how "surprised" a language model is by the next word; lower is better. |
+| [Hallucination](../terms/hallucination/) | When an AI confidently generates factually incorrect or fabricated information with no basis in reality. |
 
 ## Why Evaluation Matters
 
