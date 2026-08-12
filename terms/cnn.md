@@ -5,8 +5,6 @@ related: ["Neural Network", "Computer Vision", "Feature Extraction", "Image Reco
 date_added: 2026-08-12
 ---
 
-# CNN (Convolutional Neural Network)
-
 A specialized type of neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images, making it the foundation of modern computer vision.
 
 ## The Simple Version
@@ -118,3 +116,22 @@ print("Total parameters:", total_params)
 {% endhighlight %}
 </div>
 {% endraw %}
+
+## Common Misconceptions
+- **Myth:** CNNs only work for images.
+- **Reality:** CNNs work for any grid-like data: audio spectrograms, time series, video frames, and even text (1D CNNs).
+
+- **Myth:** CNNs understand what they "see" like humans do.
+- **Reality:** CNNs detect statistical patterns in pixel values. They don't have conceptual understanding — they're very good at pattern matching.
+
+- **Myth:** Deeper CNNs are always better.
+- **Reality:** Very deep networks can suffer from vanishing gradients. Techniques like skip connections (ResNet) help, but there's a practical limit to depth.
+
+## Related Terms
+- [Transformer](./transformer/)
+- [Neural Network](./neural-network/)
+- [Computer Vision](./computer-vision/)
+
+## Sources & Further Reading
+- [CS231n: Convolutional Neural Networks for Visual Recognition (Stanford)](http://cs231n.stanford.edu/)
+- [Dive into Deep Learning: Convolutional Neural Networks](https://d2l.ai/chapter_convolutional-neural-networks/index.html)
