@@ -22,6 +22,7 @@ Different architectures are suited for different tasks:
 | Term | Description |
 |------|-------------|
 | [Attention Mechanism](/ai-dictionary/terms/attention-mechanism/) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context. |
+| [Autoregressive](/ai-dictionary/terms/autoregressive/) | A modeling approach where each element in a sequence is predicted based on all previous elements, generating outputs one token at a time. |
 | [BERT](/ai-dictionary/terms/bert/) | A bidirectional transformer model optimized for language understanding tasks like classification and extraction. |
 | [CNN (Convolutional Neural Network)](/ai-dictionary/terms/cnn/) | A specialized neural network designed to automatically learn spatial hierarchies of features from grid-like data such as images. |
 | [Computer Vision](/ai-dictionary/terms/computer-vision/) | A field of AI that enables computers to derive meaningful information from digital images, videos, and other visual inputs. |
