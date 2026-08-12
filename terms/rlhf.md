@@ -5,8 +5,6 @@ related: ["Fine-tuning", "Alignment", "Reward Model", "PPO", "Constitutional AI"
 date_added: 2026-08-12
 ---
 
-# RLHF (Reinforcement Learning from Human Feedback)
-
 A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs.
 
 ## The Simple Version
@@ -77,54 +75,68 @@ Training a new customer service representative. First, they learn the basics fro
 
 ## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
-# Conceptual RLHF pipeline (simplified)
+```python
+# Conceptual RLHF workflow (simplified)
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# Phase 1: Load models
-policy_model = AutoModelForCausalLM.from_pretrained("sft-model")
-reference_model = AutoModelForCausalLM.from_pretrained("sft-model")  # Frozen copy
-reward_model = AutoModelForCausalLM.from_pretrained("reward-model")  # Trained on human preferences
-tokenizer = AutoTokenizer.from_pretrained("sft-model")
+# Load the models
+tokenizer = AutoTokenizer.from_pretrained("model-name")
+policy_model = AutoModelForCausalLM.from_pretrained("model-name")
+reward_model = AutoModelForCausalLM.from_pretrained("reward-model")
 
-# Phase 2: Generate multiple responses to the same prompt
-prompt = "Explain quantum computing to a 10-year-old."
+# Step 1: Generate multiple responses to the same prompt
+prompt = "What are the benefits of exercise?"
 inputs = tokenizer(prompt, return_tensors="pt")
 
-# Generate 4 candidate responses with sampling
+# Generate 4 different responses
 responses = []
 for i in range(4):
     output = policy_model.generate(
         **inputs,
-        max_length=100,
+        max_new_tokens=50,
         do_sample=True,
-        temperature=0.7
+        temperature=0.8
     )
-    response_text = tokenizer.decode(output[0], skip_special_tokens=True)
-    responses.append(response_text)
-    print(f"Response {i+1}: {response_text}")
+    response = tokenizer.decode(output[0], skip_special_tokens=True)
+    responses.append(response)
 
-# Phase 3: Score each response with the reward model
-# (The reward model predicts human preference scores)
-scores = []
+# Step 2: Human raters rank the responses (done offline)
+# Response 3 > Response 1 > Response 4 > Response 2
+
+# Step 3: Train reward model on human rankings
+# (This happens once, offline)
+# reward_model learns to predict human preferences
+
+# Step 4: Use reward model to score new responses
 for response in responses:
-    # Combine prompt + response for scoring
-    combined = tokenizer.encode(prompt + response, return_tensors="pt")
-    # Reward model outputs a score (higher = more aligned with human preferences)
-    score = reward_model(combined).logits[0, -1].item()
-    scores.append(score)
-    print(f"Score: {score:.2f}")
+    scored_input = tokenizer(prompt + response, return_tensors="pt")
+    score = reward_model(**scored_input).logits[0, -1].item()
+    print("Score:", score, "-", response[:50])
 
-# Phase 4: Reinforcement Learning (PPO algorithm)
-# - Compare scores to identify best responses
-# - Update policy_model weights to favor high-scoring responses
-# - Apply KL penalty to prevent drift from reference_model
-# - Repeat across many prompts to improve alignment
+# Step 5: Reinforcement learning (PPO)
+# - Update policy_model to generate responses that score higher
+# - Add KL penalty to keep policy_model close to original
+# - Repeat across many prompts
+```
 
-# After training, the policy_model generates responses that score
-# higher with the reward model (more helpful, harmless, honest)
-{% endhighlight %}
-</div>
-{% endraw %}
+## Common Misconceptions
+- **Myth:** RLHF makes AI "understand" human values.
+- **Reality:** RLHF optimizes for patterns in human preferences as captured by the reward model. The model doesn't truly understand values — it learns statistical patterns that correlate with high reward scores.
+
+- **Myth:** RLHF is a one-time process.
+- **Reality:** Alignment is ongoing. As use cases evolve and new edge cases emerge, RLHF may need to be repeated with updated feedback to maintain alignment.
+
+- **Myth:** RLHF completely eliminates harmful outputs.
+- **Reality:** RLHF significantly reduces harmful outputs but cannot guarantee 100% safety. Adversarial inputs can still elicit problematic responses. Multiple layers of safety (RLHF + filtering + monitoring) are needed.
+
+## Related Terms
+- [Fine-tuning](./fine-tuning/)
+- [Alignment](./alignment/)
+- [Reward Model](./reward-model/)
+- [Constitutional AI](./constitutional-ai/)
+
+## Sources & Further Reading
+- [Training language models to follow instructions with human feedback (InstructGPT Paper)](https://arxiv.org/abs/2203.02155)
+- [Anthropic's Constitutional AI](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
+- [OpenAI's Approach to Alignment](https://openai.com/research#alignment)
+- [DeepRLHF: A Survey of Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2307.03578)
