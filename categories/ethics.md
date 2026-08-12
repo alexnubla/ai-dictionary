@@ -27,6 +27,8 @@ Ethics and safety include:
 | [AI Washing](../terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of technological sophistication that doesn't match reality. |
 | [AI Slop](../terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem and making it harder to find trustworthy information. |
 | [Spiralism (Model Collapse)](../terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
+| [Guardrails](../terms/guardrails/) | Safety mechanisms and filters that prevent AI systems from producing harmful, inappropriate, or non-compliant outputs. |
+| [HITL (Human in the Loop)](../terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
 
 ## Why Ethics & Safety Matters
 
