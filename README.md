@@ -9,7 +9,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
-- **Terms:** 11
+- **Terms:** 21
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 12, 2026
 
@@ -19,8 +19,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 | Category | Description | Key Terms |
 |----------|-------------|-----------|
-| 🏗️ [Architecture](./categories/architecture/) | Core model designs and structures | [Transformer](./terms/transformer/), [Attention Mechanism](./terms/attention-mechanism/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [Token](./terms/token/) |
-| ⚙️ [Training](./categories/training/) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning/), [Few-Shot Learning](./terms/few-shot-learning/), [RLHF](./terms/rlhf/), [LoRA](./terms/lora/) |
+| 🏗️ [Architecture](./categories/architecture/) | Core model designs and structures | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/), ... |
+| ⚙️ [Training](./categories/training/) | How models learn and adapt | [Fine-tuning](./terms/fine-tuning/), [Few-Shot Learning](./terms/few-shot-learning/), [RLHF](./terms/rlhf/), [LoRA](./terms/lora/), [Prompt Engineering](./terms/prompt-engineering/), [Zero-Shot Learning](./terms/zero-shot-learning/), [In-Context Learning](./terms/in-context-learning/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/), ... |
 | 🚀 [Deployment](./categories/deployment/) | Putting models into production | [RAG](./terms/rag/) |
 | 📏 [Evaluation](./categories/evaluation/) | Measuring model performance | *Coming soon* |
 | 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI practices | *Coming soon* |
@@ -30,13 +30,18 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-   - **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
-   - **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/)
-   - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
-   - **L** → [LoRA](./terms/lora/), [LSTM](./terms/lstm/)
-   - **N** → [Neural Network](./terms/neural-network/)
-   - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
-   - **T** → [Token](./terms/token/), [Transformer](./terms/transformer/)
+- **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/)
+- **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/)
+- **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
+- **G** → [GRU](./terms/gru/)
+- **I** → [In-Context Learning](./terms/in-context-learning/)
+- **L** → [LoRA](./terms/lora/), [LSTM](./terms/lstm/)
+- **N** → [Neural Network](./terms/neural-network/)
+- **O** → [Object Detection](./terms/object-detection/)
+- **P** → [Pre-training](./terms/pre-training/), [Prompt Engineering](./terms/prompt-engineering/)
+- **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
+- **T** → [Token](./terms/token/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
+- **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
 
