@@ -20,42 +20,42 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <details>
 <summary><strong>🏗️ Architecture</strong> — 26 terms · Core model designs and neural network structures</summary>
 
-[Activation Function](./terms/activation-function/) · [Attention Mechanism](./terms/attention-mechanism/) · [Autoregressive](./terms/autoregressive/) · [BERT](./terms/bert/) · [CNN](./terms/cnn/) · [Computer Vision](./terms/computer-vision/) · [Context Window](./terms/context-window/) · [Deep Learning](./terms/deep-learning/) · [Diffusion Model](./terms/diffusion-model/) · [Embedding](./terms/embedding/) · [Encoder-Decoder](./terms/encoder-decoder/) · [Foundation Model](./terms/foundation-model/) · [GAN](./terms/gan/) · [GPT](./terms/gpt/) · [GRU](./terms/gru/) · [LLM](./terms/llm/) · [LRM](./terms/lrm/) · [LSTM](./terms/lstm/) · [Mixture of Experts (MoE)](./terms/moe/) · [Multimodal](./terms/multimodal/) · [Neural Network](./terms/neural-network/) · [Object Detection](./terms/object-detection/) · [RNN](./terms/rnn/) · [Reasoning Model](./terms/reasoning-model/) · [Token](./terms/token/) · [Transformer](./terms/transformer/)
+<a href="./terms/activation-function/">Activation Function</a> · <a href="./terms/attention-mechanism/">Attention Mechanism</a> · <a href="./terms/autoregressive/">Autoregressive</a> · <a href="./terms/bert/">BERT</a> · <a href="./terms/cnn/">CNN</a> · <a href="./terms/computer-vision/">Computer Vision</a> · <a href="./terms/context-window/">Context Window</a> · <a href="./terms/deep-learning/">Deep Learning</a> · <a href="./terms/diffusion-model/">Diffusion Model</a> · <a href="./terms/embedding/">Embedding</a> · <a href="./terms/encoder-decoder/">Encoder-Decoder</a> · <a href="./terms/foundation-model/">Foundation Model</a> · <a href="./terms/gan/">GAN</a> · <a href="./terms/gpt/">GPT</a> · <a href="./terms/gru/">GRU</a> · <a href="./terms/llm/">LLM</a> · <a href="./terms/lrm/">LRM</a> · <a href="./terms/lstm/">LSTM</a> · <a href="./terms/moe/">Mixture of Experts (MoE)</a> · <a href="./terms/multimodal/">Multimodal</a> · <a href="./terms/neural-network/">Neural Network</a> · <a href="./terms/object-detection/">Object Detection</a> · <a href="./terms/rnn/">RNN</a> · <a href="./terms/reasoning-model/">Reasoning Model</a> · <a href="./terms/token/">Token</a> · <a href="./terms/transformer/">Transformer</a>
 
 </details>
 
 <details>
 <summary><strong>⚙️ Training</strong> — 29 terms · How models learn, adapt, and improve</summary>
 
-[Backpropagation](./terms/backpropagation/) · [Catastrophic Forgetting](./terms/catastrophic-forgetting/) · [Chain of Thought](./terms/chain-of-thought/) · [Context Engineering](./terms/context-engineering/) · [Distillation](./terms/distillation/) · [DPO](./terms/dpo/) · [Few-Shot Learning](./terms/few-shot-learning/) · [Fine-tuning](./terms/fine-tuning/) · [Gradient Descent](./terms/gradient-descent/) · [In-Context Learning](./terms/in-context-learning/) · [Learning Rate](./terms/learning-rate/) · [LoRA](./terms/lora/) · [Loss Function](./terms/loss-function/) · [Optimizer](./terms/optimizer/) · [Overfitting / Underfitting](./terms/overfitting-underfitting/) · [PEFT](./terms/peft/) · [Pre-training](./terms/pre-training/) · [Prompt](./terms/prompt/) · [Prompt Engineering](./terms/prompt-engineering/) · [Reward Model](./terms/reward-model/) · [RLHF](./terms/rlhf/) · [Scaling Laws](./terms/scaling-laws/) · [Self-Supervised Learning](./terms/self-supervised-learning/) · [Supervised Learning](./terms/supervised-learning/) · [Synthetic Data](./terms/synthetic-data/) · [Training](./terms/training/) · [Transfer Learning](./terms/transfer-learning/) · [Unsupervised Learning](./terms/unsupervised-learning/) · [Zero-Shot Learning](./terms/zero-shot-learning/)
+<a href="./terms/backpropagation/">Backpropagation</a> · <a href="./terms/catastrophic-forgetting/">Catastrophic Forgetting</a> · <a href="./terms/chain-of-thought/">Chain of Thought</a> · <a href="./terms/context-engineering/">Context Engineering</a> · <a href="./terms/distillation/">Distillation</a> · <a href="./terms/dpo/">DPO</a> · <a href="./terms/few-shot-learning/">Few-Shot Learning</a> · <a href="./terms/fine-tuning/">Fine-tuning</a> · <a href="./terms/gradient-descent/">Gradient Descent</a> · <a href="./terms/in-context-learning/">In-Context Learning</a> · <a href="./terms/learning-rate/">Learning Rate</a> · <a href="./terms/lora/">LoRA</a> · <a href="./terms/loss-function/">Loss Function</a> · <a href="./terms/optimizer/">Optimizer</a> · <a href="./terms/overfitting-underfitting/">Overfitting / Underfitting</a> · <a href="./terms/peft/">PEFT</a> · <a href="./terms/pre-training/">Pre-training</a> · <a href="./terms/prompt/">Prompt</a> · <a href="./terms/prompt-engineering/">Prompt Engineering</a> · <a href="./terms/reward-model/">Reward Model</a> · <a href="./terms/rlhf/">RLHF</a> · <a href="./terms/scaling-laws/">Scaling Laws</a> · <a href="./terms/self-supervised-learning/">Self-Supervised Learning</a> · <a href="./terms/supervised-learning/">Supervised Learning</a> · <a href="./terms/synthetic-data/">Synthetic Data</a> · <a href="./terms/training/">Training</a> · <a href="./terms/transfer-learning/">Transfer Learning</a> · <a href="./terms/unsupervised-learning/">Unsupervised Learning</a> · <a href="./terms/zero-shot-learning/">Zero-Shot Learning</a>
 
 </details>
 
 <details>
-<summary><strong>🚀 Deployment</strong> — 17 terms · Putting models into production</summary>
+<summary><strong>🚀 Deployment</strong> — 23 terms · Putting models into production</summary>
 
-[Batch Processing](./terms/batch-processing/) · [Caching](./terms/caching/) · [Edge Computing](./terms/edge-computing/) · [Grounding](./terms/grounding/) · [Inference](./terms/inference/) · [Inference-Time Compute](./terms/inference-time-compute/) · [Latency](./terms/latency/) · [MCP](./terms/mcp/) · [Observability](./terms/observability/) · [Orchestration](./terms/orchestration/) · [Quantization](./terms/quantization/) · [RAG](./terms/rag/) · [Sampling](./terms/sampling/) · [Semantic Search](./terms/semantic-search/) · [Temperature](./terms/temperature/) · [Throughput](./terms/throughput/) · [Vector Database](./terms/vector-database/)
+<a href="./terms/batch-processing/">Batch Processing</a> · <a href="./terms/caching/">Caching</a> · <a href="./terms/edge-computing/">Edge Computing</a> · <a href="./terms/feature-store/">Feature Store</a> · <a href="./terms/grounding/">Grounding</a> · <a href="./terms/inference/">Inference</a> · <a href="./terms/inference-time-compute/">Inference-Time Compute</a> · <a href="./terms/kv-cache/">KV Cache</a> · <a href="./terms/latency/">Latency</a> · <a href="./terms/mcp/">MCP</a> · <a href="./terms/model-serving/">Model Serving</a> · <a href="./terms/observability/">Observability</a> · <a href="./terms/orchestration/">Orchestration</a> · <a href="./terms/prompt-injection/">Prompt Injection</a> · <a href="./terms/quantization/">Quantization</a> · <a href="./terms/rag/">RAG</a> · <a href="./terms/sampling/">Sampling</a> · <a href="./terms/semantic-search/">Semantic Search</a> · <a href="./terms/speculative-decoding/">Speculative Decoding</a> · <a href="./terms/streaming/">Streaming</a> · <a href="./terms/temperature/">Temperature</a> · <a href="./terms/throughput/">Throughput</a> · <a href="./terms/vector-database/">Vector Database</a>
 
 </details>
 
 <details>
 <summary><strong>📏 Evaluation</strong> — 5 terms · Measuring model performance and quality</summary>
 
-[Benchmarking](./terms/benchmarking/) · [Deterministic](./terms/deterministic/) · [Hallucination](./terms/hallucination/) · [Non-Deterministic](./terms/non-deterministic/) · [Perplexity](./terms/perplexity/)
+<a href="./terms/benchmarking/">Benchmarking</a> · <a href="./terms/deterministic/">Deterministic</a> · <a href="./terms/hallucination/">Hallucination</a> · <a href="./terms/non-deterministic/">Non-Deterministic</a> · <a href="./terms/perplexity/">Perplexity</a>
 
 </details>
 
 <details>
-<summary><strong>🛡️ Ethics & Safety</strong> — 7 terms · Responsible AI and risk mitigation</summary>
+<summary><strong>🛡️ Ethics &amp; Safety</strong> — 7 terms · Responsible AI and risk mitigation</summary>
 
-[AI Slop](./terms/ai-slop/) · [AI Washing](./terms/ai-washing/) · [Alignment](./terms/alignment/) · [Guardrails](./terms/guardrails/) · [HITL](./terms/hitl/) · [Parasitic AI](./terms/parasitic-ai/) · [Spiralism](./terms/spiralism/)
+<a href="./terms/ai-slop/">AI Slop</a> · <a href="./terms/ai-washing/">AI Washing</a> · <a href="./terms/alignment/">Alignment</a> · <a href="./terms/guardrails/">Guardrails</a> · <a href="./terms/hitl/">HITL</a> · <a href="./terms/parasitic-ai/">Parasitic AI</a> · <a href="./terms/spiralism/">Spiralism</a>
 
 </details>
 
 <details>
 <summary><strong>🏢 Enterprise AI</strong> — 6 terms · AI infrastructure and governance</summary>
 
-[Agent](./terms/agent/) · [Agentic AI](./terms/agentic-ai/) · [AI Gateway](./terms/ai-gateway/) · [Compliance](./terms/compliance/) · [Tool Use / Function Calling](./terms/tool-use/) · [Vibe Coding](./terms/vibe-coding/)
+<a href="./terms/agent/">Agent</a> · <a href="./terms/agentic-ai/">Agentic AI</a> · <a href="./terms/ai-gateway/">AI Gateway</a> · <a href="./terms/compliance/">Compliance</a> · <a href="./terms/tool-use/">Tool Use / Function Calling</a> · <a href="./terms/vibe-coding/">Vibe Coding</a>
 
 </details>
 
