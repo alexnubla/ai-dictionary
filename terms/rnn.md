@@ -5,8 +5,6 @@ related: ["LSTM", "GRU", "Sequence Modeling", "Time Series", "Transformer"]
 date_added: 2026-08-12
 ---
 
-# RNN (Recurrent Neural Network)
-
 A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs, allowing it to handle tasks where context and order matter, such as language, time series, and speech.
 
 ## The Simple Version
@@ -80,9 +78,7 @@ Following a recipe while cooking. You don't just look at the current step — yo
 
 ## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
+```python
 # Simple RNN for sequence classification using PyTorch
 import torch
 import torch.nn as nn
@@ -136,6 +132,24 @@ output = model(sample_input)
 print("Input shape:", sample_input.shape)
 print("Output shape:", output.shape)
 print("Output:", output[0])  # First sample's predictions
-{% endhighlight %}
-</div>
-{% endraw %}
+```
+
+## Common Misconceptions
+- **Myth:** RNNs are still the best choice for all sequence tasks.
+- **Reality:** For most NLP tasks, Transformers have surpassed RNNs in performance and efficiency. RNNs are now mainly used for specific use cases like real-time processing or edge deployment.
+
+- **Myth:** RNNs can remember anything from the past.
+- **Reality:** Vanilla RNNs struggle with long-range dependencies due to vanishing gradients. LSTM and GRU help but still have limits.
+
+- **Myth:** RNNs process data one element at a time.
+- **Reality:** RNNs can process batches of sequences in parallel, but the time dimension must be processed sequentially.
+
+## Related Terms
+- [Transformer](./transformer/)
+- [LSTM](./lstm/)
+- [Attention Mechanism](./attention-mechanism/)
+
+## Sources & Further Reading
+- [Finding Structure in Time (Elman, 1990)](https://crl.ucsd.edu/~elman/Papers/fsit.pdf)
+- [Long Short-Term Memory (Hochreiter & Schmidhuber, 1997)](https://www.bioinf.uni-jena.de/bioinfo/doc/paper/lsmtm.pdf)
+- [Understanding LSTM Networks (Colah's Blog)](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
