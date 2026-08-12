@@ -22,10 +22,12 @@ Evaluation includes:
 
 | Term | Description |
 |------|-------------|
+| [Benchmarking](/ai-dictionary/terms/benchmarking/) | The systematic evaluation of AI models using standardized datasets and metrics to measure performance and compare different models. |
 | [Deterministic](/ai-dictionary/terms/deterministic/) | A property where the same input always produces exactly the same output, essential for testing and reproducibility. |
 | [Hallucination](/ai-dictionary/terms/hallucination/) | When an AI confidently generates factually incorrect or fabricated information with no basis in reality. |
 | [Non-Deterministic](/ai-dictionary/terms/non-deterministic/) | A property where the same input can produce different outputs, introducing variability and creativity. |
 | [Perplexity](/ai-dictionary/terms/perplexity/) | A core metric measuring how "surprised" a language model is by the next word; lower is better. |
+
 
 ## Why Evaluation Matters
 
