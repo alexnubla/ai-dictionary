@@ -9,7 +9,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
-- **Terms:** 83
+- **Terms:** 90
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 12, 2026
 
@@ -34,7 +34,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
     <tr>
       <td>⚙️ <a href="./categories/training/">Training</a></td>
       <td>How models learn, adapt, and improve</td>
-      <td><a href="./terms/backpropagation/">Backpropagation</a>, <a href="./terms/chain-of-thought/">Chain of Thought</a>, <a href="./terms/context-engineering/">Context Engineering</a>, <a href="./terms/distillation/">Distillation</a>, <a href="./terms/few-shot-learning/">Few-Shot Learning</a>, <a href="./terms/fine-tuning/">Fine-tuning</a>, <a href="./terms/gradient-descent/">Gradient Descent</a>, <a href="./terms/in-context-learning/">In-Context Learning</a>, <a href="./terms/lora/">LoRA</a>, <a href="./terms/loss-function/">Loss Function</a>, <a href="./terms/optimizer/">Optimizer</a>, <a href="./terms/peft/">PEFT</a>, <a href="./terms/pre-training/">Pre-training</a>, <a href="./terms/prompt/">Prompt</a>, <a href="./terms/prompt-engineering/">Prompt Engineering</a>, <a href="./terms/reward-model/">Reward Model</a>, <a href="./terms/rlhf/">RLHF</a>, <a href="./terms/scaling-laws/">Scaling Laws</a>, <a href="./terms/self-supervised-learning/">Self-Supervised Learning</a>, <a href="./terms/training/">Training</a>, <a href="./terms/transfer-learning/">Transfer Learning</a>, <a href="./terms/zero-shot-learning/">Zero-Shot Learning</a></td>
+      <td><a href="./terms/backpropagation/">Backpropagation</a>, <a href="./terms/catastrophic-forgetting/">Catastrophic Forgetting</a>, <a href="./terms/chain-of-thought/">Chain of Thought</a>, <a href="./terms/context-engineering/">Context Engineering</a>, <a href="./terms/distillation/">Distillation</a>, <a href="./terms/dpo/">DPO</a>, <a href="./terms/few-shot-learning/">Few-Shot Learning</a>, <a href="./terms/fine-tuning/">Fine-tuning</a>, <a href="./terms/gradient-descent/">Gradient Descent</a>, <a href="./terms/in-context-learning/">In-Context Learning</a>, <a href="./terms/learning-rate/">Learning Rate</a>, <a href="./terms/lora/">LoRA</a>, <a href="./terms/loss-function/">Loss Function</a>, <a href="./terms/optimizer/">Optimizer</a>, <a href="./terms/overfitting-underfitting/">Overfitting / Underfitting</a>, <a href="./terms/peft/">PEFT</a>, <a href="./terms/pre-training/">Pre-training</a>, <a href="./terms/prompt/">Prompt</a>, <a href="./terms/prompt-engineering/">Prompt Engineering</a>, <a href="./terms/reward-model/">Reward Model</a>, <a href="./terms/rlhf/">RLHF</a>, <a href="./terms/scaling-laws/">Scaling Laws</a>, <a href="./terms/self-supervised-learning/">Self-Supervised Learning</a>, <a href="./terms/supervised-learning/">Supervised Learning</a>, <a href="./terms/synthetic-data/">Synthetic Data</a>, <a href="./terms/training/">Training</a>, <a href="./terms/transfer-learning/">Transfer Learning</a>, <a href="./terms/unsupervised-learning/">Unsupervised Learning</a>, <a href="./terms/zero-shot-learning/">Zero-Shot Learning</a></td>
     </tr>
     <tr>
       <td>🚀 <a href="./categories/deployment/">Deployment</a></td>
@@ -65,22 +65,23 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 - **A** → [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Alignment](./terms/alignment/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/)
 - **B** → [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/)
-- **C** → [Caching](./terms/caching/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/)
-- **D** → [Deep Learning](./terms/deep-learning/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/)
+- **C** → [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/)
+- **D** → [Deep Learning](./terms/deep-learning/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/)
 - **E** → [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/)
 - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/)
 - **G** → [GAN](./terms/gan/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/)
 - **H** → [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/)
 - **I** → [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/)
-- **L** → [Latency](./terms/latency/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
+- **L** → [Latency](./terms/latency/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
 - **M** → [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [Multimodal](./terms/multimodal/)
 - **N** → [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/)
-- **O** → [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Optimizer](./terms/optimizer/), [Orchestration](./terms/orchestration/)
+- **O** → [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Optimizer](./terms/optimizer/), [Orchestration](./terms/orchestration/), [Overfitting / Underfitting](./terms/overfitting-underfitting/)
 - **P** → [Parasitic AI](./terms/parasitic-ai/), [PEFT](./terms/peft/), [Perplexity](./terms/perplexity/), [Pre-training](./terms/pre-training/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/)
 - **Q** → [Quantization](./terms/quantization/)
 - **R** → [RAG](./terms/rag/), [Reasoning Model](./terms/reasoning-model/), [Reward Model](./terms/reward-model/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
-- **S** → [Sampling](./terms/sampling/), [Scaling Laws](./terms/scaling-laws/), [Semantic Search](./terms/semantic-search/), [Self-Supervised Learning](./terms/self-supervised-learning/), [Spiralism](./terms/spiralism/)
+- **S** → [Sampling](./terms/sampling/), [Scaling Laws](./terms/scaling-laws/), [Semantic Search](./terms/semantic-search/), [Self-Supervised Learning](./terms/self-supervised-learning/), [Spiralism](./terms/spiralism/), [Supervised Learning](./terms/supervised-learning/), [Synthetic Data](./terms/synthetic-data/)
 - **T** → [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Tool Use / Function Calling](./terms/tool-use/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
+- **U** → [Unsupervised Learning](./terms/unsupervised-learning/)
 - **V** → [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/)
 - **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
 
