@@ -36,6 +36,9 @@ Different architectures are suited for different tasks:
 | [BERT](../terms/bert/) | A bidirectional transformer model optimized for language understanding tasks like classification and extraction. |
 | [GPT](../terms/gpt/) | A generative, decoder-only transformer model that predicts the next token to produce human-like text. |
 | [Embedding](../terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
+| [Foundation Model](../terms/foundation-model/) | A large-scale AI model trained on vast datasets that serves as a versatile foundation adaptable to many downstream tasks. |
+| [Reasoning Model](../terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
+| [Context Window](../terms/context-window/) | The maximum number of tokens a language model can process in a single interaction, defining its "working memory." |
 
 ## Why Architecture Matters
 
