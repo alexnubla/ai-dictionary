@@ -32,6 +32,10 @@ Different architectures are suited for different tasks:
 | [LSTM (Long Short-Term Memory)](../terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
 | [Object Detection](../terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
 | [LRM (Large Reasoning Model)](../terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy on tasks requiring deep reasoning. |
+| [Deep Learning](../terms/deep-learning/) | A subset of machine learning based on multi-layered neural networks that progressively extract complex features from raw data. |
+| [BERT](../terms/bert/) | A bidirectional transformer model optimized for language understanding tasks like classification and extraction. |
+| [GPT](../terms/gpt/) | A generative, decoder-only transformer model that predicts the next token to produce human-like text. |
+| [Embedding](../terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
 
 ## Why Architecture Matters
 
