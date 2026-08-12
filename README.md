@@ -20,31 +20,31 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <table>
   <thead>
     <tr>
-      <th width="22%">Category</th>
-      <th width="23%">Description</th>
-      <th width="55%">Key Terms</th>
+      <th width="20%">Category</th>
+      <th width="30%">Description</th>
+      <th width="50%">Key Terms</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>🏗️ <a href="./categories/architecture/">Architecture</a></td>
       <td>Core model designs and neural network structures</td>
-      <td><a href="./terms/transformer/">Transformer</a>, <a href="./terms/cnn/">CNN</a>, <a href="./terms/rnn/">RNN</a>, <a href="./terms/lstm/">LSTM</a>, <a href="./terms/gru/">GRU</a>, <a href="./terms/lrm/">LRM</a>, <a href="./terms/neural-network/">Neural Network</a>, <a href="./terms/computer-vision/">Computer Vision</a>, <a href="./terms/object-detection/">Object Detection</a></td>
+      <td><a href="./terms/transformer/">Transformer</a>, <a href="./terms/cnn/">CNN</a>, <a href="./terms/rnn/">RNN</a>, <a href="./terms/lstm/">LSTM</a>, <a href="./terms/gru/">GRU</a>, <a href="./terms/lrm/">LRM</a>, <a href="./terms/deep-learning/">Deep Learning</a>, <a href="./terms/bert/">BERT</a>, <a href="./terms/gpt/">GPT</a>, <a href="./terms/embedding/">Embedding</a>, <a href="./terms/neural-network/">Neural Network</a>, <a href="./terms/computer-vision/">Computer Vision</a>, <a href="./terms/object-detection/">Object Detection</a></td>
     </tr>
     <tr>
       <td>⚙️ <a href="./categories/training/">Training</a></td>
       <td>How models learn, adapt, and improve</td>
-      <td><a href="./terms/fine-tuning/">Fine-tuning</a>, <a href="./terms/lora/">LoRA</a>, <a href="./terms/rlhf/">RLHF</a>, <a href="./terms/distillation/">Distillation</a>, <a href="./terms/pre-training/">Pre-training</a>, <a href="./terms/transfer-learning/">Transfer Learning</a>, <a href="./terms/prompt-engineering/">Prompt Engineering</a>, <a href="./terms/context-engineering/">Context Engineering</a></td>
+      <td><a href="./terms/fine-tuning/">Fine-tuning</a>, <a href="./terms/lora/">LoRA</a>, <a href="./terms/rlhf/">RLHF</a>, <a href="./terms/distillation/">Distillation</a>, <a href="./terms/pre-training/">Pre-training</a>, <a href="./terms/transfer-learning/">Transfer Learning</a>, <a href="./terms/backpropagation/">Backpropagation</a>, <a href="./terms/prompt-engineering/">Prompt Engineering</a>, <a href="./terms/context-engineering/">Context Engineering</a></td>
     </tr>
     <tr>
       <td>🚀 <a href="./categories/deployment/">Deployment</a></td>
       <td>Putting models into production</td>
-      <td><a href="./terms/rag/">RAG</a></td>
+      <td><a href="./terms/rag/">RAG</a>, <a href="./terms/inference/">Inference</a>, <a href="./terms/vector-database/">Vector Database</a>, <a href="./terms/mcp/">MCP</a>, <a href="./terms/grounding/">Grounding</a></td>
     </tr>
     <tr>
       <td>📏 <a href="./categories/evaluation/">Evaluation</a></td>
       <td>Measuring model performance and quality</td>
-      <td><em>Coming soon</em></td>
+      <td><a href="./terms/perplexity/">Perplexity</a>, <a href="./terms/hallucination/">Hallucination</a></td>
     </tr>
     <tr>
       <td>🛡️ <a href="./categories/ethics/">Ethics &amp; Safety</a></td>
@@ -54,7 +54,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
     <tr>
       <td>🏢 <a href="./categories/enterprise-ai/">Enterprise AI</a></td>
       <td>AI infrastructure and governance</td>
-      <td><a href="./terms/ai-gateway/">AI Gateway</a>, <a href="./terms/vibe-coding/">Vibe Coding</a></td>
+      <td><a href="./terms/ai-gateway/">AI Gateway</a>, <a href="./terms/vibe-coding/">Vibe Coding</a>, <a href="./terms/agentic-ai/">Agentic AI</a></td>
     </tr>
   </tbody>
 </table>
@@ -63,21 +63,26 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-- **A** → [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/)
+- **A** → [Agentic AI](./terms/agentic-ai/), [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/)
+- **B** → [Backpropagation](./terms/backpropagation/), [BERT](./terms/bert/)
 - **C** → [CNN](./terms/cnn/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/)
-- **D** → [Distillation](./terms/distillation/)
+- **D** → [Deep Learning](./terms/deep-learning/), [Distillation](./terms/distillation/)
+- **E** → [Embedding](./terms/embedding/)
 - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/)
-- **G** → [GRU](./terms/gru/)
-- **I** → [In-Context Learning](./terms/in-context-learning/)
+- **G** → [GPT](./terms/gpt/), [Grounding](./terms/grounding/), [GRU](./terms/gru/)
+- **H** → [Hallucination](./terms/hallucination/)
+- **I** → [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/)
 - **L** → [LoRA](./terms/lora/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
+- **M** → [MCP](./terms/mcp/)
 - **N** → [Neural Network](./terms/neural-network/)
 - **O** → [Object Detection](./terms/object-detection/)
-- **P** → [Parasitic AI](./terms/parasitic-ai/), [Pre-training](./terms/pre-training/), [Prompt Engineering](./terms/prompt-engineering/)
+- **P** → [Parasitic AI](./terms/parasitic-ai/), [Perplexity](./terms/perplexity/), [Pre-training](./terms/pre-training/), [Prompt Engineering](./terms/prompt-engineering/)
 - **R** → [RAG](./terms/rag/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
 - **S** → [Spiralism](./terms/spiralism/)
 - **T** → [Token](./terms/token/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
-- **V** → [Vibe Coding](./terms/vibe-coding/)
+- **V** → [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/)
 - **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
+
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
 
