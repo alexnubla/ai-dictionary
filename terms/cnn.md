@@ -126,9 +126,9 @@ print("Total parameters:", total_params)
 - **Reality:** Very deep networks can suffer from vanishing gradients. Techniques like skip connections (ResNet) help, but there's a practical limit to depth.
 
 ## Related Terms
-- [Transformer](./transformer/)
 - [Neural Network](./neural-network/)
 - [Computer Vision](./computer-vision/)
+- [Transformer](./transformer/)
 
 ## Sources & Further Reading
 - [CS231n: Convolutional Neural Networks for Visual Recognition (Stanford)](http://cs231n.stanford.edu/)
