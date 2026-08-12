@@ -86,6 +86,7 @@ Create 50-100 examples of ideal email responses:
 - [Transfer Learning](../transfer-learning/)
 - [LoRA](../lora/)
 - [RLHF](../rlhf/)
+- [Distillation](../distillation/)
 - [Pre-training](../pre-training/)
 
 ## Sources & Further Reading
