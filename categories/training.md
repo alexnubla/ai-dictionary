@@ -31,9 +31,12 @@ Training encompasses several phases:
 | [In-Context Learning](/ai-dictionary/terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
 | [LoRA](/ai-dictionary/terms/lora/) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
 | [Loss Function](/ai-dictionary/terms/loss-function/) | A mathematical function that quantifies the difference between model predictions and ground truth, guiding the training process. |
+| [Optimizer](/ai-dictionary/terms/optimizer/) | An algorithm that updates model parameters based on gradients to minimize loss, driving the learning process during training. |
+| [PEFT (Parameter-Efficient Fine-Tuning)](/ai-dictionary/terms/peft/) | A family of techniques that adapt large models by updating only a small subset of parameters (0.1-5%), dramatically reducing fine-tuning costs. |
 | [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
 | [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
 | [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
+| [Reward Model](/ai-dictionary/terms/reward-model/) | A specialized neural network trained to predict human preferences, serving as the scoring function for reinforcement learning alignment. |
 | [RLHF](/ai-dictionary/terms/rlhf/) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
 | [Scaling Laws](/ai-dictionary/terms/scaling-laws/) | Empirical relationships describing how AI model performance improves predictably as you increase model size, data, and compute. |
 | [Self-Supervised Learning](/ai-dictionary/terms/self-supervised-learning/) | A learning paradigm where models learn from unlabeled data by creating their own supervision signals through pretext tasks. |
