@@ -28,6 +28,7 @@ Different architectures are suited for different tasks:
 | [Token](../terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
 | [Neural Network](../terms/neural-network/) | A computational model inspired by the human brain, consisting of interconnected layers of nodes that process input data and learn patterns. |
 | [Computer Vision](../terms/computer-vision/) | A field of AI that enables computers to derive meaningful information from digital images, videos, and other visual inputs. |
+| [LSTM (Long Short-Term Memory)](../terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
 
 ## Why Architecture Matters
 
