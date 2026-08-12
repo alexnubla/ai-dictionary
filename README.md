@@ -17,14 +17,47 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 📂 Browse by Category
 
-| Category | Description | Key Terms |
-|----------|-------------|-----------|
-| 🏗️ [Architecture](./categories/architecture/) | Core model designs and neural network structures | [Transformer](./terms/transformer/), [CNN](./terms/cnn/), [RNN](./terms/rnn/), [LSTM](./terms/lstm/), [GRU](./terms/gru/), [LRM](./terms/lrm/), [Neural Network](./terms/neural-network/), [Computer Vision](./terms/computer-vision/), [Object Detection](./terms/object-detection/) |
-| ⚙️ [Training](./categories/training/) | How models learn, adapt, and improve | [Fine-tuning](./terms/fine-tuning/), [LoRA](./terms/lora/), [RLHF](./terms/rlhf/), [Distillation](./terms/distillation/), [Pre-training](./terms/pre-training/), [Transfer Learning](./terms/transfer-learning/), [Prompt Engineering](./terms/prompt-engineering/), [Context Engineering](./terms/context-engineering/) |
-| 🚀 [Deployment](./categories/deployment/) | Putting models into production | [RAG](./terms/rag/) |
-| 📏 [Evaluation](./categories/evaluation/) | Measuring model performance and quality | *Coming soon* |
-| 🛡️ [Ethics & Safety](./categories/ethics/) | Responsible AI and risk mitigation | [AI Washing](./terms/ai-washing/), [AI Slop](./terms/ai-slop/), [Parasitic AI](./terms/parasitic-ai/), [Spiralism](./terms/spiralism/) |
-| 🏢 [Enterprise AI](./categories/enterprise-ai/) | AI infrastructure and governance | [AI Gateway](./terms/ai-gateway/), [Vibe Coding](./terms/vibe-coding/) |
+<table>
+  <thead>
+    <tr>
+      <th width="22%">Category</th>
+      <th width="23%">Description</th>
+      <th width="55%">Key Terms</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🏗️ <a href="./categories/architecture/">Architecture</a></td>
+      <td>Core model designs and neural network structures</td>
+      <td><a href="./terms/transformer/">Transformer</a>, <a href="./terms/cnn/">CNN</a>, <a href="./terms/rnn/">RNN</a>, <a href="./terms/lstm/">LSTM</a>, <a href="./terms/gru/">GRU</a>, <a href="./terms/lrm/">LRM</a>, <a href="./terms/neural-network/">Neural Network</a>, <a href="./terms/computer-vision/">Computer Vision</a>, <a href="./terms/object-detection/">Object Detection</a></td>
+    </tr>
+    <tr>
+      <td>⚙️ <a href="./categories/training/">Training</a></td>
+      <td>How models learn, adapt, and improve</td>
+      <td><a href="./terms/fine-tuning/">Fine-tuning</a>, <a href="./terms/lora/">LoRA</a>, <a href="./terms/rlhf/">RLHF</a>, <a href="./terms/distillation/">Distillation</a>, <a href="./terms/pre-training/">Pre-training</a>, <a href="./terms/transfer-learning/">Transfer Learning</a>, <a href="./terms/prompt-engineering/">Prompt Engineering</a>, <a href="./terms/context-engineering/">Context Engineering</a></td>
+    </tr>
+    <tr>
+      <td>🚀 <a href="./categories/deployment/">Deployment</a></td>
+      <td>Putting models into production</td>
+      <td><a href="./terms/rag/">RAG</a></td>
+    </tr>
+    <tr>
+      <td>📏 <a href="./categories/evaluation/">Evaluation</a></td>
+      <td>Measuring model performance and quality</td>
+      <td><em>Coming soon</em></td>
+    </tr>
+    <tr>
+      <td>🛡️ <a href="./categories/ethics/">Ethics &amp; Safety</a></td>
+      <td>Responsible AI and risk mitigation</td>
+      <td><a href="./terms/ai-washing/">AI Washing</a>, <a href="./terms/ai-slop/">AI Slop</a>, <a href="./terms/parasitic-ai/">Parasitic AI</a>, <a href="./terms/spiralism/">Spiralism</a></td>
+    </tr>
+    <tr>
+      <td>🏢 <a href="./categories/enterprise-ai/">Enterprise AI</a></td>
+      <td>AI infrastructure and governance</td>
+      <td><a href="./terms/ai-gateway/">AI Gateway</a>, <a href="./terms/vibe-coding/">Vibe Coding</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
