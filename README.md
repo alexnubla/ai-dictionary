@@ -9,7 +9,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
 ## 📊 Quick Stats
-- **Terms:** 52
+- **Terms:** 59
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 12, 2026
 
@@ -29,7 +29,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
     <tr>
       <td>🏗️ <a href="./categories/architecture/">Architecture</a></td>
       <td>Core model designs and neural network structures</td>
-      <td><a href="./terms/transformer/">Transformer</a>, <a href="./terms/cnn/">CNN</a>, <a href="./terms/rnn/">RNN</a>, <a href="./terms/lstm/">LSTM</a>, <a href="./terms/gru/">GRU</a>, <a href="./terms/lrm/">LRM</a>, <a href="./terms/deep-learning/">Deep Learning</a>, <a href="./terms/bert/">BERT</a>, <a href="./terms/gpt/">GPT</a>, <a href="./terms/embedding/">Embedding</a>, <a href="./terms/foundation-model/">Foundation Model</a>, <a href="./terms/reasoning-model/">Reasoning Model</a>, <a href="./terms/context-window/">Context Window</a>, <a href="./terms/neural-network/">Neural Network</a>, <a href="./terms/computer-vision/">Computer Vision</a>, <a href="./terms/object-detection/">Object Detection</a></td>
+      <td><a href="./terms/llm/">LLM</a>, <a href="./terms/transformer/">Transformer</a>, <a href="./terms/cnn/">CNN</a>, <a href="./terms/rnn/">RNN</a>, <a href="./terms/lstm/">LSTM</a>, <a href="./terms/gru/">GRU</a>, <a href="./terms/lrm/">LRM</a>, <a href="./terms/deep-learning/">Deep Learning</a>, <a href="./terms/bert/">BERT</a>, <a href="./terms/gpt/">GPT</a>, <a href="./terms/embedding/">Embedding</a>, <a href="./terms/foundation-model/">Foundation Model</a>, <a href="./terms/reasoning-model/">Reasoning Model</a>, <a href="./terms/context-window/">Context Window</a>, <a href="./terms/neural-network/">Neural Network</a>, <a href="./terms/computer-vision/">Computer Vision</a>, <a href="./terms/object-detection/">Object Detection</a></td>
     </tr>
     <tr>
       <td>⚙️ <a href="./categories/training/">Training</a></td>
@@ -39,7 +39,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
     <tr>
       <td>🚀 <a href="./categories/deployment/">Deployment</a></td>
       <td>Putting models into production</td>
-      <td><a href="./terms/rag/">RAG</a>, <a href="./terms/inference/">Inference</a>, <a href="./terms/vector-database/">Vector Database</a>, <a href="./terms/mcp/">MCP</a>, <a href="./terms/grounding/">Grounding</a>, <a href="./terms/orchestration/">Orchestration</a>, <a href="./terms/temperature/">Temperature</a>, <a href="./terms/inference-time-compute/">Inference-Time Compute</a></td>
+      <td><a href="./terms/rag/">RAG</a>, <a href="./terms/inference/">Inference</a>, <a href="./terms/vector-database/">Vector Database</a>, <a href="./terms/mcp/">MCP</a>, <a href="./terms/grounding/">Grounding</a>, <a href="./terms/orchestration/">Orchestration</a>, <a href="./terms/temperature/">Temperature</a>, <a href="./terms/inference-time-compute/">Inference-Time Compute</a>, <a href="./terms/latency/">Latency</a>, <a href="./terms/throughput/">Throughput</a>, <a href="./terms/observability/">Observability</a></td>
     </tr>
     <tr>
       <td>📏 <a href="./categories/evaluation/">Evaluation</a></td>
@@ -49,12 +49,12 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
     <tr>
       <td>🛡️ <a href="./categories/ethics/">Ethics &amp; Safety</a></td>
       <td>Responsible AI and risk mitigation</td>
-      <td><a href="./terms/ai-washing/">AI Washing</a>, <a href="./terms/ai-slop/">AI Slop</a>, <a href="./terms/parasitic-ai/">Parasitic AI</a>, <a href="./terms/spiralism/">Spiralism</a></td>
+      <td><a href="./terms/ai-washing/">AI Washing</a>, <a href="./terms/ai-slop/">AI Slop</a>, <a href="./terms/parasitic-ai/">Parasitic AI</a>, <a href="./terms/spiralism/">Spiralism</a>, <a href="./terms/guardrails/">Guardrails</a>, <a href="./terms/hitl/">HITL</a></td>
     </tr>
     <tr>
       <td>🏢 <a href="./categories/enterprise-ai/">Enterprise AI</a></td>
       <td>AI infrastructure and governance</td>
-      <td><a href="./terms/ai-gateway/">AI Gateway</a>, <a href="./terms/vibe-coding/">Vibe Coding</a>, <a href="./terms/agentic-ai/">Agentic AI</a></td>
+      <td><a href="./terms/ai-gateway/">AI Gateway</a>, <a href="./terms/vibe-coding/">Vibe Coding</a>, <a href="./terms/agentic-ai/">Agentic AI</a>, <a href="./terms/agent/">Agent</a></td>
     </tr>
   </tbody>
 </table>
@@ -63,23 +63,23 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-- **A** → [Agentic AI](./terms/agentic-ai/), [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/)
+- **A** → [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [Attention Mechanism](./terms/attention-mechanism/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/)
 - **B** → [Backpropagation](./terms/backpropagation/), [BERT](./terms/bert/)
 - **C** → [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/)
 - **D** → [Deep Learning](./terms/deep-learning/), [Deterministic](./terms/deterministic/), [Distillation](./terms/distillation/)
 - **E** → [Embedding](./terms/embedding/)
 - **F** → [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/)
-- **G** → [GPT](./terms/gpt/), [Grounding](./terms/grounding/), [GRU](./terms/gru/)
-- **H** → [Hallucination](./terms/hallucination/)
+- **G** → [GPT](./terms/gpt/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/)
+- **H** → [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/)
 - **I** → [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/)
-- **L** → [LoRA](./terms/lora/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
+- **L** → [Latency](./terms/latency/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
 - **M** → [MCP](./terms/mcp/)
 - **N** → [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/)
-- **O** → [Object Detection](./terms/object-detection/), [Orchestration](./terms/orchestration/)
+- **O** → [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Orchestration](./terms/orchestration/)
 - **P** → [Parasitic AI](./terms/parasitic-ai/), [Perplexity](./terms/perplexity/), [Pre-training](./terms/pre-training/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/)
 - **R** → [RAG](./terms/rag/), [Reasoning Model](./terms/reasoning-model/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/)
 - **S** → [Spiralism](./terms/spiralism/)
-- **T** → [Temperature](./terms/temperature/), [Token](./terms/token/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
+- **T** → [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/)
 - **V** → [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/)
 - **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
 
