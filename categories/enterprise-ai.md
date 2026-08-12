@@ -25,6 +25,7 @@ Enterprise AI encompasses:
 |------|-------------|
 | [AI Gateway](../terms/ai-gateway.md) | A centralized infrastructure layer that manages, secures, and monitors all traffic between an organization's applications and AI models, providing unified control over authentication, routing, cost tracking, and compliance. |
 | [Vibe Coding](../terms/vibe-coding/) | A software development approach where developers write code by describing what they want in natural language and letting AI generate the implementation, going by "vibes" rather than deeply understanding every line. |
+| [Agentic AI](../terms/agentic-ai/) | AI systems designed to autonomously perceive, plan, use tools, and execute multi-step tasks to achieve high-level goals. |
 
 ## Why Enterprise AI Matters
 
