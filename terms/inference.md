@@ -80,6 +80,10 @@ for review, result in zip(new_reviews, results):
 - [Training](../training/)
 - [Latency](../latency/)
 - [Quantization](../quantization/)
+- [Inference-Time Compute](../inference-time-compute/)
+- [Temperature](../temperature/)
+- [Deterministic](../deterministic/)
+- [Non-Deterministic](../non-deterministic/)
 
 ## Sources & Further Reading
 - [Efficient Inference for Large Language00:00:00,000 --> 00:00:00,000
