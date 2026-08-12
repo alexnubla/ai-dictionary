@@ -5,8 +5,6 @@ related: ["Vector Database", "LLM", "Prompt Engineering", "Knowledge Base"]
 date_added: 2026-08-11
 ---
 
-# RAG (Retrieval-Augmented Generation)
-
 An AI framework that improves the accuracy and reliability of Large Language Models by grounding their responses in external, up-to-date, or proprietary data sources.
 
 ## The Simple Version
@@ -17,7 +15,7 @@ Now, imagine that same smart friend has a big filing cabinet right next to them,
 That's what RAG does. It gives the AI a filing cabinet of trustworthy information to look through *before* answering your question. That way, the answer is more likely to be right, and you can even check the source to make sure.
 
 ## Detailed Explanation
-Instead of relying solely on the static, pre-trained knowledge of an LLM (which can lead to hallucinations or outdated info), RAG works in two steps: 
+Instead of relying solely on the static, pre-trained knowledge of an LLM (which can lead to hallucinations or outdated info), RAG works in two steps:
 1. **Retrieval:** When a user asks a question, the system searches a vector database or document store for relevant context.
 2. **Augmentation & Generation:** That retrieved context is appended to the user's prompt and sent to the LLM, which then generates an answer based *only* on the provided facts.
 
@@ -34,9 +32,7 @@ Taking an open-book exam. Instead of memorizing the entire textbook (pre-trainin
 
 ## Code Example
 
-{% raw %}
-<div markdown="1">
-{% highlight python %}
+```python
 # Conceptual RAG flow
 query = "What is the compliance validation rule for this document?"
 
@@ -48,6 +44,15 @@ prompt = "Answer based on this context: " + context + "\n\nQuestion: " + query
 
 # 3. Generate
 response = ai_gateway.generate(prompt)
-{% endhighlight %}
-</div>
-{% endraw %}
+```
+
+## Common Misconceptions
+- **Myth:** RAG is a type of model training.
+- **Reality:** RAG does not change the model's weights at all; it only changes the input prompt dynamically.
+
+## Related Terms
+- [Vector Database](./vector-database/)
+- [Fine-tuning](./fine-tuning/)
+
+## Sources & Further Reading
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (arXiv)](https://arxiv.org/abs/2005.11401)
