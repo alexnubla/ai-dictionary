@@ -78,9 +78,9 @@ print("Ready for neural network inference.")
 - **Reality:** It is heavily used for video analysis, 3D point clouds (LiDAR), and even medical scans (MRI, CT).
 
 ## Related Terms
-- [CNN](./cnn/)
-- [Neural Network](./neural-network/)
-- [Object Detection](./object-detection/)
+- [CNN](../cnn/)
+- [Neural Network](../neural-network/)
+- [Object Detection](../object-detection/)
 
 ## Sources & Further Reading
 - [OpenCV Official Documentation](https://docs.opencv.org/)
