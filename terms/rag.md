@@ -55,6 +55,7 @@ response = ai_gateway.generate(prompt)
 ## Related Terms
 - [Vector Database](../vector-database/)
 - [Fine-tuning](../fine-tuning/)
+- [Context Engineering](../context-engineering/)
 
 ## Sources & Further Reading
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (arXiv)](https://arxiv.org/abs/2005.11401)
