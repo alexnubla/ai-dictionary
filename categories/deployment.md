@@ -22,17 +22,18 @@ Deployment involves:
 
 | Term | Description |
 |------|-------------|
-| [RAG (Retrieval-Augmented Generation)](../terms/rag.md) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations and ensuring factual correctness. |
-| [Inference](../terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
-| [Vector Database](../terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
-| [MCP (Model Context Protocol)](../terms/mcp/) | An open standard protocol for universally connecting LLMs to external data sources, tools, and systems. |
-| [Grounding](../terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
-| [Orchestration](../terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
-| [Temperature](../terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
-| [Inference-Time Compute](../terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
-| [Latency](../terms/latency/) | The time delay between a request and response, critical for user experience and system responsiveness. |
-| [Throughput](../terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
-| [Observability](../terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
+| [Grounding](/ai-dictionary/terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
+| [Inference](/ai-dictionary/terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
+| [Inference-Time Compute](/ai-dictionary/terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
+| [Latency](/ai-dictionary/terms/latency/) | The time delay between a request and response, critical for user experience and system responsiveness. |
+| [MCP (Model Context Protocol)](/ai-dictionary/terms/mcp/) | An open standard protocol for universally connecting LLMs to external data sources, tools, and systems. |
+| [Observability](/ai-dictionary/terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
+| [Orchestration](/ai-dictionary/terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
+| [RAG (Retrieval-Augmented Generation)](/ai-dictionary/terms/rag/) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations and ensuring factual correctness. |
+| [Temperature](/ai-dictionary/terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
+| [Throughput](/ai-dictionary/terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
+| [Vector Database](/ai-dictionary/terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
+
 
 ## Why Deployment Matters
 
