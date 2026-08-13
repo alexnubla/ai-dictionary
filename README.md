@@ -11,9 +11,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 ## 📊 Quick Stats
-- **Terms:** 96
+- **Terms:** 100
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
-- **Last Updated:** August 12, 2026
+- **Last Updated:** August 13, 2026
 
 ---
 
@@ -48,9 +48,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🛡️ Ethics &amp; Safety</strong> — 7 terms · Responsible AI and risk mitigation</summary>
+<summary><strong>🛡️ Ethics &amp; Safety</strong> — 11 terms · Responsible AI and risk mitigation</summary>
 
-<a href="./terms/ai-slop/">AI Slop</a> · <a href="./terms/ai-washing/">AI Washing</a> · <a href="./terms/alignment/">Alignment</a> · <a href="./terms/guardrails/">Guardrails</a> · <a href="./terms/hitl/">HITL</a> · <a href="./terms/parasitic-ai/">Parasitic AI</a> · <a href="./terms/spiralism/">Spiralism</a>
+<a href="./terms/ai-slop/">AI Slop</a> · <a href="./terms/ai-washing/">AI Washing</a> · <a href="./terms/alignment/">Alignment</a> · <a href="./terms/data-privacy/">Data Privacy</a> · <a href="./terms/deepfake/">Deepfake</a> · <a href="./terms/explainability/">Explainability / XAI</a> · <a href="./terms/guardrails/">Guardrails</a> · <a href="./terms/hitl/">HITL</a> · <a href="./terms/jailbreak/">Jailbreak</a> · <a href="./terms/parasitic-ai/">Parasitic AI</a> · <a href="./terms/spiralism/">Spiralism</a>
 
 </details>
 
@@ -68,12 +68,13 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 - **A** → [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Alignment](./terms/alignment/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/)
 - **B** → [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/)
 - **C** → [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/)
-- **D** → [Deep Learning](./terms/deep-learning/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/)
-- **E** → [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/)
+- **D** → [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/)
+- **E** → [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [Explainability / XAI](./terms/explainability/)
 - **F** → [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/)
 - **G** → [GAN](./terms/gan/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/)
 - **H** → [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/)
 - **I** → [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/)
+- **J** → [Jailbreak](./terms/jailbreak/)
 - **K** → [KV Cache](./terms/kv-cache/)
 - **L** → [Latency](./terms/latency/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
 - **M** → [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/)
