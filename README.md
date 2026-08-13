@@ -108,9 +108,6 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ---
 
-
----
-
 ### 🤝 Contributing & License
 Want to add a term? Check out our [Contributing Guidelines](CONTRIBUTING.md). 
 This project is open source under the [MIT License](LICENSE).
