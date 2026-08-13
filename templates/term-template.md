@@ -39,4 +39,23 @@ An everyday comparison to help solidify understanding. This can overlap with "Th
 ```python
 # Minimal, runnable, or illustrative example
 # Keep it short and well-commented
-# If the term isn't code-related, you can omit this section
+# If the term isn't code-related, you can omit this section entirely.
+
+def example_function():
+    return "Hello, AI Dictionary!"
+```
+
+## Common Misconceptions
+- **Myth:** [Insert common myth here]
+- **Reality:** [Insert the factual correction here]
+
+- **Myth:** [Insert common myth here]
+- **Reality:** [Insert the factual correction here]
+
+## Related Terms
+- [Related Term 1](../related-term-1/)
+- [Related Term 2](../related-term-2/)
+
+## Sources & Further Reading
+- [Source 1 Title](https://example.com)
+- [Source 2 Title](https://example.com)
