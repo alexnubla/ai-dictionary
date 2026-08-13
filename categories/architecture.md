@@ -22,6 +22,7 @@ Different architectures are suited for different tasks:
 | Term | Description |
 |------|-------------|
 | [Activation Function](/ai-dictionary/terms/activation-function/) | A mathematical function applied to neuron outputs that introduces non-linearity, enabling neural networks to learn complex patterns. |
+| [AGI (Artificial General Intelligence)](/ai-dictionary/terms/agi/) | A hypothetical form of AI possessing the ability to understand, learn, and apply knowledge across a wide variety of tasks at a human level. |
 | [Artificial Intelligence (AI)](/ai-dictionary/terms/artificial-intelligence/) | The broad field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. |
 | [Attention Mechanism](/ai-dictionary/terms/attention-mechanism/) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context. |
 | [Autoregressive](/ai-dictionary/terms/autoregressive/) | A modeling approach where each element in a sequence is predicted based on all previous elements, generating outputs one token at a time. |
@@ -44,11 +45,13 @@ Different architectures are suited for different tasks:
 | [Machine Learning (ML)](/ai-dictionary/terms/machine-learning/) | A core subset of AI where systems learn to perform tasks and improve by identifying patterns in data, rather than following explicit rules. |
 | [Mixture of Experts (MoE)](/ai-dictionary/terms/moe/) | An architecture using multiple specialized expert sub-networks with a gating mechanism that routes inputs to relevant experts, enabling massive capacity with efficient computation. |
 | [Multimodal](/ai-dictionary/terms/multimodal/) | An AI model capable of processing and understanding multiple data types (text, images, audio, video) simultaneously. |
+| [Narrow AI](/ai-dictionary/terms/narrow-ai/) | AI designed and trained to perform a specific, well-defined task, lacking the ability to generalize its knowledge to unrelated domains. |
 | [Natural Language Processing (NLP)](/ai-dictionary/terms/nlp/) | A specialized branch of AI focused on enabling computers to understand, interpret, manipulate, and generate human language. |
 | [Neural Network](/ai-dictionary/terms/neural-network/) | A computational model inspired by the human brain, consisting of interconnected layers of nodes that process input data and learn patterns. |
 | [Object Detection](/ai-dictionary/terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
 | [RNN](/ai-dictionary/terms/rnn/) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs. |
 | [Reasoning Model](/ai-dictionary/terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
+| [Robotics](/ai-dictionary/terms/robotics/) | The interdisciplinary field combining AI, mechanical engineering, and computer science to create physical machines that can perceive and act in the real world. |
 | [Token](/ai-dictionary/terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
 | [Transformer](/ai-dictionary/terms/transformer/) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs. |
 
