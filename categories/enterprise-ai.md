@@ -32,6 +32,8 @@ Enterprise AI encompasses:
 | [Copilot](/ai-dictionary/terms/copilot/) | An AI system that works alongside a human as an intelligent assistant, augmenting capabilities while the human remains in control. |
 | [MLOps / LLMOps](/ai-dictionary/terms/mlops/) | Practices and tools that combine ML, DevOps, and Data Engineering to reliably deploy, monitor, and maintain AI models in production. |
 | [Model Monitoring / Drift Detection](/ai-dictionary/terms/model-monitoring/) | Continuous tracking of AI model performance to detect degradation caused by changes in data distributions or input-output relationships. |
+| [Open Source](/ai-dictionary/terms/open-source/) | A development model where the source code, and often the training data and methodology, of a software or AI system is made freely available for anyone to view, modify, and distribute. |
+| [Predictive Analytics](/ai-dictionary/terms/predictive-analytics/) | The use of historical data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes. |
 | [Shadow AI](/ai-dictionary/terms/shadow-ai/) | The unauthorized use of AI tools by employees, bypassing official IT channels and creating data security and compliance risks. |
 | [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools. |
 | [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers describe what they want in natural language and let AI generate the implementation. |
