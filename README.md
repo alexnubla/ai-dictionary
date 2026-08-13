@@ -8,6 +8,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **💡 Goal:** To promote AI literacy by providing clear, accessible explanations of complex AI concepts.  
 > Every term includes a **"Simple Version"** written in plain English — no jargon, no assumptions — so anyone can understand, regardless of their technical background.
 
+> **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
+
 ## 📊 Quick Stats
 - **Terms:** 96
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
