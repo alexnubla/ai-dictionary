@@ -17,7 +17,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-131-blue?style=for-the-badge" alt="131 Terms">
+  <img src="https://img.shields.io/badge/Terms-134-blue?style=for-the-badge" alt="134 Terms">
   <img src="https://img.shields.io/badge/Categories-6-green?style=for-the-badge" alt="6 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
@@ -27,10 +27,10 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 📂 Browse by Category
 
-<details>
-<summary><strong>🏗️ Architecture</strong> — 39 terms · Core model designs, neural network structures, and foundational paradigms</summary>
+<<details>
+<summary><strong>️ Architecture</strong> — 42 terms · Core model designs, neural network structures, and foundational paradigms</summary>
 
-<a href="./terms/activation-function/">Activation Function</a> · <a href="./terms/agi/">AGI (Artificial General Intelligence)</a> · <a href="./terms/algorithm/">Algorithm</a> · <a href="./terms/artificial-intelligence/">Artificial Intelligence (AI)</a> · <a href="./terms/attention-mechanism/">Attention Mechanism</a> · <a href="./terms/autoregressive/">Autoregressive</a> · <a href="./terms/bert/">BERT</a> · <a href="./terms/cnn/">CNN</a> · <a href="./terms/computer-vision/">Computer Vision</a> · <a href="./terms/context-window/">Context Window</a> · <a href="./terms/deep-learning/">Deep Learning</a> · <a href="./terms/diffusion-model/">Diffusion Model</a> · <a href="./terms/embedding/">Embedding</a> · <a href="./terms/encoder-decoder/">Encoder-Decoder</a> · <a href="./terms/expert-systems/">Expert Systems</a> · <a href="./terms/foundation-model/">Foundation Model</a> · <a href="./terms/gan/">GAN</a> · <a href="./terms/generative-ai/">Generative AI</a> · <a href="./terms/gpt/">GPT</a> · <a href="./terms/gru/">GRU</a> · <a href="./terms/llm/">LLM</a> · <a href="./terms/lrm/">LRM</a> · <a href="./terms/lstm/">LSTM</a> · <a href="./terms/machine-learning/">Machine Learning (ML)</a> · <a href="./terms/moe/">Mixture of Experts (MoE)</a> · <a href="./terms/model/">Model</a> · <a href="./terms/multimodal/">Multimodal</a> · <a href="./terms/narrow-ai/">Narrow AI</a> · <a href="./terms/nlp/">Natural Language Processing (NLP)</a> · <a href="./terms/neural-network/">Neural Network</a> · <a href="./terms/object-detection/">Object Detection</a> · <a href="./terms/open-weight-model/">Open-Weight Model</a> · <a href="./terms/parameter/">Parameter</a> · <a href="./terms/rnn/">RNN</a> · <a href="./terms/reasoning-model/">Reasoning Model</a> · <a href="./terms/robotics/">Robotics</a> · <a href="./terms/spatial-intelligence/">Spatial Intelligence</a> · <a href="./terms/token/">Token</a> · <a href="./terms/transformer/">Transformer</a>
+<a href="./terms/activation-function/">Activation Function</a> · <a href="./terms/agi/">AGI (Artificial General Intelligence)</a> · <a href="./terms/algorithm/">Algorithm</a> · <a href="./terms/artificial-intelligence/">Artificial Intelligence (AI)</a> · <a href="./terms/attention-mechanism/">Attention Mechanism</a> · <a href="./terms/autoregressive/">Autoregressive</a> · <a href="./terms/bert/">BERT</a> · <a href="./terms/cnn/">CNN</a> · <a href="./terms/computer-vision/">Computer Vision</a> · <a href="./terms/context-window/">Context Window</a> · <a href="./terms/deep-learning/">Deep Learning</a> · <a href="./terms/diffusion-model/">Diffusion Model</a> · <a href="./terms/embedding/">Embedding</a> · <a href="./terms/encoder-decoder/">Encoder-Decoder</a> · <a href="./terms/expert-systems/">Expert Systems</a> · <a href="./terms/foundation-model/">Foundation Model</a> · <a href="./terms/gan/">GAN</a> · <a href="./terms/generative-ai/">Generative AI</a> · <a href="./terms/gpt/">GPT</a> · <a href="./terms/gru/">GRU</a> · <a href="./terms/llm/">LLM</a> · <a href="./terms/lrm/">LRM</a> · <a href="./terms/lstm/">LSTM</a> · <a href="./terms/machine-learning/">Machine Learning (ML)</a> · <a href="./terms/moe/">Mixture of Experts (MoE)</a> · <a href="./terms/model/">Model</a> · <a href="./terms/multimodal/">Multimodal</a> · <a href="./terms/narrow-ai/">Narrow AI</a> · <a href="./terms/nlp/">Natural Language Processing (NLP)</a> · <a href="./terms/neural-network/">Neural Network</a> · <a href="./terms/object-detection/">Object Detection</a> · <a href="./terms/open-weight-model/">Open-Weight Model</a> · <a href="./terms/parameter/">Parameter</a> · <a href="./terms/rnn/">RNN</a> · <a href="./terms/reasoning-model/">Reasoning Model</a> · <a href="./terms/robotics/">Robotics</a> · <a href="./terms/spatial-intelligence/">Spatial Intelligence</a> · <a href="./terms/token/">Token</a> · <a href="./terms/transformer/">Transformer</a> · <a href="./terms/weights/">Weights</a> · <a href="./terms/xgboost/">XGBoost</a> · <a href="./terms/yolo/">YOLO</a>
 
 </details>
 
@@ -97,6 +97,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **T** | [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Tool Use / Function Calling](./terms/tool-use/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/) |
 | **U** | [Unsupervised Learning](./terms/unsupervised-learning/) |
 | **V** | [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/) |
+| **W** | [Weights](./terms/weights/) |
+| **X** | [XGBoost](./terms/xgboost/) |
+| **Y** | [YOLO](./terms/yolo/) |
 | **Z** | [Zero-Shot Learning](./terms/zero-shot-learning/) |
 
 
