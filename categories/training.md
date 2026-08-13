@@ -23,10 +23,11 @@ Training encompasses several phases:
 |------|-------------|
 | [Backpropagation](/ai-dictionary/terms/backpropagation/) | The fundamental algorithm for training neural networks by calculating and propagating error gradients backward to update weights. |
 | [Catastrophic Forgetting](/ai-dictionary/terms/catastrophic-forgetting/) | A phenomenon where a model trained on a new task dramatically loses performance on previously learned tasks, essentially "forgetting" earlier knowledge. |
-| [Chain of Thought (CoT)](/ai-dictionary/terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
-| [Context Engineering](/ai-dictionary/terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs — including prompts, retrieved information, tools, and memory — to elicit desired behaviors. |
-| [Distillation (Knowledge Distillation)](/ai-dictionary/terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
-| [DPO (Direct Preference Optimization)](/ai-dictionary/terms/dpo/) | A simplified approach to aligning language models with human preferences that directly optimizes using preference data without requiring a reward model or reinforcement learning. |
+| [Chain of Thought](/ai-dictionary/terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
+| [Context Engineering](/ai-dictionary/terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs to elicit desired behaviors. |
+| [Data Augmentation](/ai-dictionary/terms/data-augmentation/) | A technique used to artificially increase the size and diversity of a training dataset by applying label-preserving transformations to existing data. |
+| [Distillation](/ai-dictionary/terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
+| [DPO](/ai-dictionary/terms/dpo/) | A simplified approach to aligning language models with human preferences that directly optimizes using preference data without requiring a reward model or reinforcement learning. |
 | [Few-Shot Learning](/ai-dictionary/terms/few-shot-learning/) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
 | [Fine-tuning](/ai-dictionary/terms/fine-tuning/) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
 | [Gradient Descent](/ai-dictionary/terms/gradient-descent/) | An iterative optimization algorithm that minimizes a loss function by updating model parameters in the direction of steepest descent. |
@@ -36,7 +37,7 @@ Training encompasses several phases:
 | [Loss Function](/ai-dictionary/terms/loss-function/) | A mathematical function that quantifies the difference between model predictions and ground truth, guiding the training process. |
 | [Optimizer](/ai-dictionary/terms/optimizer/) | An algorithm that updates model parameters based on gradients to minimize loss, driving the learning process during training. |
 | [Overfitting / Underfitting](/ai-dictionary/terms/overfitting-underfitting/) | Two fundamental failure modes: overfitting (memorizing training data) and underfitting (too simple to capture patterns), representing the bias-variance tradeoff. |
-| [PEFT (Parameter-Efficient Fine-Tuning)](/ai-dictionary/terms/peft/) | A family of techniques that adapt large models by updating only a small subset of parameters (0.1-5%), dramatically reducing fine-tuning costs. |
+| [PEFT](/ai-dictionary/terms/peft/) | A family of techniques that adapt large models by updating only a small subset of parameters (0.1-5%), dramatically reducing fine-tuning costs. |
 | [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
 | [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
 | [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
@@ -50,7 +51,6 @@ Training encompasses several phases:
 | [Transfer Learning](/ai-dictionary/terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
 | [Unsupervised Learning](/ai-dictionary/terms/unsupervised-learning/) | A machine learning paradigm where models discover patterns and structures from unlabeled data without explicit guidance on correct outputs. |
 | [Zero-Shot Learning](/ai-dictionary/terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
-
 
 ## Why Training Matters
 
