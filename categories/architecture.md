@@ -60,6 +60,9 @@ Different architectures are suited for different tasks:
 | [Spatial Intelligence](/ai-dictionary/terms/spatial-intelligence/) | The ability of an AI system to understand, reason about, and interact with the 3D physical world, including object relationships, depth, and physics. |
 | [Token](/ai-dictionary/terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
 | [Transformer](/ai-dictionary/terms/transformer/) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs. |
+| [Weights](/ai-dictionary/terms/weights/) | The numerical values inside a neural network that determine the strength of connections between neurons, representing the model's learned knowledge. |
+| [XGBoost](/ai-dictionary/terms/xgboost/) | A highly optimized machine learning algorithm based on gradient boosted decision trees, renowned for its speed and dominance in handling tabular data. |
+| [YOLO](/ai-dictionary/terms/yolo/) | A state-of-the-art, real-time object detection system that identifies and locates multiple objects within an image in a single pass. |
 
 
 ## Why Architecture Matters
