@@ -25,10 +25,14 @@ Enterprise AI encompasses:
 |------|-------------|
 | [Agent](/ai-dictionary/terms/agent/) | An autonomous AI entity that combines an LLM with tools, memory, and planning to execute multi-step tasks toward goals. |
 | [Agentic AI](/ai-dictionary/terms/agentic-ai/) | AI systems designed to autonomously perceive, plan, use tools, and execute multi-step tasks to achieve high-level goals. |
-| [AI Gateway](/ai-dictionary/terms/ai-gateway/) | A centralized infrastructure layer that manages, secures, and monitors all traffic between an organization's applications and AI models, providing unified control over authentication, routing, cost tracking, and compliance. |
+| [AI Gateway](/ai-dictionary/terms/ai-gateway/) | A centralized infrastructure layer that manages, secures, and monitors all traffic between applications and AI models. |
 | [Compliance](/ai-dictionary/terms/compliance/) | The practice of ensuring AI systems adhere to legal regulations, industry standards, and organizational policies. |
-| [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools, enabling AI to interact with external systems. |
-| [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers write code by describing what they want in natural language and letting AI generate the implementation, going by "vibes" rather than deeply understanding every line. |
+| [Conversational AI](/ai-dictionary/terms/conversational-ai/) | AI systems designed to engage in natural, multi-turn dialogues with humans through text or voice. |
+| [Copilot](/ai-dictionary/terms/copilot/) | An AI system that works alongside a human as an intelligent assistant, augmenting capabilities while the human remains in control. |
+| [MLOps / LLMOps](/ai-dictionary/terms/mlops/) | Practices and tools that combine ML, DevOps, and Data Engineering to reliably deploy, monitor, and maintain AI models in production. |
+| [Model Monitoring / Drift Detection](/ai-dictionary/terms/model-monitoring/) | Continuous tracking of AI model performance to detect degradation caused by changes in data distributions or input-output relationships. |
+| [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools. |
+| [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers describe what they want in natural language and let AI generate the implementation. |
 
 
 ## Why Enterprise AI Matters
