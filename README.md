@@ -74,7 +74,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 ## 🔤 Browse All Terms (A-Z)
 
 | Letter | Terms |
-| :--- | :--- |
+| :---: | :--- |
 | **A** | [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Gateway](./terms/ai-gateway/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/) |
 | **B** | [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/), [Bias](./terms/bias/) |
 | **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/) |
