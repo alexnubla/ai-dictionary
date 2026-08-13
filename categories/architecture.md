@@ -23,6 +23,7 @@ Different architectures are suited for different tasks:
 |------|-------------|
 | [Activation Function](/ai-dictionary/terms/activation-function/) | A mathematical function applied to neuron outputs that introduces non-linearity, enabling neural networks to learn complex patterns. |
 | [AGI (Artificial General Intelligence)](/ai-dictionary/terms/agi/) | A hypothetical form of AI possessing the ability to understand, learn, and apply knowledge across a wide variety of tasks at a human level. |
+| [Algorithm](/ai-dictionary/terms/algorithm/) | A finite, step-by-step sequence of instructions designed to perform a computation or solve a problem, forming the foundation of all software and AI. |
 | [Artificial Intelligence (AI)](/ai-dictionary/terms/artificial-intelligence/) | The broad field of computer science dedicated to creating systems capable of performing tasks that typically require human intelligence. |
 | [Attention Mechanism](/ai-dictionary/terms/attention-mechanism/) | A technique that allows AI models to focus on the most relevant parts of input data when processing information, enabling them to understand context. |
 | [Autoregressive](/ai-dictionary/terms/autoregressive/) | A modeling approach where each element in a sequence is predicted based on all previous elements, generating outputs one token at a time. |
@@ -34,6 +35,7 @@ Different architectures are suited for different tasks:
 | [Diffusion Model](/ai-dictionary/terms/diffusion-model/) | A generative architecture that creates images by gradually denoising random noise, powering modern image generation models. |
 | [Embedding](/ai-dictionary/terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
 | [Encoder-Decoder](/ai-dictionary/terms/encoder-decoder/) | An architecture with an Encoder that processes input into a representation and a Decoder that generates output, used for sequence-to-sequence tasks. |
+| [Expert Systems](/ai-dictionary/terms/expert-systems/) | An early AI paradigm using hand-coded knowledge bases and logical inference rules to emulate human expert decision-making. |
 | [Foundation Model](/ai-dictionary/terms/foundation-model/) | A large-scale AI model trained on vast datasets that serves as a versatile foundation adaptable to many downstream tasks. |
 | [GAN](/ai-dictionary/terms/gan/) | A generative architecture with two competing networks (Generator and Discriminator) trained adversarially to produce realistic outputs. |
 | [Generative AI](/ai-dictionary/terms/generative-ai/) | AI systems designed to create new, original content (text, images, code) by learning the underlying patterns of existing data. |
