@@ -33,6 +33,7 @@ Ethics and safety include:
 | [Ethical AI](/ai-dictionary/terms/ethical-ai/) | A framework of principles and practices designed to ensure AI systems are developed and deployed in a manner that is fair, transparent, accountable, and beneficial to society. |
 | [Explainability / XAI](/ai-dictionary/terms/explainability/) | The ability to understand and clearly articulate how an AI model arrived at a specific decision, bridging the gap between "black box" models and human interpretability. |
 | [Guardrails](/ai-dictionary/terms/guardrails/) | Safety mechanisms and filters that prevent AI systems from producing harmful, inappropriate, or non-compliant outputs. |
+| [Human-Centered AI (HCAI)](/ai-dictionary/terms/human-centered-ai/) | A design philosophy that prioritizes human values, needs, and agency throughout the AI lifecycle, ensuring AI augments rather than replaces humans. |
 | [HITL](/ai-dictionary/terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
 | [Jailbreak](/ai-dictionary/terms/jailbreak/) | An adversarial attack using crafted prompts to bypass an AI model's safety guardrails and ethical constraints. |
 | [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back. |
