@@ -11,7 +11,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 ## 📊 Quick Stats
-- **Terms:** 104
+- **Terms:** 108
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 13, 2026
 
@@ -20,9 +20,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 ## 📂 Browse by Category
 
 <details>
-<summary><strong>🏗️ Architecture</strong> — 26 terms · Core model designs and neural network structures</summary>
+<summary><strong>🏗️ Architecture</strong> — 30 terms · Core model designs, neural network structures, and foundational paradigms</summary>
 
-<a href="./terms/activation-function/">Activation Function</a> · <a href="./terms/attention-mechanism/">Attention Mechanism</a> · <a href="./terms/autoregressive/">Autoregressive</a> · <a href="./terms/bert/">BERT</a> · <a href="./terms/cnn/">CNN</a> · <a href="./terms/computer-vision/">Computer Vision</a> · <a href="./terms/context-window/">Context Window</a> · <a href="./terms/deep-learning/">Deep Learning</a> · <a href="./terms/diffusion-model/">Diffusion Model</a> · <a href="./terms/embedding/">Embedding</a> · <a href="./terms/encoder-decoder/">Encoder-Decoder</a> · <a href="./terms/foundation-model/">Foundation Model</a> · <a href="./terms/gan/">GAN</a> · <a href="./terms/gpt/">GPT</a> · <a href="./terms/gru/">GRU</a> · <a href="./terms/llm/">LLM</a> · <a href="./terms/lrm/">LRM</a> · <a href="./terms/lstm/">LSTM</a> · <a href="./terms/moe/">Mixture of Experts (MoE)</a> · <a href="./terms/multimodal/">Multimodal</a> · <a href="./terms/neural-network/">Neural Network</a> · <a href="./terms/object-detection/">Object Detection</a> · <a href="./terms/rnn/">RNN</a> · <a href="./terms/reasoning-model/">Reasoning Model</a> · <a href="./terms/token/">Token</a> · <a href="./terms/transformer/">Transformer</a>
+<a href="./terms/activation-function/">Activation Function</a> · <a href="./terms/artificial-intelligence/">Artificial Intelligence (AI)</a> · <a href="./terms/attention-mechanism/">Attention Mechanism</a> · <a href="./terms/autoregressive/">Autoregressive</a> · <a href="./terms/bert/">BERT</a> · <a href="./terms/cnn/">CNN</a> · <a href="./terms/computer-vision/">Computer Vision</a> · <a href="./terms/context-window/">Context Window</a> · <a href="./terms/deep-learning/">Deep Learning</a> · <a href="./terms/diffusion-model/">Diffusion Model</a> · <a href="./terms/embedding/">Embedding</a> · <a href="./terms/encoder-decoder/">Encoder-Decoder</a> · <a href="./terms/foundation-model/">Foundation Model</a> · <a href="./terms/gan/">GAN</a> · <a href="./terms/generative-ai/">Generative AI</a> · <a href="./terms/gpt/">GPT</a> · <a href="./terms/gru/">GRU</a> · <a href="./terms/llm/">LLM</a> · <a href="./terms/lrm/">LRM</a> · <a href="./terms/lstm/">LSTM</a> · <a href="./terms/machine-learning/">Machine Learning (ML)</a> · <a href="./terms/moe/">Mixture of Experts (MoE)</a> · <a href="./terms/multimodal/">Multimodal</a> · <a href="./terms/nlp/">Natural Language Processing (NLP)</a> · <a href="./terms/neural-network/">Neural Network</a> · <a href="./terms/object-detection/">Object Detection</a> · <a href="./terms/rnn/">RNN</a> · <a href="./terms/reasoning-model/">Reasoning Model</a> · <a href="./terms/token/">Token</a> · <a href="./terms/transformer/">Transformer</a>
 
 </details>
 
@@ -65,21 +65,21 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-- **A** → [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Alignment](./terms/alignment/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/)
+- **A** → [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/)
 - **B** → [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/)
 - **C** → [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Conversational AI](./terms/conversational-ai/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Copilot](./terms/copilot/)
 - **M** → [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/)
 - **D** → [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/)
 - **E** → [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [Explainability / XAI](./terms/explainability/)
 - **F** → [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/)
-- **G** → [GAN](./terms/gan/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/)
+- **G** → [GAN](./terms/gan/), [Generative AI](./terms/generative-ai/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/)
 - **H** → [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/)
 - **I** → [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/)
 - **J** → [Jailbreak](./terms/jailbreak/)
 - **K** → [KV Cache](./terms/kv-cache/)
 - **L** → [Latency](./terms/latency/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/)
-- **M** → [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/)
-- **N** → [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/)
+- **M** → [Machine Learning (ML)](./terms/machine-learning/), [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/)
+- **N** → [Natural Language Processing (NLP)](./terms/nlp/), [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/)
 - **O** → [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Optimizer](./terms/optimizer/), [Orchestration](./terms/orchestration/), [Overfitting / Underfitting](./terms/overfitting-underfitting/)
 - **P** → [Parasitic AI](./terms/parasitic-ai/), [PEFT](./terms/peft/), [Perplexity](./terms/perplexity/), [Pre-training](./terms/pre-training/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/), [Prompt Injection](./terms/prompt-injection/)
 - **Q** → [Quantization](./terms/quantization/)
@@ -89,6 +89,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 - **U** → [Unsupervised Learning](./terms/unsupervised-learning/)
 - **V** → [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/)
 - **Z** → [Zero-Shot Learning](./terms/zero-shot-learning/)
+
 
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
