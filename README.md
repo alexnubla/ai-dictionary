@@ -11,7 +11,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 ## 📊 Quick Stats
-- **Terms:** 100
+- **Terms:** 104
 - **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
 - **Last Updated:** August 13, 2026
 
@@ -55,9 +55,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🏢 Enterprise AI</strong> — 6 terms · AI infrastructure and governance</summary>
+<summary><strong>🏢 Enterprise AI</strong> — 10 terms · AI infrastructure and governance</summary>
 
-<a href="./terms/agent/">Agent</a> · <a href="./terms/agentic-ai/">Agentic AI</a> · <a href="./terms/ai-gateway/">AI Gateway</a> · <a href="./terms/compliance/">Compliance</a> · <a href="./terms/tool-use/">Tool Use / Function Calling</a> · <a href="./terms/vibe-coding/">Vibe Coding</a>
+<a href="./terms/agent/">Agent</a> · <a href="./terms/agentic-ai/">Agentic AI</a> · <a href="./terms/ai-gateway/">AI Gateway</a> · <a href="./terms/compliance/">Compliance</a> · <a href="./terms/conversational-ai/">Conversational AI</a> · <a href="./terms/copilot/">Copilot</a> · <a href="./terms/mlops/">MLOps / LLMOps</a> · <a href="./terms/model-monitoring/">Model Monitoring / Drift Detection</a> · <a href="./terms/tool-use/">Tool Use / Function Calling</a> · <a href="./terms/vibe-coding/">Vibe Coding</a>
 
 </details>
 
@@ -67,7 +67,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 - **A** → [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AI Gateway](./terms/ai-gateway/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Alignment](./terms/alignment/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/)
 - **B** → [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/)
-- **C** → [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/)
+- **C** → [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [CNN](./terms/cnn/), [Chain of Thought](./terms/chain-of-thought/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Conversational AI](./terms/conversational-ai/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Copilot](./terms/copilot/)
+- **M** → [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/)
 - **D** → [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/)
 - **E** → [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [Explainability / XAI](./terms/explainability/)
 - **F** → [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/)
