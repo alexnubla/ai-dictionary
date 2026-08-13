@@ -26,6 +26,7 @@ Enterprise AI encompasses:
 | [Agent](/ai-dictionary/terms/agent/) | An autonomous AI entity that combines an LLM with tools, memory, and planning to execute multi-step tasks toward goals. |
 | [Agentic AI](/ai-dictionary/terms/agentic-ai/) | AI systems designed to autonomously perceive, plan, use tools, and execute multi-step tasks to achieve high-level goals. |
 | [AI Gateway](/ai-dictionary/terms/ai-gateway/) | A centralized infrastructure layer that manages, secures, and monitors all traffic between applications and AI models. |
+| [Chatbot](/ai-dictionary/terms/chatbot/) | A software application designed to simulate conversation with human users, ranging from simple rule-based scripts to advanced AI-powered systems. |
 | [Compliance](/ai-dictionary/terms/compliance/) | The practice of ensuring AI systems adhere to legal regulations, industry standards, and organizational policies. |
 | [Conversational AI](/ai-dictionary/terms/conversational-ai/) | AI systems designed to engage in natural, multi-turn dialogues with humans through text or voice. |
 | [Copilot](/ai-dictionary/terms/copilot/) | An AI system that works alongside a human as an intelligent assistant, augmenting capabilities while the human remains in control. |
