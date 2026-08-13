@@ -23,14 +23,17 @@ Ethics and safety include:
 
 | Term | Description |
 |------|-------------|
-| [AI Slop](/ai-dictionary/terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem. |
+| [AI Safety](/ai-dictionary/terms/ai-safety/) | The technical and engineering discipline focused on ensuring AI systems behave reliably, robustly, and predictably, preventing unintended or harmful outcomes. |
+| [AI Slop](/ai-dictionary/terms/ai-slop/) | Low-quality, mass-produced AI-generated content that floods the internet, degrading the information ecosystem and making it harder to find trustworthy information. |
 | [AI Washing](/ai-dictionary/terms/ai-washing/) | The practice of exaggerating or misrepresenting AI capabilities in marketing to create an impression of sophistication that doesn't match reality. |
 | [Alignment](/ai-dictionary/terms/alignment/) | The field focused on ensuring AI systems behave in accordance with human intentions, values, and ethical principles. |
+| [Bias](/ai-dictionary/terms/bias/) | Systematic and repeatable errors in an AI system that create unfair outcomes, often reflecting historical prejudices or skewed representations in the training data. |
 | [Data Privacy](/ai-dictionary/terms/data-privacy/) | The practice of ensuring sensitive PII and proprietary data are protected from unauthorized access, leakage, or memorization by AI models. |
 | [Deepfake](/ai-dictionary/terms/deepfake/) | Highly realistic, AI-generated synthetic media that manipulate human likenesses, making it appear as though a real person said or did something they didn't. |
+| [Ethical AI](/ai-dictionary/terms/ethical-ai/) | A framework of principles and practices designed to ensure AI systems are developed and deployed in a manner that is fair, transparent, accountable, and beneficial to society. |
 | [Explainability / XAI](/ai-dictionary/terms/explainability/) | The ability to understand and clearly articulate how an AI model arrived at a specific decision, bridging the gap between "black box" models and human interpretability. |
 | [Guardrails](/ai-dictionary/terms/guardrails/) | Safety mechanisms and filters that prevent AI systems from producing harmful, inappropriate, or non-compliant outputs. |
-| [HITL (Human in the Loop)](/ai-dictionary/terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
+| [HITL](/ai-dictionary/terms/hitl/) | A design pattern where humans provide oversight, approval, or intervention in AI workflows to ensure safety and quality. |
 | [Jailbreak](/ai-dictionary/terms/jailbreak/) | An adversarial attack using crafted prompts to bypass an AI model's safety guardrails and ethical constraints. |
 | [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back. |
 | [Spiralism (Model Collapse)](/ai-dictionary/terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
