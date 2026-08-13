@@ -70,7 +70,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong> Healthcare AI</strong> — 8 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
+<summary><strong>🏥 Healthcare AI</strong> — 8 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
 
 <a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · <a href="./terms/clinical-nlp/">Clinical NLP</a> · <a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · <a href="./terms/diagnostic-ai/">Diagnostic AI</a> · <a href="./terms/dicom/">DICOM</a> · <a href="./terms/ehr-integration/">EHR Integration</a> · <a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · <a href="./terms/fhir/">FHIR</a>
 
