@@ -28,9 +28,11 @@ Training encompasses several phases:
 | [Data Augmentation](/ai-dictionary/terms/data-augmentation/) | A technique used to artificially increase the size and diversity of a training dataset by applying label-preserving transformations to existing data. |
 | [Distillation](/ai-dictionary/terms/distillation/) | A training technique where a smaller "student" model learns to mimic a larger "teacher" model, producing a compact model that retains much of the teacher's performance. |
 | [DPO](/ai-dictionary/terms/dpo/) | A simplified approach to aligning language models with human preferences that directly optimizes using preference data without requiring a reward model or reinforcement learning. |
+| [Federated Learning](/ai-dictionary/terms/federated-learning/) | A decentralized ML technique where models are trained across multiple devices without exchanging raw data, preserving privacy. |
 | [Few-Shot Learning](/ai-dictionary/terms/few-shot-learning/) | A machine learning approach where models learn to perform tasks from only a handful of examples (typically 1-10), rather than requiring thousands or millions of training samples. |
 | [Fine-tuning](/ai-dictionary/terms/fine-tuning/) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case, using techniques like LoRA for efficiency. |
 | [Gradient Descent](/ai-dictionary/terms/gradient-descent/) | An iterative optimization algorithm that minimizes a loss function by updating model parameters in the direction of steepest descent. |
+| [Hyperparameter](/ai-dictionary/terms/hyperparameter/) | A configuration setting external to the model that controls the training process (e.g., learning rate, batch size), set before training begins. |
 | [In-Context Learning](/ai-dictionary/terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
 | [Learning Rate](/ai-dictionary/terms/learning-rate/) | A critical hyperparameter controlling the size of optimization steps during training, with values that are too high causing instability and too low causing slow convergence. |
 | [LoRA](/ai-dictionary/terms/lora/) | A parameter-efficient fine-tuning technique that adapts large language models by training only small, low-rank matrices instead of all model parameters, dramatically reducing computational cost. |
@@ -51,6 +53,7 @@ Training encompasses several phases:
 | [Transfer Learning](/ai-dictionary/terms/transfer-learning/) | A technique where knowledge from one task is applied to a related task, reducing data and compute requirements. |
 | [Unsupervised Learning](/ai-dictionary/terms/unsupervised-learning/) | A machine learning paradigm where models discover patterns and structures from unlabeled data without explicit guidance on correct outputs. |
 | [Zero-Shot Learning](/ai-dictionary/terms/zero-shot-learning/) | A machine learning approach where models perform tasks without seeing any task-specific examples, relying on pre-trained knowledge. |
+
 
 ## Why Training Matters
 
