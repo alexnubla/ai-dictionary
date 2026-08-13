@@ -17,8 +17,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-134-blue?style=for-the-badge" alt="134 Terms">
-  <img src="https://img.shields.io/badge/Categories-6-green?style=for-the-badge" alt="6 Categories">
+  <img src="https://img.shields.io/badge/Terms-142-blue?style=for-the-badge" alt="142 Terms">
+  <img src="https://img.shields.io/badge/Categories-7-green?style=for-the-badge" alt="7 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
 </p>
@@ -69,6 +69,13 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 </details>
 
+<details>
+<summary><strong> Healthcare AI</strong> — 8 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
+
+<a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · <a href="./terms/clinical-nlp/">Clinical NLP</a> · <a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · <a href="./terms/diagnostic-ai/">Diagnostic AI</a> · <a href="./terms/dicom/">DICOM</a> · <a href="./terms/ehr-integration/">EHR Integration</a> · <a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · <a href="./terms/fhir/">FHIR</a>
+
+</details>
+
 ---
 
 ## 🔤 Browse All Terms (A-Z)
@@ -77,10 +84,10 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | :---: | :--- |
 | **A** | [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Gateway](./terms/ai-gateway/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [Attention Mechanism](./terms/attention-mechanism/), [Autoregressive](./terms/autoregressive/) |
 | **B** | [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/), [Bias](./terms/bias/) |
-| **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/) |
-| **D** | [Data Augmentation](./terms/data-augmentation/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/) |
-| **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/), [Expert Systems](./terms/expert-systems/) |
-| **F** | [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/) |
+| **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [Clinical Decision Support (CDS)](./terms/clinical-decision-support/), [Clinical NLP](./terms/clinical-nlp/), [Clinical Trials AI](./terms/clinical-trials-ai/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/) |
+| **D** | [Data Augmentation](./terms/data-augmentation/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/) |
+| **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/) |
+| **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/) |
 | **G** | [GAN](./terms/gan/), [Generative AI](./terms/generative-ai/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Graphics Processing Unit (GPU)](./terms/gpu/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
 | **H** | [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/), [Human-Centered AI (HCAI)](./terms/human-centered-ai/), [Hyperparameter](./terms/hyperparameter/) |
 | **I** | [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/) |
