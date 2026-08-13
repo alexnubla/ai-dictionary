@@ -26,6 +26,7 @@ Deployment involves:
 | [Caching](/ai-dictionary/terms/caching/) | Storing and reusing previous computation results to avoid redundant work, reducing latency and costs. |
 | [Edge Computing](/ai-dictionary/terms/edge-computing/) | Running AI inference on local devices rather than cloud infrastructure, enabling low-latency, privacy-preserving applications. |
 | [Feature Store](/ai-dictionary/terms/feature-store/) | A centralized infrastructure layer that manages, stores, and serves ML features for both training and inference, ensuring consistency and enabling reuse. |
+| [Graphics Processing Unit (GPU)](/ai-dictionary/terms/gpu/) | Specialized hardware with thousands of parallel cores, foundational for training and running AI models due to its ability to perform massive parallel computations. |
 | [Grounding](/ai-dictionary/terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
 | [Inference](/ai-dictionary/terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
 | [Inference-Time Compute](/ai-dictionary/terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
