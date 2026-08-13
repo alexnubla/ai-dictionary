@@ -43,6 +43,7 @@ Training encompasses several phases:
 | [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
 | [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
 | [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
+| [Reinforcement Learning (RL)](/ai-dictionary/terms/reinforcement-learning/) | A type of ML where an agent learns to make decisions by interacting with an environment, receiving rewards for good actions and penalties for bad ones. |
 | [Reward Model](/ai-dictionary/terms/reward-model/) | A specialized neural network trained to predict human preferences, serving as the scoring function for reinforcement learning alignment. |
 | [RLHF](/ai-dictionary/terms/rlhf/) | A training technique that aligns AI models with human preferences by using feedback from human raters to guide the model toward generating helpful, harmless, and honest outputs. |
 | [Scaling Laws](/ai-dictionary/terms/scaling-laws/) | Empirical relationships describing how AI model performance improves predictably as you increase model size, data, and compute. |
