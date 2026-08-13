@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="The AI Dictionary.png" alt="AI Dictionary of Terms" width="100%" style="max-width: 1200px; border-radius: 12px;">
+</p>
+
+---
+
 # 🤖 AI Dictionary of Terms
 
 A curated, living dictionary of artificial intelligence and machine learning terminology.  
