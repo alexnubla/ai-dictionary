@@ -14,10 +14,14 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
-## 📊 Quick Stats
-- **Terms:** 131
-- **Categories:** 6 (Architecture, Training, Deployment, Evaluation, Ethics & Safety, Enterprise AI)
-- **Last Updated:** August 13, 2026
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Terms-131-blue?style=for-the-badge" alt="131 Terms">
+  <img src="https://img.shields.io/badge/Categories-6-green?style=for-the-badge" alt="6 Categories">
+  <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
+  <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
+</p>
 
 ---
 
@@ -59,7 +63,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong> Enterprise AI</strong> — 14 terms · AI infrastructure, governance, and organizational adoption</summary>
+<summary><strong>🏢 Enterprise AI</strong> — 14 terms · AI infrastructure, governance, and organizational adoption</summary>
 
 <a href="./terms/agent/">Agent</a> · <a href="./terms/agentic-ai/">Agentic AI</a> · <a href="./terms/ai-gateway/">AI Gateway</a> · <a href="./terms/chatbot/">Chatbot</a> · <a href="./terms/compliance/">Compliance</a> · <a href="./terms/conversational-ai/">Conversational AI</a> · <a href="./terms/copilot/">Copilot</a> · <a href="./terms/mlops/">MLOps / LLMOps</a> · <a href="./terms/model-monitoring/">Model Monitoring / Drift Detection</a> · <a href="./terms/open-source/">Open Source</a> · <a href="./terms/predictive-analytics/">Predictive Analytics</a> · <a href="./terms/shadow-ai/">Shadow AI</a> · <a href="./terms/tool-use/">Tool Use / Function Calling</a> · <a href="./terms/vibe-coding/">Vibe Coding</a>
 
@@ -102,24 +106,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 ---
 
 
-## 🤝 How to Contribute
-
-We welcome contributions! Whether you're clarifying a definition or adding a new term, here's how to get involved:
-
-1. **Fork** this repository.
-2. **Copy** the [Term Template](./templates/term-template/) to create a new file in the `/terms/` directory (e.g., `terms/new-term.md`).
-3. **Fill out** all sections, including **"The Simple Version"** for accessibility.
-4. **Send me your term file** — I'll review it, update the README to include your new term in the Category and A-Z lists, and merge it into the dictionary.
-5. **Submit** a Pull Request with your term file.
-
-**Contribution Standards:**
-- Every term must include "The Simple Version" for non-technical readers.
-- Business context should be generalized (not company-specific).
-- Include 2-4 high-quality external sources.
-- Link to related terms within the dictionary.
-
 ---
 
-## 📜 License
-
-MIT License — Feel free to use, share, and build upon this dictionary. See the [LICENSE](LICENSE) file for details.
+### 🤝 Contributing & License
+Want to add a term? Check out our [Contributing Guidelines](CONTRIBUTING.md). 
+This project is open source under the [MIT License](LICENSE).
