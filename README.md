@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AI Dictionary of Terms | 160+ Definitions Explained Simply"
+description: "A curated, living dictionary of AI and machine learning terminology. 160+ terms with plain-English explanations and technical definitions."
+---
 <p align="center">
   <img src="banner-ai-dictionary-1.png" alt="AI Dictionary of Terms" width="100%" style="max-width: 1200px; border-radius: 12px;">
 </p>
