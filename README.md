@@ -2,11 +2,7 @@
   <img src="banner-ai-dictionary-1.png" alt="AI Dictionary of Terms" width="100%" style="max-width: 1200px; border-radius: 12px;">
 </p>
 
-A curated, living dictionary of **artificial intelligence** and machine learning **terminology** with 160+ definitions explained simply.
-
----
-
-A curated, living dictionary of artificial intelligence and machine learning terminology.  
+A curated, living dictionary of **artificial intelligence** and machine learning **terminology** with 160+ definitions explained simply. 
 Built for **everyone** — from complete beginners to seasoned practitioners.
 
 > **Created and curated by [Alex Nubla](https://www.linkedin.com/in/alexnubla/).**
