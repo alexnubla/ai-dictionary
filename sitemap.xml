@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- 1. Homepage (Highest Priority) -->
   <url>
     <loc>https://alexnubla.github.io/ai-dictionary/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Add your key term pages here -->
+
+  <!-- 2. Key Category Hub Pages (High Priority for Topical Authority) -->
   <url>
-    <loc>https://alexnubla.github.io/ai-dictionary/terms/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://alexnubla.github.io/ai-dictionary/categories/architecture/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://alexnubla.github.io/ai-dictionary/categories/healthcare-ai/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexnubla.github.io/ai-dictionary/categories/legal-ai/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexnubla.github.io/ai-dictionary/categories/enterprise-ai/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 3. Example High-Value Individual Term Pages -->
+  <!-- As your site grows, you can add more of these blocks for your most popular terms -->
+  <url>
+    <loc>https://alexnubla.github.io/ai-dictionary/terms/artificial-intelligence/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alexnubla.github.io/ai-dictionary/terms/machine-learning/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
