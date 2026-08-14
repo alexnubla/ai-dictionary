@@ -17,7 +17,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-142-blue?style=for-the-badge" alt="142 Terms">
+  <img src="https://img.shields.io/badge/Terms-149-blue?style=for-the-badge" alt="149 Terms">
   <img src="https://img.shields.io/badge/Categories-7-green?style=for-the-badge" alt="7 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
@@ -70,9 +70,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🏥 Healthcare AI</strong> — 8 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
+<summary><strong>🏥 Healthcare AI</strong> — 15 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
 
-<a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · <a href="./terms/clinical-nlp/">Clinical NLP</a> · <a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · <a href="./terms/diagnostic-ai/">Diagnostic AI</a> · <a href="./terms/dicom/">DICOM</a> · <a href="./terms/ehr-integration/">EHR Integration</a> · <a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · <a href="./terms/fhir/">FHIR</a>
+<a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · <a href="./terms/clinical-nlp/">Clinical NLP</a> · <a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · <a href="./terms/diagnostic-ai/">Diagnostic AI</a> · <a href="./terms/dicom/">DICOM</a> · <a href="./terms/ehr-integration/">EHR Integration</a> · <a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · <a href="./terms/fhir/">FHIR</a> · <a href="./terms/health-informatics/">Health Informatics</a> · <a href="./terms/interoperability/">Interoperability</a> · <a href="./terms/medical-imaging-ai/">Medical Imaging AI</a> · <a href="./terms/phi/">PHI</a> · <a href="./terms/precision-medicine/">Precision Medicine</a> · <a href="./terms/remote-patient-monitoring/">Remote Patient Monitoring (RPM)</a> · <a href="./terms/regulatory-ai/">Regulatory AI</a>
 
 </details>
 
@@ -89,17 +89,17 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/) |
 | **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/) |
 | **G** | [GAN](./terms/gan/), [Generative AI](./terms/generative-ai/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Graphics Processing Unit (GPU)](./terms/gpu/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
-| **H** | [Hallucination](./terms/hallucination/), [HITL](./terms/hitl/), [Human-Centered AI (HCAI)](./terms/human-centered-ai/), [Hyperparameter](./terms/hyperparameter/) |
-| **I** | [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/) |
+| **H** | [Hallucination](./terms/hallucination/), [Health Informatics](./terms/health-informatics/), [HITL](./terms/hitl/), [Human-Centered AI (HCAI)](./terms/human-centered-ai/), [Hyperparameter](./terms/hyperparameter/) |
+| **I** | [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/), [Interoperability](./terms/interoperability/) |
 | **J** | [Jailbreak](./terms/jailbreak/) |
 | **K** | [KV Cache](./terms/kv-cache/) |
 | **L** | [Latency](./terms/latency/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/) |
-| **M** | [Machine Learning (ML)](./terms/machine-learning/), [MCP](./terms/mcp/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model](./terms/model/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/) |
+| **M** | [Machine Learning (ML)](./terms/machine-learning/), [MCP](./terms/mcp/), [Medical Imaging AI](./terms/medical-imaging-ai/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model](./terms/model/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/) |
 | **N** | [Narrow AI](./terms/narrow-ai/), [Natural Language Processing (NLP)](./terms/nlp/), [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/) |
 | **O** | [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Open Source](./terms/open-source/), [Open-Weight Model](./terms/open-weight-model/), [Optimizer](./terms/optimizer/), [Orchestration](./terms/orchestration/), [Overfitting / Underfitting](./terms/overfitting-underfitting/) |
-| **P** | [Parameter](./terms/parameter/), [Parasitic AI](./terms/parasitic-ai/), [PEFT](./terms/peft/), [Perplexity](./terms/perplexity/), [Predictive Analytics](./terms/predictive-analytics/), [Pre-training](./terms/pre-training/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/), [Prompt Injection](./terms/prompt-injection/) |
+| **P** | [Parameter](./terms/parameter/), [Parasitic AI](./terms/parasitic-ai/), [PEFT](./terms/peft/), [Perplexity](./terms/perplexity/), [PHI (Protected Health Information)](./terms/phi/), [Precision Medicine](./terms/precision-medicine/), [Predictive Analytics](./terms/predictive-analytics/), [Pre-training](./terms/pre-training/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/), [Prompt Injection](./terms/prompt-injection/) |
 | **Q** | [Quantization](./terms/quantization/) |
-| **R** | [RAG](./terms/rag/), [Reasoning Model](./terms/reasoning-model/), [Reinforcement Learning (RL)](./terms/reinforcement-learning/), [Responsible AI](./terms/responsible-ai/), [Reward Model](./terms/reward-model/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/), [Robotics](./terms/robotics/) |
+| **R** | [RAG](./terms/rag/), [Reasoning Model](./terms/reasoning-model/), [Regulatory AI](./terms/regulatory-ai/), [Reinforcement Learning (RL)](./terms/reinforcement-learning/), [Remote Patient Monitoring (RPM)](./terms/remote-patient-monitoring/), [Responsible AI](./terms/responsible-ai/), [Reward Model](./terms/reward-model/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/), [Robotics](./terms/robotics/) |
 | **S** | [Sampling](./terms/sampling/), [Scaling Laws](./terms/scaling-laws/), [Semantic Search](./terms/semantic-search/), [Self-Supervised Learning](./terms/self-supervised-learning/), [Shadow AI](./terms/shadow-ai/), [Spatial Intelligence](./terms/spatial-intelligence/), [Speculative Decoding](./terms/speculative-decoding/), [Spiralism](./terms/spiralism/), [Streaming](./terms/streaming/), [Supervised Learning](./terms/supervised-learning/), [Synthetic Data](./terms/synthetic-data/) |
 | **T** | [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Tool Use / Function Calling](./terms/tool-use/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/) |
 | **U** | [Unsupervised Learning](./terms/unsupervised-learning/) |
