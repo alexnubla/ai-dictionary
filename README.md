@@ -23,22 +23,6 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ---
 
-## ❓ Frequently Asked Questions
-
-**What is an AI dictionary?**  
-An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone.
-
-**How many terms are in this AI terminology glossary?**  
-This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
-
-**Who is this AI dictionary for?**  
-It is built for everyone. Every term includes a "Simple Version" written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners.
-
-**Is this AI dictionary free to use?**  
-Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary.
-
----
-
 ## 📂 Browse by Category
 
 <details>
@@ -135,6 +119,21 @@ Yes! This is an open-source project licensed under the MIT License. You are free
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
 
+---
+
+## ❓ Frequently Asked Questions
+
+**What is an AI dictionary?**  
+An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone.
+
+**How many terms are in this AI terminology glossary?**  
+This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
+
+**Who is this AI dictionary for?**  
+It is built for everyone. Every term includes a "Simple Version" written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners.
+
+**Is this AI dictionary free to use?**  
+Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary.
 
 ---
 
