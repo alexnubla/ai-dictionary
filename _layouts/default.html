@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="AwSx8fOEbPm6Tlvarv8CFakRWVvQPGpzBleUiKPCrkQ" />
+    
+    <!-- CRITICAL SEO TAGS -->
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="{{ page.title | default: site.title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | remove: 'index.html' }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/banner-ai-dictionary-1.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}/banner-ai-dictionary-1.png">
+    
+    <!-- Structured Data: DefinedTermSet -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DefinedTermSet",
+      "name": "AI Dictionary of Terms",
+      "description": "A curated dictionary of artificial intelligence and machine learning terminology with 160+ definitions",
+      "url": "{{ site.url }}/",
+      "hasDefinedTerm": [
+        { "@type": "DefinedTerm", "name": "Artificial Intelligence", "description": "The simulation of human intelligence processes by machines" },
+        { "@type": "DefinedTerm", "name": "Machine Learning", "description": "A subset of AI that enables systems to learn from data" },
+        { "@type": "DefinedTerm", "name": "Large Language Model", "description": "A type of AI model trained on vast text data to understand and generate human language" }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is an AI dictionary?", "acceptedAnswer": { "@type": "Answer", "text": "An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone." } },
+        { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
+        { "@type": "Question", "name": "Who is this AI dictionary for?", "acceptedAnswer": { "@type": "Answer", "text": "It is built for everyone. Every term includes a Simple Version written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners." } },
+        { "@type": "Question", "name": "Is this AI dictionary free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary." } }
+      ]
+    }
+    </script>
+
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 40px 20px; line-height: 1.6; color: #24292f; background-color: #ffffff; }
+        .container { max-width: 900px; margin: 0 auto; }
+        img { max-width: 100%; height: auto; border-radius: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {{ content }}
+    </div>
+</body>
+</html>
