@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google Search Console Verification (UPDATED) -->
+    <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="AwSx8fOEbPm6Tlvarv8CFakRWVvQPGpzBleUiKPCrkQ" />
     
     <!-- CRITICAL SEO TAGS -->
@@ -27,7 +27,7 @@
     <meta name="twitter:description" content="A curated dictionary of AI and ML terminology explained simply">
     <meta name="twitter:image" content="https://alexnubla.github.io/ai-dictionary/banner-ai-dictionary-1.png">
     
-    <!-- Structured Data for Google Rich Snippets -->
+    <!-- Structured Data: DefinedTermSet for Google Rich Snippets -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -54,14 +54,81 @@
       ]
     }
     </script>
+
+    <!-- Structured Data: FAQPage for "People Also Ask" Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an AI dictionary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many terms are in this AI terminology glossary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is this AI dictionary for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is built for everyone. Every term includes a Simple Version written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this AI dictionary free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary."
+          }
+        }
+      ]
+    }
+    </script>
     
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 0; padding: 20px; line-height: 1.6; color: #333; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        h1 { font-size: 2.5rem; margin-bottom: 1rem; }
-        p { font-size: 1.1rem; margin-bottom: 1.5rem; }
-        a { color: #0969da; text-decoration: none; font-weight: 600; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            margin: 0; 
+            padding: 40px 20px; 
+            line-height: 1.6; 
+            color: #24292f; 
+            background-color: #ffffff;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        h1 { 
+            font-size: 2.5rem; 
+            margin-bottom: 1rem; 
+            color: #0969da;
+            font-weight: 600;
+        }
+        p { 
+            font-size: 1.125rem; 
+            margin-bottom: 1.5rem; 
+            color: #57606a;
+        }
+        a { 
+            color: #0969da; 
+            text-decoration: none; 
+            font-weight: 600; 
+        }
+        a:hover { 
+            text-decoration: underline; 
+        }
     </style>
 </head>
 <body>
@@ -69,7 +136,7 @@
         <article class="markdown-body">
             <h1>AI Dictionary of Terms</h1>
             <p>Welcome to the <strong>AI Dictionary</strong> — a curated, living glossary of <strong>artificial intelligence terminology</strong> and machine learning concepts built for everyone.</p>
-            <p><a href="https://github.com/alexnubla/ai-dictionary">View the full dictionary on GitHub →</a></p>
+            <p><a href="https://github.com/alexnubla/ai-dictionary">View the full dictionary on GitHub &rarr;</a></p>
         </article>
     </div>
 </body>
