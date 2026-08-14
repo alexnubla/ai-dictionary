@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alexnubla.github.io/ai-dictionary/sitemap.xml
