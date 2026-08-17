@@ -131,7 +131,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone.
 
 **How many terms are in this AI terminology glossary?**  
-This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
+This living dictionary contains 170+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
 
 **Who is this AI dictionary for?**  
 It is built for everyone. Every term includes a "Simple Version" written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners.
