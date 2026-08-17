@@ -1,7 +1,7 @@
 ---
 title: "AI-Generated Evidence"
 category: "Legal AI"
-related: ["Deepfake", "eDiscovery", "Digital Forensics", "Ethical AI"]
+related: ["Deepfake", "eDiscovery", "AI Forensics (Media Forensics)", "Ethical AI"]
 date_added: 2026-08-17
 ---
 
@@ -76,6 +76,7 @@ print(detect_synthetic_voice("suspect_recording.wav"))
 - [eDiscovery](../ediscovery/)
 - [Ethical AI](../ethical-ai/)
 - [Computer Vision](../computer-vision/)
+- [AI Forensics (Media Forensics)](../ai-forensics/)
 
 ## Sources & Further Reading
 - [Federal Rules of Evidence: Rule 901 (Authenticating or Identifying Evidence)](https://www.law.cornell.edu/rules/fre/rule_901)
