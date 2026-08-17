@@ -22,6 +22,7 @@ Deployment involves:
 
 | Term | Description |
 |------|-------------|
+| [Beam Search](/ai-dictionary/terms/beam-search/) | A heuristic search algorithm used in sequence generation that explores multiple possible sequences simultaneously, keeping only the top 'k' most probable candidates at each step. |
 | [Batch Processing](/ai-dictionary/terms/batch-processing/) | Grouping multiple inference requests together for simultaneous processing, maximizing GPU utilization and throughput. |
 | [Caching](/ai-dictionary/terms/caching/) | Storing and reusing previous computation results to avoid redundant work, reducing latency and costs. |
 | [Edge Computing](/ai-dictionary/terms/edge-computing/) | Running AI inference on local devices rather than cloud infrastructure, enabling low-latency, privacy-preserving applications. |
@@ -45,7 +46,6 @@ Deployment involves:
 | [Temperature](/ai-dictionary/terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
 | [Throughput](/ai-dictionary/terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
 | [Vector Database](/ai-dictionary/terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
-
 
 ## Why Deployment Matters
 
