@@ -34,11 +34,15 @@
 
     <!-- PWA & Apple App Meta Tags -->
     <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-    <meta name="theme-color" content="#007aff">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="AI Dictionary">
+    <meta name="theme-color" content="#002b4d">
+
+    <!-- CRITICAL: Explicit Apple Touch Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icon-180.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icon-180.png' | relative_url }}">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AI Dictionary">
     
     <!-- STRUCTURED DATA LOGIC -->
     {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl or page.url == site.baseurl | append: '/' %}
