@@ -8,8 +8,8 @@
   "theme_color": "#007aff",
   "icons": [
     {
-      "src": "/ai-dictionary/assets/icon-192.png",
-      "sizes": "192x192",
+      "src": "/ai-dictionary/assets/icon-180.png",
+      "sizes": "180x180",
       "type": "image/png"
     },
     {
