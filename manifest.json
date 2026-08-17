@@ -1,0 +1,21 @@
+{
+  "name": "AI Dictionary of Terms",
+  "short_name": "AI Dictionary",
+  "description": "A curated, living dictionary of AI/ML terminology.",
+  "start_url": "/ai-dictionary/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007aff",
+  "icons": [
+    {
+      "src": "/ai-dictionary/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ai-dictionary/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
