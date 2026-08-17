@@ -3,7 +3,7 @@ title: "Wearable AI"
 category: "Healthcare AI"
 related: ["Digital Biomarker", "Remote Patient Monitoring (RPM)", "Edge Computing", "Data Privacy"]
 date_added: 2026-08-17
----
+--- 
 # Wearable AI
 
 Electronic devices, often worn on the body, that incorporate sensors, software, and connectivity to collect, process, and transmit physiological and behavioral data, frequently serving as the primary data source for Healthcare AI.
