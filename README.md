@@ -21,7 +21,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-172-blue?style=for-the-badge" alt="172 Terms">
+  <img src="https://img.shields.io/badge/Terms-176-blue?style=for-the-badge" alt="176 Terms">
   <img src="https://img.shields.io/badge/Categories-8-green?style=for-the-badge" alt="8 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
@@ -74,16 +74,56 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🏥 Healthcare AI</strong> — 22 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
+<summary><strong>🏥 Healthcare AI</strong> — 24 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
 
-<a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · <a href="./terms/clinical-nlp/">Clinical NLP</a> · <a href="./terms/clinical-prediction-model/">Clinical Prediction Model</a> · <a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · <a href="./terms/computer-aided-detection/">Computer-Aided Detection (CAD)</a> · <a href="./terms/diagnostic-ai/">Diagnostic AI</a> · <a href="./terms/dicom/">DICOM</a> · <a href="./terms/digital-biomarker/">Digital Biomarker</a> · <a href="./terms/digital-therapeutics/">Digital Therapeutics (DTx)</a> · <a href="./terms/drug-discovery-ai/">Drug Discovery AI</a> · <a href="./terms/ehr-integration/">EHR Integration</a> · <a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · <a href="./terms/fhir/">FHIR</a> · <a href="./terms/health-informatics/">Health Informatics</a> · <a href="./terms/in-silico-trials/">In Silico Trials</a> · <a href="./terms/interoperability/">Interoperability</a> · <a href="./terms/medical-imaging-ai/">Medical Imaging AI</a> · <a href="./terms/phi/">PHI</a> · <a href="./terms/precision-medicine/">Precision Medicine</a> · <a href="./terms/radiomics/">Radiomics</a> · <a href="./terms/remote-patient-monitoring/">Remote Patient Monitoring (RPM)</a> · <a href="./terms/regulatory-ai/">Regulatory AI</a>
+<a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · 
+<a href="./terms/clinical-nlp/">Clinical NLP</a> · 
+<a href="./terms/clinical-prediction-model/">Clinical Prediction Model</a> · 
+<a href="./terms/clinical-trials-ai/">Clinical Trials AI</a> · 
+<a href="./terms/computer-aided-detection/">Computer-Aided Detection (CAD)</a> · 
+<a href="./terms/diagnostic-ai/">Diagnostic AI</a> · 
+<a href="./terms/dicom/">DICOM</a> · 
+<a href="./terms/digital-biomarker/">Digital Biomarker</a> · 
+<a href="./terms/digital-therapeutics/">Digital Therapeutics (DTx)</a> · 
+<a href="./terms/digital-twin/">Digital Twin</a> · 
+<a href="./terms/drug-discovery-ai/">Drug Discovery AI</a> · 
+<a href="./terms/ehr-integration/">EHR Integration</a> · 
+<a href="./terms/fda-approval-samd/">FDA Approval (SaMD)</a> · 
+<a href="./terms/fhir/">FHIR</a> · 
+<a href="./terms/health-informatics/">Health Informatics</a> · 
+<a href="./terms/in-silico-trials/">In Silico Trials</a> · 
+<a href="./terms/interoperability/">Interoperability</a> · 
+<a href="./terms/medical-imaging-ai/">Medical Imaging AI</a> · 
+<a href="./terms/phi/">PHI</a> · 
+<a href="./terms/precision-medicine/">Precision Medicine</a> · 
+<a href="./terms/radiomics/">Radiomics</a> · 
+<a href="./terms/remote-patient-monitoring/">Remote Patient Monitoring (RPM)</a> · 
+<a href="./terms/regulatory-ai/">Regulatory AI</a> · 
+<a href="./terms/wearable-ai/">Wearable AI</a>
 
 </details>
 
 <details>
-<summary><strong>⚖️ Legal AI</strong> — 16 terms · AI terminology, regulatory frameworks, and legal principles governing AI systems</summary>
+<summary><strong>⚖️ Legal AI</strong> — 18 terms · AI terminology, regulatory frameworks, and legal principles governing AI systems</summary>
 
-<a href="./terms/ai-act/">AI Act</a> · <a href="./terms/ai-generated-evidence/">AI-Generated Evidence</a> · <a href="./terms/ai-liability/">AI Liability</a> · <a href="./terms/algorithmic-accountability/">Algorithmic Accountability</a> · <a href="./terms/algorithmic-audit/">Algorithmic Audit</a> · <a href="./terms/algorithmic-risk-assessment/">Algorithmic Risk Assessment</a> · <a href="./terms/automated-decision-making/">Automated Decision-Making (ADM)</a> · <a href="./terms/ediscovery/">eDiscovery</a> · <a href="./terms/generative-ai-disclosure/">Generative AI Disclosure</a> · <a href="./terms/high-risk-ai-system/">High-Risk AI System</a> · <a href="./terms/impact-assessment/">Impact Assessment</a> · <a href="./terms/regulatory-sandbox/">Regulatory Sandbox</a> · <a href="./terms/right-to-explanation/">Right to Explanation</a> · <a href="./terms/systemic-risk/">Systemic Risk</a> · <a href="./terms/tar-technology-assisted-review/">TAR (Technology-Assisted Review)</a> · <a href="./terms/trustworthy-ai/">Trustworthy AI</a>
+<a href="./terms/ai-act/">AI Act</a> · 
+<a href="./terms/ai-copyright-ip/">AI Copyright & IP</a> · 
+<a href="./terms/ai-forensics/">AI Forensics (Media Forensics)</a> · 
+<a href="./terms/ai-generated-evidence/">AI-Generated Evidence</a> · 
+<a href="./terms/ai-liability/">AI Liability</a> · 
+<a href="./terms/algorithmic-accountability/">Algorithmic Accountability</a> · 
+<a href="./terms/algorithmic-audit/">Algorithmic Audit</a> · 
+<a href="./terms/algorithmic-risk-assessment/">Algorithmic Risk Assessment</a> · 
+<a href="./terms/automated-decision-making/">Automated Decision-Making (ADM)</a> · 
+<a href="./terms/ediscovery/">eDiscovery</a> · 
+<a href="./terms/generative-ai-disclosure/">Generative AI Disclosure</a> · 
+<a href="./terms/high-risk-ai-system/">High-Risk AI System</a> · 
+<a href="./terms/impact-assessment/">Impact Assessment</a> · 
+<a href="./terms/regulatory-sandbox/">Regulatory Sandbox</a> · 
+<a href="./terms/right-to-explanation/">Right to Explanation</a> · 
+<a href="./terms/systemic-risk/">Systemic Risk</a> · 
+<a href="./terms/tar-technology-assisted-review/">TAR (Technology-Assisted Review)</a> · 
+<a href="./terms/trustworthy-ai/">Trustworthy AI</a>
 
 </details>
 
@@ -93,10 +133,10 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 | Letter | Terms |
 | :---: | :--- |
-| **A** | [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Act](./terms/ai-act/), [AI Gateway](./terms/ai-gateway/), [AI-Generated Evidence](./terms/ai-generated-evidence/), [AI Liability](./terms/ai-liability/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Algorithmic Accountability](./terms/algorithmic-accountability/), [Algorithmic Audit](./terms/algorithmic-audit/), [Algorithmic Risk Assessment](./terms/algorithmic-risk-assessment/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [Attention Mechanism](./terms/attention-mechanism/), [Automated Decision-Making (ADM)](./terms/automated-decision-making/), [Autoregressive](./terms/autoregressive/) |
+| **A** | [Activation Function](./terms/activation-function/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Act](./terms/ai-act/), [AI Copyright & IP](./terms/ai-copyright-ip/), [AI Forensics (Media Forensics)](./terms/ai-forensics/), [AI Gateway](./terms/ai-gateway/), [AI-Generated Evidence](./terms/ai-generated-evidence/), [AI Liability](./terms/ai-liability/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Algorithmic Accountability](./terms/algorithmic-accountability/), [Algorithmic Audit](./terms/algorithmic-audit/), [Algorithmic Risk Assessment](./terms/algorithmic-risk-assessment/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [Attention Mechanism](./terms/attention-mechanism/), [Automated Decision-Making (ADM)](./terms/automated-decision-making/), [Autoregressive](./terms/autoregressive/) |
 | **B** | [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/), [Bias](./terms/bias/) |
 | **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [Clinical Decision Support (CDS)](./terms/clinical-decision-support/), [Clinical NLP](./terms/clinical-nlp/), [Clinical Prediction Model](./terms/clinical-prediction-model/), [Clinical Trials AI](./terms/clinical-trials-ai/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer-Aided Detection (CAD)](./terms/computer-aided-detection/), [Computer Vision](./terms/computer-vision/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/) |
-| **D** | [Data Augmentation](./terms/data-augmentation/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Digital Biomarker](./terms/digital-biomarker/), [Digital Therapeutics (DTx)](./terms/digital-therapeutics/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/), [Drug Discovery AI](./terms/drug-discovery-ai/) |
+| **D** | [Data Augmentation](./terms/data-augmentation/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Digital Biomarker](./terms/digital-biomarker/), [Digital Forensics](./terms/digital-forensics/), [Digital Therapeutics (DTx)](./terms/digital-therapeutics/), [Digital Twin](./terms/digital-twin/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/), [Drug Discovery AI](./terms/drug-discovery-ai/) |
 | **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [eDiscovery (Electronic Discovery)](./terms/ediscovery/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/) |
 | **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/) |
 | **G** | [GAN](./terms/gan/), [Generative AI](./terms/generative-ai/), [Generative AI Disclosure](./terms/generative-ai-disclosure/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Graphics Processing Unit (GPU)](./terms/gpu/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
@@ -115,10 +155,11 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **T** | [TAR (Technology-Assisted Review)](./terms/tar-technology-assisted-review/), [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Tool Use / Function Calling](./terms/tool-use/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/), [Trustworthy AI](./terms/trustworthy-ai/) |
 | **U** | [Unsupervised Learning](./terms/unsupervised-learning/) |
 | **V** | [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/) |
-| **W** | [Weights](./terms/weights/) |
+| **W** | [Wearable AI](./terms/wearable-ai/), [Weights](./terms/weights/) |
 | **X** | [XGBoost](./terms/xgboost/) |
 | **Y** | [YOLO](./terms/yolo/) |
 | **Z** | [Zero-Shot Learning](./terms/zero-shot-learning/) |
+
 
 
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
