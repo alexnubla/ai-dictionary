@@ -1,6 +1,6 @@
 ---
 title: "Positional Encoding"
-category: "Machine Learning"
+category: "Architecture"
 related: ["Transformer", "Attention Mechanism", "Natural Language Processing (NLP)", "Embedding"]
 date_added: 2026-08-18
 ---
