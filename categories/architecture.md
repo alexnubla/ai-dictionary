@@ -41,6 +41,7 @@ Different architectures are suited for different tasks:
 | [Generative AI](/ai-dictionary/terms/generative-ai/) | AI systems designed to create new, original content (text, images, code) by learning the underlying patterns of existing data. |
 | [GPT](/ai-dictionary/terms/gpt/) | A generative, decoder-only transformer model that predicts the next token to produce human-like text. |
 | [GRU](/ai-dictionary/terms/gru/) | A streamlined RNN variant with two gates that achieves similar performance to LSTM with fewer parameters and faster training. |
+| [Layer Normalization](/ai-dictionary/terms/layer-normalization/) | A technique that stabilizes and accelerates deep learning training by normalizing inputs across the features of a single data point. |
 | [LLM](/ai-dictionary/terms/llm/) | A type of AI model designed to understand and generate human language, trained on massive text datasets using Transformer architectures. |
 | [LRM](/ai-dictionary/terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy. |
 | [LSTM](/ai-dictionary/terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
@@ -50,10 +51,12 @@ Different architectures are suited for different tasks:
 | [Multimodal](/ai-dictionary/terms/multimodal/) | An AI model capable of processing and understanding multiple data types (text, images, audio, video) simultaneously. |
 | [Narrow AI](/ai-dictionary/terms/narrow-ai/) | AI designed and trained to perform a specific, well-defined task, lacking the ability to generalize its knowledge to unrelated domains. |
 | [Natural Language Processing (NLP)](/ai-dictionary/terms/nlp/) | A specialized branch of AI focused on enabling computers to understand, interpret, manipulate, and generate human language. |
+| [NER (Named Entity Recognition)](/ai-dictionary/terms/ner/) | An NLP subtask that identifies and classifies specific real-world objects (like names, dates, locations) in unstructured text. |
 | [Neural Network](/ai-dictionary/terms/neural-network/) | A computational model inspired by the human brain, consisting of interconnected layers of nodes that process input data and learn patterns. |
 | [Object Detection](/ai-dictionary/terms/object-detection/) | A computer vision task that identifies and locates multiple objects within images by drawing bounding boxes and assigning class labels. |
 | [Open-Weight Model](/ai-dictionary/terms/open-weight-model/) | An AI model where the trained parameters (weights) are publicly released, but the underlying training data or code may remain proprietary. |
 | [Parameter](/ai-dictionary/terms/parameter/) | An internal variable within a machine learning model that is learned automatically from training data, representing the model's "knowledge." |
+| [Positional Encoding](/ai-dictionary/terms/positional-encoding/) | A technique used in Transformers to inject information about the relative or absolute position of tokens in a sequence. |
 | [RNN](/ai-dictionary/terms/rnn/) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs. |
 | [Reasoning Model](/ai-dictionary/terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
 | [Robotics](/ai-dictionary/terms/robotics/) | The interdisciplinary field combining AI, mechanical engineering, and computer science to create physical machines that can perceive and act in the real world. |
@@ -63,7 +66,6 @@ Different architectures are suited for different tasks:
 | [Weights](/ai-dictionary/terms/weights/) | The numerical values inside a neural network that determine the strength of connections between neurons, representing the model's learned knowledge. |
 | [XGBoost](/ai-dictionary/terms/xgboost/) | A highly optimized machine learning algorithm based on gradient boosted decision trees, renowned for its speed and dominance in handling tabular data. |
 | [YOLO](/ai-dictionary/terms/yolo/) | A state-of-the-art, real-time object detection system that identifies and locates multiple objects within an image in a single pass. |
-
 
 ## Why Architecture Matters
 
