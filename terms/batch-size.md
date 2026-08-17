@@ -1,6 +1,6 @@
 ---
 title: "Batch Size"
-category: "Machine Learning"
+category: "Training"
 related: ["Gradient Descent", "Stochastic Gradient Descent (SGD)", "Learning Rate", "Convergence"]
 date_added: 2026-08-18
 ---
