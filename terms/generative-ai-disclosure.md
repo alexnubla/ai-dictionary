@@ -78,7 +78,7 @@ def sign_ai_generated_image(image_path, output_path, model_name):
 - [AI Act](../ai-act/)
 - [Deepfake](../deepfake/)
 - [Ethical AI](../ethical-ai/)
-- [Copyright / IP](../) *(Add link if you create an IP term)*
+- [AI Copyright & IP](../ai-copyright-ip/)
 
 ## Sources & Further Reading
 - [EU AI Act: Transparency Obligations for General-Purpose AI Models](https://artificialintelligenceact.eu/)
