@@ -139,11 +139,12 @@ for batch in massive_dataset:  # Trillions of tokens
 - **Reality:** Unless you're an AI research lab with $50M+ budget, use pre-trained models. Fine-tuning is 100x cheaper and almost as effective for most use cases.
 
 ## Related Terms
-- [Fine-tuning](../fine-tuning/)
-- [Transfer Learning](../transfer-learning/)
+- [Data Contamination](../data-contamination/)
 - [Distillation](../distillation/)
+- [Fine-tuning](../fine-tuning/)
 - [Foundation Model](../foundation-model/)
 - [Self-Supervised Learning](../self-supervised-learning/)
+- [Transfer Learning](../transfer-learning/)
 
 ## Sources & Further Reading
 - [Language Models are Unsupervised Multitask Learners (GPT-2 Paper)](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
