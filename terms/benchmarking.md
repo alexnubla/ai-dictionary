@@ -188,9 +188,10 @@ print(f"GSM8K Accuracy: {accuracy:.2%}")
 - **Reality:** Enterprises should use benchmarking for model selection, vendor evaluation, and tracking improvements. Custom benchmarks for your specific use cases are especially valuable.
 
 ## Related Terms
-- [Perplexity](../perplexity/)
+- [Data Contamination](../data-contamination/)
 - [Evaluation](../evaluation/)
 - [LLM](../llm/)
+- [Perplexity](../perplexity/)
 
 ## Sources & Further Reading
 - [MMLU: Measuring Massive Multitask Language Understanding](https://arxiv.org/abs/2009.03300)
