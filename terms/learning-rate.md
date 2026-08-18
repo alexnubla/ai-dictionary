@@ -218,10 +218,11 @@ def lr_range_test(model, train_loader, start_lr=1e-7, end_lr=1, num_iters=100):
 - **Reality:** Default learning rates (like Adam's 0.001) are reasonable starting points but often need tuning for specific tasks, especially fine-tuning.
 
 ## Related Terms
+- [Adam / AdamW (Adaptive Moment Estimation)](../adam-adamw/)
 - [Gradient Descent](../gradient-descent/)
+- [Hyperparameter](../hyperparameter/)
 - [Optimizer](../optimizer/)
 - [Training](../training/)
-- [Hyperparameter](../hyperparameter/)
 
 ## Sources & Further Reading
 - [A disciplined approach to neural network hyper-parameters (Smith)](https://arxiv.org/abs/1506.01186)
