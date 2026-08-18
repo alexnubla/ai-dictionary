@@ -1,7 +1,7 @@
 ---
 title: "Sampling"
 category: "Deployment"
-related: ["Temperature", "Non-Deterministic", "Inference", "LLM"]
+related: ["Top-p Sampling", "Temperature", "Beam Search", "Non-Deterministic", "Inference", "LLM"]
 date_added: 2026-08-12
 ---
 
