@@ -1,7 +1,7 @@
 ---
 title: "Positional Encoding"
 category: "Architecture"
-related: ["Transformer", "Attention Mechanism", "Natural Language Processing (NLP)", "Embedding"]
+related: ["RoPE", "Transformer", "Attention Mechanism", "Natural Language Processing (NLP)", "Embedding", "Context Window"]
 date_added: 2026-08-18
 ---
 
