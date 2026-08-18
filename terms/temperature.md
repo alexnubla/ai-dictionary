@@ -1,7 +1,7 @@
 ---
 title: "Temperature"
 category: "Deployment"
-related: ["Inference", "Deterministic", "Non-Deterministic", "Sampling"]
+related: ["Top-p Sampling", "Sampling", "Inference", "Deterministic", "Non-Deterministic", "Sampling", "LLM"]
 date_added: 2026-08-12
 ---
 
