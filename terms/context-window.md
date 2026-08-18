@@ -121,10 +121,11 @@ else:
 - **Reality:** Models vary in how well they use long contexts. Some excel at finding information anywhere in the context; others struggle with information in the middle.
 
 ## Related Terms
+- [Prompt](../prompt/)
+- [RAG](../rag/)
+- [RoPE (Rotary Position Embedding)](../rope/)
 - [Token](../token/)
 - [Transformer](../transformer/)
-- [RAG](../rag/)
-- [Prompt](../prompt/)
 
 ## Sources & Further Reading
 - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
