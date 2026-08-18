@@ -53,9 +53,10 @@ def get_positional_encoding(seq_len, d_model):
 - **Reality:** It is heavily used in vision transformers (ViTs) to encode the 2D spatial position of image patches.
 
 ## Related Terms
-- [Transformer](../transformer/)
 - [Attention Mechanism](../attention-mechanism/)
 - [Natural Language Processing (NLP)](../nlp/)
+- [RoPE (Rotary Position Embedding)](../rope/)
+- [Transformer](../transformer/)
 
 ## Sources & Further Reading
 - [Vaswani, A., et al. Attention Is All You Need. NeurIPS 2017](https://arxiv.org/abs/1706.03762)
