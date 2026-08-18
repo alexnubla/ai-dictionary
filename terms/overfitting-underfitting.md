@@ -217,10 +217,11 @@ plot_learning_curve(model_over, X, y, "Learning Curve: Overfitting")
 - **Reality:** Cross-validation helps detect overfitting and tune hyperparameters, but doesn't eliminate it. Proper regularization and sufficient data are still essential.
 
 ## Related Terms
-- [Training](../training/)
-- [Regularization](../regularization/)
 - [Bias-Variance Tradeoff](../bias-variance-tradeoff/)
+- [Data Contamination](../data-contamination/)
 - [Generalization](../generalization/)
+- [Regularization](../regularization/)
+- [Training](../training/)
 
 ## Sources & Further Reading
 - [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
