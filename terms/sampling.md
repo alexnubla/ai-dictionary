@@ -117,9 +117,10 @@ print("Top-p=0.9:", tokenizer.decode(topp[0]))
 - **Reality:** While greedy is deterministic, it can produce repetitive text. Top-p with low temperature often works better.
 
 ## Related Terms
-- [Temperature](../temperature/)
-- [Non-Deterministic](../non-deterministic/)
 - [Inference](../inference/)
+- [Non-Deterministic](../non-deterministic/)
+- [Temperature](../temperature/)
+- [Top-p Sampling (Nucleus Sampling)](../top-p-sampling/)
 
 ## Sources & Further Reading
 - [How to Generate Text from a Language Model (Hugging Face)](https://huggingface.co/blog/how-to-generate)
