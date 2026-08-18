@@ -57,9 +57,9 @@ def beam_search(initial_token, beam_width=3, max_length=10):
 - **Reality:** Beyond a certain point, larger beams yield diminishing returns and drastically increase computation time.
 
 ## Related Terms
-- [Greedy Search](../greedy-search/)
-- [Top-p Sampling](../top-p-sampling/)
 - [Autoregressive](../autoregressive/)
+- [Greedy Search](../greedy-search/)
+- [Top-p Sampling (Nucleus Sampling)](../top-p-sampling/)
 
 ## Sources & Further Reading
 - [Freitag, M., & Al-Onaizan, Y. Beam Search Strategies for Neural Machine Translation. ACL 2017](https://aclanthology.org/)
