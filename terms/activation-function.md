@@ -1,7 +1,7 @@
 ---
 title: "Activation Function"
 category: "Architecture"
-related: ["Neural Network", "Deep Learning", "Transformer", "Non-Linearity"]
+related: ["Softmax Function", "ReLU", "GELU", "Neural Network", "Deep Learning", "Transformer", "Non-Linearity"]
 date_added: 2026-08-12
 ---
 
