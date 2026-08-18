@@ -119,10 +119,11 @@ print(f"Binary Cross-Entropy Loss: {loss.item():.4f}")
 - **Reality:** You can design custom loss functions to emphasize specific aspects of performance (e.g., penalizing false negatives more than false positives in medical diagnosis).
 
 ## Related Terms
+- [Adam / AdamW (Adaptive Moment Estimation)](../adam-adamw/)
 - [Backpropagation](../backpropagation/)
 - [Gradient Descent](../gradient-descent/)
-- [Training](../training/)
 - [Perplexity](../perplexity/)
+- [Training](../training/)
 
 ## Sources & Further Reading
 - [Deep Learning Book: Loss Functions](https://www.deeplearningbook.org/)
