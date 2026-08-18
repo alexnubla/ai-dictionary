@@ -61,7 +61,10 @@ Different architectures are suited for different tasks:
 | [Positional Encoding](/ai-dictionary/terms/positional-encoding/) | A technique used in Transformers to inject information about the relative or absolute position of tokens in a sequence. |
 | [RNN](/ai-dictionary/terms/rnn/) | A type of neural network designed to process sequential data by maintaining an internal "memory" of previous inputs. |
 | [Reasoning Model](/ai-dictionary/terms/reasoning-model/) | AI models specifically designed to perform multi-step logical reasoning by generating intermediate reasoning steps before producing answers. |
+| [Residual Connections (Skip Connections)](/ai-dictionary/terms/residual-connections/) | A structural design in deep neural networks where the input to a block of layers is added directly to its output, allowing gradients to bypass layers and flow smoothly. |
 | [Robotics](/ai-dictionary/terms/robotics/) | The interdisciplinary field combining AI, mechanical engineering, and computer science to create physical machines that can perceive and act in the real world. |
+| [RoPE (Rotary Position Embedding)](/ai-dictionary/terms/rope/) | A modern positional encoding technique that injects sequence position information into a Transformer by applying rotation matrices to the Query and Key vectors. |
+| [Softmax Function](/ai-dictionary/terms/softmax-function/) | A mathematical function used at the output layer of neural networks to convert a vector of raw scores (logits) into a normalized probability distribution. |
 | [Spatial Intelligence](/ai-dictionary/terms/spatial-intelligence/) | The ability of an AI system to understand, reason about, and interact with the 3D physical world, including object relationships, depth, and physics. |
 | [Token](/ai-dictionary/terms/token/) | The basic unit of text that AI language models process, where text is broken down into smaller pieces. |
 | [Transformer](/ai-dictionary/terms/transformer/) | A revolutionary deep learning architecture that uses self-attention mechanisms to process entire sequences of data simultaneously, forming the foundation of modern LLMs. |
