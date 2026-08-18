@@ -1,7 +1,7 @@
 ---
 title: "Learning Rate"
 category: "Training"
-related: ["Gradient Descent", "Optimizer", "Training", "Hyperparameter"]
+related: ["Adam / AdamW", "Gradient Descent", "Optimizer", "Training", "Hyperparameter"]
 date_added: 2026-08-12
 ---
 
