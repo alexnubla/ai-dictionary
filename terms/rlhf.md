@@ -132,10 +132,12 @@ for response in responses:
 - **Reality:** RLHF significantly reduces harmful outputs but cannot guarantee 100% safety. Adversarial inputs can still elicit problematic responses. Multiple layers of safety (RLHF + filtering + monitoring) are needed.
 
 ## Related Terms
-- [Fine-tuning](../fine-tuning/)
+- [AI Sycophancy](../ai-sycophancy/)
 - [Alignment](../alignment/)
-- [Reward Model](../reward-model/)
 - [Constitutional AI](../constitutional-ai/)
+- [Digital Labor](../digital-labor/)
+- [Fine-tuning](../fine-tuning/)
+- [Reward Model](../reward-model/)
 
 ## Sources & Further Reading
 - [Training language models to follow instructions with human feedback (InstructGPT Paper)](https://arxiv.org/abs/2203.02155)
