@@ -121,6 +121,7 @@ print(f"\nFinal: w = {w.item():.4f} (target: 3.0)")
 - **Reality:** Too large a learning rate causes instability (loss oscillates or diverges). Too small slows convergence. Finding the right learning rate is critical.
 
 ## Related Terms
+- [Adam / AdamW (Adaptive Moment Estimation)](../adam-adamw/)
 - [Backpropagation](../backpropagation/)
 - [Loss Function](../loss-function/)
 - [Training](../training/)
