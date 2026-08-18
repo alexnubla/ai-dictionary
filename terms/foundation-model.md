@@ -105,6 +105,7 @@ for task in tasks:
 - **Reality:** Through APIs and open-source models, any organization can leverage foundation models. The barrier is no longer building them, but using them effectively.
 
 ## Related Terms
+- [Frontier Model](../frontier-model/)
 - [Pre-training](../pre-training/)
 - [Transfer Learning](../transfer-learning/)
 - [LLM](../llm/)
