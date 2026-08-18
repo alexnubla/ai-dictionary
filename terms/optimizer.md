@@ -193,6 +193,7 @@ for epoch in range(100):
 - **Reality:** Optimizers with momentum (Adam, RMSprop) maintain running averages, requiring 2-3x more memory than SGD. This matters for large models.
 
 ## Related Terms
+- [Adam / AdamW (Adaptive Moment Estimation)](../adam-adamw/)
 - [Gradient Descent](../gradient-descent/)
 - [Training](../training/)
 - [Backpropagation](../backpropagation/)
