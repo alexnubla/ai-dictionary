@@ -152,10 +152,11 @@ for i in range(3):
 - **Reality:** Different tasks require different temperatures. Factual Q&A needs low temperature; creative writing needs high temperature. One size does not fit all.
 
 ## Related Terms
-- [Inference](../inference/)
 - [Deterministic](../deterministic/)
+- [Inference](../inference/)
 - [Non-Deterministic](../non-deterministic/)
 - [Prompt](../prompt/)
+- [Top-p Sampling (Nucleus Sampling)](../top-p-sampling/)
 
 ## Sources & Further Reading
 - [OpenAI API Reference: Temperature Parameter](https://platform.openai.com/docs/api-reference/chat/create)
