@@ -96,6 +96,7 @@ class ArtificialGeneralIntelligence:
 ## Related Terms
 - [Narrow AI](../narrow-ai/)
 - [Artificial Intelligence (AI)](../artificial-intelligence/)
+- [ASI (Artificial Superintelligence)](../asi/)
 - [Reasoning Model](../reasoning-model/)
 - [Machine Learning (ML)](../machine-learning/)
 
