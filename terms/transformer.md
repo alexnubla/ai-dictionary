@@ -167,6 +167,7 @@ print("Sentiment:", result)
 - [Foundation Model](../foundation-model/)
 - [GPT](../gpt/)
 - [LRM](../lrm/)
+- [RoPE (Rotary Position Embedding)](../rope/)
 - [Softmax Function](../softmax-function/)
 
 ## Sources & Further Reading
