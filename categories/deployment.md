@@ -22,8 +22,8 @@ Deployment involves:
 
 | Term | Description |
 |------|-------------|
-| [Beam Search](/ai-dictionary/terms/beam-search/) | A heuristic search algorithm used in sequence generation that explores multiple possible sequences simultaneously, keeping only the top 'k' most probable candidates at each step. |
 | [Batch Processing](/ai-dictionary/terms/batch-processing/) | Grouping multiple inference requests together for simultaneous processing, maximizing GPU utilization and throughput. |
+| [Beam Search](/ai-dictionary/terms/beam-search/) | A heuristic search algorithm used in sequence generation that explores multiple possible sequences simultaneously, keeping only the top 'k' most probable candidates. |
 | [Caching](/ai-dictionary/terms/caching/) | Storing and reusing previous computation results to avoid redundant work, reducing latency and costs. |
 | [Edge Computing](/ai-dictionary/terms/edge-computing/) | Running AI inference on local devices rather than cloud infrastructure, enabling low-latency, privacy-preserving applications. |
 | [Feature Store](/ai-dictionary/terms/feature-store/) | A centralized infrastructure layer that manages, stores, and serves ML features for both training and inference, ensuring consistency and enabling reuse. |
@@ -38,13 +38,15 @@ Deployment involves:
 | [Observability](/ai-dictionary/terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
 | [Orchestration](/ai-dictionary/terms/orchestration/) | The coordination of multiple AI components, models, tools, and data sources to execute complex workflows. |
 | [Prompt Injection](/ai-dictionary/terms/prompt-injection/) | A security attack where malicious input manipulates an AI system's behavior, causing it to ignore instructions or perform unintended actions. |
-| [RAG (Retrieval-Augmented Generation)](/ai-dictionary/terms/rag/) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations and ensuring factual correctness. |
+| [Quantization](/ai-dictionary/terms/quantization/) | A technique that reduces the precision of model weights (e.g., from 16-bit to 4-bit) to decrease memory usage and speed up inference. |
+| [RAG (Retrieval-Augmented Generation)](/ai-dictionary/terms/rag/) | An AI framework that improves LLM accuracy by grounding responses in external, up-to-date, or proprietary data sources, reducing hallucinations. |
 | [Sampling](/ai-dictionary/terms/sampling/) | The process of selecting the next token from a model's probability distribution, controlling the trade-off between determinism and diversity. |
 | [Semantic Search](/ai-dictionary/terms/semantic-search/) | A search methodology that retrieves results based on meaning and intent rather than exact keyword matches, using vector embeddings. |
 | [Speculative Decoding](/ai-dictionary/terms/speculative-decoding/) | An inference optimization using a small draft model to generate candidate tokens, verified in parallel by a larger target model for 2-3x speedup. |
 | [Streaming](/ai-dictionary/terms/streaming/) | A response delivery method where AI outputs are transmitted token-by-token as generated, reducing perceived latency and enabling interactive experiences. |
 | [Temperature](/ai-dictionary/terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
 | [Throughput](/ai-dictionary/terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
+| [Top-p Sampling (Nucleus Sampling)](/ai-dictionary/terms/top-p-sampling/) | A decoding strategy that dynamically filters the vocabulary to the smallest set of tokens whose cumulative probability exceeds a threshold $p$, balancing creativity and coherence. |
 | [Vector Database](/ai-dictionary/terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
 
 ## Why Deployment Matters
