@@ -123,10 +123,11 @@ AI washing affects both vendors and buyers in the enterprise AI market:
 - **Reality:** Sophisticated AI washing can be hard to detect without technical expertise. Even experienced buyers can be misled by convincing demos and marketing materials.
 
 ## Related Terms
-- [Parasitic AI](../parasitic-ai/)
 - [AI Slop](../ai-slop/)
-- [Hallucination](../hallucination/)
 - [Benchmarking](../benchmarking/)
+- [Digital Labor](../digital-labor/)
+- [Hallucination](../hallucination/)
+- [Parasitic AI](../parasitic-ai/)
 
 ## Sources & Further Reading
 - [FTC Warning on AI Washing](https://www.ftc.gov/news-events/news/press-releases/2023/02/ftc-enforcement-ai-fake-claims)
