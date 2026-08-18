@@ -180,7 +180,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/ethics-and-safety/" style="text-decoration: none !important; color: inherit !important;">️🛡️ Ethics &amp; Safety</a></strong> — 18 terms · Responsible AI and risk mitigation</summary>
+<summary><strong><a href="./categories/ethics/" style="text-decoration: none !important; color: inherit !important;">️🛡️ Ethics &amp; Safety</a></strong> — 18 terms · Responsible AI and risk mitigation</summary>
 
 <a href="./terms/ai-safety/">AI Safety</a> · 
 <a href="./terms/ai-slop/">AI Slop</a> · 
