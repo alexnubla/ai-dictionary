@@ -1,7 +1,7 @@
 ---
 title: "Loss Function"
 category: "Training"
-related: ["Backpropagation", "Gradient Descent", "Training", "Perplexity"]
+related: ["Backpropagation", "Gradient Descent", "Training", "Perplexity", "Adam / AdamW", "Softmax Function"]
 date_added: 2026-08-12
 ---
 
