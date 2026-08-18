@@ -1,7 +1,7 @@
 ---
 title: "Transformer"
 category: "Architecture"
-related: ["Attention Mechanism", "BERT", "GPT", "LRM"]
+related: ["Attention Mechanism", "BERT", "GPT", "Softmax Function", "Residual Connections", "RoPE", "Positional Encoding", "LRM"]
 date_added: 2026-08-11
 ---
 
