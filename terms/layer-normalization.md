@@ -1,7 +1,7 @@
 ---
 title: "Layer Normalization"
 category: "Architecture"
-related: ["Batch Normalization", "Deep Learning", "Transformer", "Gradient Flow"]
+related: ["Batch Normalization", "Residual Connections", "Deep Learning", "Transformer", "Gradient Flow"]
 date_added: 2026-08-18
 ---
 
