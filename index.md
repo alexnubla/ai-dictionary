@@ -29,10 +29,10 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ---
 
-## 📂 Browse by Category
+##  Browse by Category
 
 <details>
-<summary><strong>🏗️ Architecture</strong> — 50 terms · Core model designs, neural network structures, and foundational paradigms</summary>
+<summary><strong><a href="./categories/architecture/" style="text-decoration: none; color: inherit;">🏗️ Architecture</a></strong> — 50 terms · Core model designs, neural network structures, and foundational paradigms</summary>
 
 <a href="./terms/activation-function/">Activation Function</a> · 
 <a href="./terms/agi/">AGI (Artificial General Intelligence)</a> · 
@@ -88,7 +88,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>⚙️ Training</strong> — 40 terms · How models learn, adapt, and improve</summary>
+<summary><strong><a href="./categories/training/" style="text-decoration: none; color: inherit;">⚙️ Training</a></strong> — 40 terms · How models learn, adapt, and improve</summary>
 
 <a href="./terms/adam-adamw/">Adam / AdamW (Adaptive Moment Estimation)</a> · 
 <a href="./terms/backpropagation/">Backpropagation</a> · 
@@ -134,7 +134,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🚀 Deployment</strong> — 26 terms · Putting models into production</summary>
+<summary><strong><a href="./categories/deployment/" style="text-decoration: none; color: inherit;">🚀 Deployment</a></strong> — 26 terms · Putting models into production</summary>
 
 <a href="./terms/batch-processing/">Batch Processing</a> · 
 <a href="./terms/beam-search/">Beam Search</a> · 
@@ -166,7 +166,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>📏 Evaluation</strong> — 8 terms · Measuring model performance and quality</summary>
+<summary><strong><a href="./categories/evaluation/" style="text-decoration: none; color: inherit;">📏 Evaluation</a></strong> — 8 terms · Measuring model performance and quality</summary>
 
 <a href="./terms/benchmarking/">Benchmarking</a> · 
 <a href="./terms/cross-validation/">Cross-Validation</a> · 
@@ -180,7 +180,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🛡️ Ethics &amp; Safety</strong> — 18 terms · Responsible AI and risk mitigation</summary>
+<summary><strong><a href="./categories/ethics-and-safety/" style="text-decoration: none; color: inherit;">️ Ethics &amp; Safety</a></strong> — 18 terms · Responsible AI and risk mitigation</summary>
 
 <a href="./terms/ai-safety/">AI Safety</a> · 
 <a href="./terms/ai-slop/">AI Slop</a> · 
@@ -204,7 +204,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🏢 Enterprise AI</strong> — 14 terms · AI infrastructure, governance, and organizational adoption</summary>
+<summary><strong><a href="./categories/enterprise-ai/" style="text-decoration: none; color: inherit;">🏢 Enterprise AI</a></strong> — 14 terms · AI infrastructure, governance, and organizational adoption</summary>
 
 <a href="./terms/agent/">Agent</a> · 
 <a href="./terms/agentic-ai/">Agentic AI</a> · 
@@ -224,7 +224,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>🏥 Healthcare AI</strong> — 24 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
+<summary><strong><a href="./categories/healthcare-ai/" style="text-decoration: none; color: inherit;">🏥 Healthcare AI</a></strong> — 24 terms · AI applications, standards, and regulations in healthcare delivery and clinical care</summary>
 
 <a href="./terms/clinical-decision-support/">Clinical Decision Support (CDS)</a> · 
 <a href="./terms/clinical-nlp/">Clinical NLP</a> · 
@@ -254,7 +254,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong>⚖️ Legal AI</strong> — 18 terms · AI terminology, regulatory frameworks, and legal principles governing AI systems</summary>
+<summary><strong><a href="./categories/legal-ai/" style="text-decoration: none; color: inherit;">⚖️ Legal AI</a></strong> — 18 terms · AI terminology, regulatory frameworks, and legal principles governing AI systems</summary>
 
 <a href="./terms/ai-act/">AI Act</a> · 
 <a href="./terms/ai-copyright-ip/">AI Copyright & IP</a> · 
