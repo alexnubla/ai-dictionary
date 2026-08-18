@@ -123,6 +123,7 @@ print(f"Binary Cross-Entropy Loss: {loss.item():.4f}")
 - [Backpropagation](../backpropagation/)
 - [Gradient Descent](../gradient-descent/)
 - [Perplexity](../perplexity/)
+- [Softmax Function](../softmax-function/)
 - [Training](../training/)
 
 ## Sources & Further Reading
