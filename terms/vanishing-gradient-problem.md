@@ -1,7 +1,7 @@
 ---
 title: "Vanishing Gradient Problem"
 category: "Training"
-related: ["Gradient Flow", "Deep Learning", "Recurrent Neural Networks (RNN)", "Activation Function"]
+related: ["Gradient Flow", "Layer Normalization", "Deep Learning", "Recurrent Neural Networks (RNN)", "Residual Connections", "Activation Function"]
 date_added: 2026-08-18
 ---
 
