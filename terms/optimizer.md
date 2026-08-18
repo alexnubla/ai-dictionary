@@ -1,7 +1,7 @@
 ---
 title: "Optimizer"
 category: "Training"
-related: ["Gradient Descent", "Training", "Backpropagation", "Learning Rate"]
+related: ["Adam / AdamW", "Gradient Descent", "Training", "Backpropagation", "Learning Rate"]
 date_added: 2026-08-12
 ---
 
