@@ -56,9 +56,10 @@ print(f"Generalization Gap: {gen_gap:.3f}")
 - **Reality:** There is always irreducible noise in real-world data. The goal is to minimize it, not eliminate it.
 
 ## Related Terms
+- [Bias-Variance Tradeoff](../bias-variance-tradeoff/)
+- [Data Contamination](../data-contamination/)
 - [Overfitting](../overfitting/)
 - [Underfitting](../underfitting/)
-- [Bias-Variance Tradeoff](../bias-variance-tradeoff/)
 
 ## Sources & Further Reading
 - [Shalev-Shwartz, S., & Ben-David, S. Understanding Machine Learning: From Theory to Algorithms. Cambridge University Press](https://www.cambridge.org/)
