@@ -209,6 +209,7 @@ print("Activation functions demonstrated successfully")
 - [Neural Network](../neural-network/)
 - [Deep Learning](../deep-learning/)
 - [Backpropagation](../backpropagation/)
+- [Softmax Function](../softmax-function/)
 
 ## Sources & Further Reading
 - [Rectified Linear Units Improve Restricted Boltzmann Machines (ReLU)](https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf)
