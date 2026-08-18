@@ -24,6 +24,7 @@ Evaluation includes:
 |------|-------------|
 | [Benchmarking](/ai-dictionary/terms/benchmarking/) | The systematic evaluation of AI models using standardized datasets and metrics to measure performance and compare different models. |
 | [Cross-Validation](/ai-dictionary/terms/cross-validation/) | A statistical method that evaluates model performance by training and validating on multiple different data subsets to ensure reliability. |
+| [Data Contamination](/ai-dictionary/terms/data-contamination/) | A critical evaluation flaw where benchmark or test data inadvertently leaks into a model's training dataset, leading to artificially inflated performance scores. |
 | [Deterministic](/ai-dictionary/terms/deterministic/) | A property where the same input always produces exactly the same output, essential for testing and reproducibility. |
 | [Generalization Error](/ai-dictionary/terms/generalization-error/) | The difference between a model's performance on training data versus new, unseen data, measuring real-world applicability. |
 | [Hallucination](/ai-dictionary/terms/hallucination/) | When an AI confidently generates factually incorrect or fabricated information with no basis in reality. |
