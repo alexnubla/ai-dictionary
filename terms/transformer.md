@@ -163,10 +163,11 @@ print("Sentiment:", result)
 ## Related Terms
 - [Attention Mechanism](../attention-mechanism/)
 - [BERT](../bert/)
-- [GPT](../gpt/)
-- [LRM](../lrm/)
 - [Context Window](../context-window/)
 - [Foundation Model](../foundation-model/)
+- [GPT](../gpt/)
+- [LRM](../lrm/)
+- [Softmax Function](../softmax-function/)
 
 ## Sources & Further Reading
 - [Attention Is All You Need (Original Transformer Paper)](https://arxiv.org/abs/1706.03762)
