@@ -1,7 +1,7 @@
 ---
 title: "Attention Mechanism"
 category: "Architecture"
-related: ["Transformer", "Self-Attention", "BERT", "GPT"]
+related: ["Transformer", "BERT", "GPT", "Positional Encoding", "RoPE (Rotary Position Embedding)", "Softmax Function", "Residual Connections (Skip Connections)"]
 date_added: 2026-08-12
 ---
 
@@ -82,3 +82,12 @@ print(f"Attention weights shape: {attention_weights.shape}")
 print(f"Output shape: {output.shape}")
 {% endhighlight %}
 </div>
+
+## Related Terms
+- [BERT](../bert/)
+- [GPT](../gpt/)
+- [Positional Encoding](../positional-encoding/)
+- [Residual Connections (Skip Connections)](../residual-connections/)
+- [RoPE (Rotary Position Embedding)](../rope/)
+- [Softmax Function](../softmax-function/)
+- [Transformer](../transformer/)
