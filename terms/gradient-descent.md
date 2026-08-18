@@ -1,7 +1,7 @@
 ---
 title: "Gradient Descent"
 category: "Training"
-related: ["Backpropagation", "Loss Function", "Training", "Optimizer"]
+related: ["Adam / AdamW", "Optimizer", "Loss Function", "Backpropagation"]
 date_added: 2026-08-12
 ---
 
