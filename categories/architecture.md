@@ -37,6 +37,7 @@ Different architectures are suited for different tasks:
 | [Embedding](/ai-dictionary/terms/embedding/) | A dense, multi-dimensional vector representation of data that captures its semantic meaning for similarity search. |
 | [Encoder-Decoder](/ai-dictionary/terms/encoder-decoder/) | An architecture with an Encoder that processes input into a representation and a Decoder that generates output, used for sequence-to-sequence tasks. |
 | [Expert Systems](/ai-dictionary/terms/expert-systems/) | An early AI paradigm using hand-coded knowledge bases and logical inference rules to emulate human expert decision-making. |
+| [FlashAttention](/ai-dictionary/terms/flashattention/) | An optimized attention algorithm that reduces memory reads and writes between GPU memory tiers, significantly speeding up Transformer training and inference while using less memory. |
 | [Foundation Model](/ai-dictionary/terms/foundation-model/) | A large-scale AI model trained on vast datasets that serves as a versatile foundation adaptable to many downstream tasks. |
 | [Frontier Model](/ai-dictionary/terms/frontier-model/) | The most advanced, state-of-the-art AI models representing the cutting edge of capabilities, scale, and potential systemic risk. |
 | [GAN](/ai-dictionary/terms/gan/) | A generative architecture with two competing networks (Generator and Discriminator) trained adversarially to produce realistic outputs. |
@@ -48,6 +49,7 @@ Different architectures are suited for different tasks:
 | [LRM](/ai-dictionary/terms/lrm/) | A class of AI models that use extended chain-of-thought reasoning to solve complex problems, trading speed and cost for improved accuracy. |
 | [LSTM](/ai-dictionary/terms/lstm/) | A specialized RNN with gating mechanisms that can learn long-term dependencies, solving the vanishing gradient problem. |
 | [Machine Learning (ML)](/ai-dictionary/terms/machine-learning/) | A core subset of AI where systems learn to perform tasks and improve by identifying patterns in data, rather than following explicit rules. |
+| [Mamba / SSMs (State Space Models)](/ai-dictionary/terms/mamba-ssms/) | A modern sequence modeling architecture that uses state space models to achieve linear-time scaling with sequence length, offering an efficient alternative to Transformers for long contexts. |
 | [Mixture of Experts (MoE)](/ai-dictionary/terms/moe/) | An architecture using multiple specialized expert sub-networks with a gating mechanism that routes inputs to relevant experts, enabling massive capacity with efficient computation. |
 | [Model](/ai-dictionary/terms/model/) | The final output of the machine learning training process — a mathematical representation that can take new input data and produce predictions. |
 | [Multimodal](/ai-dictionary/terms/multimodal/) | An AI model capable of processing and understanding multiple data types (text, images, audio, video) simultaneously. |
