@@ -36,6 +36,7 @@ Training encompasses several phases:
 | [Fine-tuning](/ai-dictionary/terms/fine-tuning/) | The process of taking a pre-trained AI model and further training it on a specific dataset or task to improve its performance for a particular use case. |
 | [Gradient Descent](/ai-dictionary/terms/gradient-descent/) | An iterative optimization algorithm that minimizes a loss function by updating model parameters in the direction of steepest descent. |
 | [Gradient / Gradient Flow](/ai-dictionary/terms/gradient-flow/) | The error signal that propagates backward through a neural network during training, indicating how much each parameter contributed to the mistake. |
+| [GRPO (Group Relative Policy Optimization)](/ai-dictionary/terms/grpo/) | An advanced reinforcement learning algorithm for aligning language models that optimizes policies by comparing multiple generated outputs (a group) to estimate advantages, eliminating the need for a separate critic model. |
 | [Hyperparameter](/ai-dictionary/terms/hyperparameter/) | A configuration setting external to the model that controls the training process (e.g., learning rate, batch size), set before training begins. |
 | [In-Context Learning](/ai-dictionary/terms/in-context-learning/) | The ability of LLMs to learn tasks from examples provided within the input prompt, without any parameter updates. |
 | [Learning Rate](/ai-dictionary/terms/learning-rate/) | A critical hyperparameter controlling the size of optimization steps during training, with values that are too high causing instability and too low causing slow convergence. |
@@ -47,6 +48,7 @@ Training encompasses several phases:
 | [Pre-training](/ai-dictionary/terms/pre-training/) | The initial phase of training a model on massive datasets to learn broad patterns before specializing through fine-tuning. |
 | [Prompt](/ai-dictionary/terms/prompt/) | The input text or instruction provided to a language model that guides its response. |
 | [Prompt Engineering](/ai-dictionary/terms/prompt-engineering/) | The practice of designing and refining input prompts to guide LLMs toward desired outputs without modifying model weights. |
+| [QLoRA (Quantized Low-Rank Adaptation)](/ai-dictionary/terms/qlora/) | A highly efficient fine-tuning method that combines aggressive quantization (e.g., 4-bit) with LoRA, allowing massive models to be fine-tuned on consumer-grade hardware with minimal memory overhead. |
 | [Reinforcement Learning (RL)](/ai-dictionary/terms/reinforcement-learning/) | A type of ML where an agent learns to make decisions by interacting with an environment, receiving rewards for good actions and penalties for bad ones. |
 | [Regularization](/ai-dictionary/terms/regularization/) | A set of techniques that prevent a model from overfitting by adding a penalty for complexity, forcing it to learn broader, generalizable patterns. |
 | [Reward Model](/ai-dictionary/terms/reward-model/) | A specialized neural network trained to predict human preferences, serving as the scoring function for reinforcement learning alignment. |
