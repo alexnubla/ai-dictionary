@@ -1,16 +1,17 @@
 ---
 layout: default
-title: "AI Dictionary of Terms | 190+ Definitions Explained Simply"
-description: "A curated, living dictionary of AI and machine learning terminology. 190+ terms with plain-English explanations and technical definitions."
+title: "AI Dictionary: 200+ Machine Learning Terms Explained Simply"
+description: "The ultimate free AI Dictionary and glossary. 200+ artificial intelligence and machine learning terms explained in plain English for beginners and experts."
 ---
 
 <p align="center">
   <img src="banner-ai-dictionary-1.png" alt="AI Dictionary of Terms" width="100%" style="max-width: 1200px; border-radius: 12px;">
 </p>
 
-# AI Dictionary of Terms
+# AI Dictionary: 200+ Terms Explained Simply
 
-A curated, living dictionary of **artificial intelligence** and machine learning **terminology** with 190+ definitions explained simply. 
+Welcome to the most accessible **AI Dictionary** on the web. Whether you are looking for an **artificial intelligence glossary** to understand basic concepts or a technical **machine learning terms** reference, this living dictionary provides clear, jargon-free definitions alongside rigorous technical explanations. 
+
 Built for **everyone** — from complete beginners to seasoned practitioners.
 
 > **Created and curated by [Alex Nubla](https://www.linkedin.com/in/alexnubla/).**
@@ -29,7 +30,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ---
 
-##  Browse by Category
+## Browse by Category
 
 <details>
 <summary><strong><a href="./categories/architecture/" style="text-decoration: none !important; color: inherit !important;">🏗️ Architecture</a></strong> — 50 terms · Core model designs, neural network structures, and foundational paradigms</summary>
@@ -180,7 +181,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/ethics/" style="text-decoration: none !important; color: inherit !important;">️🛡️ Ethics &amp; Safety</a></strong> — 18 terms · Responsible AI and risk mitigation</summary>
+<summary><strong><a href="./categories/ethics/" style="text-decoration: none !important; color: inherit !important;">🛡️ Ethics &amp; Safety</a></strong> — 18 terms · Responsible AI and risk mitigation</summary>
 
 <a href="./terms/ai-safety/">AI Safety</a> · 
 <a href="./terms/ai-slop/">AI Slop</a> · 
@@ -281,6 +282,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
+<div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+
 | Letter | Terms |
 | :---: | :--- |
 | **A** | [Activation Function](./terms/activation-function/), [Adam / AdamW (Adaptive Moment Estimation)](./terms/adam-adamw/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Act](./terms/ai-act/), [AI Copyright & IP](./terms/ai-copyright-ip/), [AI Forensics (Media Forensics)](./terms/ai-forensics/), [AI Gateway](./terms/ai-gateway/), [AI-Generated Evidence](./terms/ai-generated-evidence/), [AI Liability](./terms/ai-liability/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Sycophancy](./terms/ai-sycophancy/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Algorithmic Accountability](./terms/algorithmic-accountability/), [Algorithmic Audit](./terms/algorithmic-audit/), [Algorithmic Risk Assessment](./terms/algorithmic-risk-assessment/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [ASI (Artificial Superintelligence)](./terms/asi/), [Attention Mechanism](./terms/attention-mechanism/), [Automated Decision-Making (ADM)](./terms/automated-decision-making/), [Autoregressive](./terms/autoregressive/) |
@@ -310,6 +313,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **Y** | [YOLO](./terms/yolo/) |
 | **Z** | [Zero-Shot Learning](./terms/zero-shot-learning/) |
 
+</div>
+
 🔍 **[Search the Dictionary](/ai-dictionary/search.html)** | 📚 **[View All Terms](/ai-dictionary/terms/)**
 
 ---
@@ -320,7 +325,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone.
 
 **How many terms are in this AI terminology glossary?**  
-This living dictionary contains 190+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
+This living dictionary contains 200+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI.
 
 **Who is this AI dictionary for?**  
 It is built for everyone. Every term includes a "Simple Version" written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners.
@@ -333,3 +338,38 @@ Yes! This is an open-source project licensed under the MIT License. You are free
 ### 🤝 Contributing & License
 Want to add a term? Check out our [Contributing Guidelines](CONTRIBUTING.md). 
 This project is open source under the [MIT License](LICENSE).
+
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an AI dictionary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many terms are in this AI terminology glossary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This living dictionary contains 200+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this AI dictionary free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary."
+      }
+    }
+  ]
+}
+</script>
