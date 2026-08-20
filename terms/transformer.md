@@ -1,7 +1,7 @@
 ---
 title: "Transformer"
 category: "Architecture"
-related: ["Attention Mechanism", "BERT", "GPT", "Softmax Function", "Residual Connections", "RoPE", "Positional Encoding", "LRM"]
+related: ["Attention Mechanism", "BERT", "GPT", "Softmax Function", "Residual Connections", "RoPE", "FlashAttention", "Mamba / SSMs", "Positional Encoding", "LRM"]
 date_added: 2026-08-11
 ---
 
@@ -164,9 +164,11 @@ print("Sentiment:", result)
 - [Attention Mechanism](../attention-mechanism/)
 - [BERT](../bert/)
 - [Context Window](../context-window/)
+- [FlashAttention](../flashattention/)
 - [Foundation Model](../foundation-model/)
 - [GPT](../gpt/)
 - [LRM](../lrm/)
+- [Mamba / SSMs (State Space Models)](../mamba-ssms/)
 - [RoPE (Rotary Position Embedding)](../rope/)
 - [Softmax Function](../softmax-function/)
 
