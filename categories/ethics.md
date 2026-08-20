@@ -39,6 +39,7 @@ Ethics and safety include:
 | [Human-Centered AI (HCAI)](/ai-dictionary/terms/human-centered-ai/) | A design philosophy that prioritizes human values, needs, and agency throughout the AI lifecycle, ensuring AI augments rather than replaces humans. |
 | [Jailbreak](/ai-dictionary/terms/jailbreak/) | An adversarial attack using crafted prompts to bypass an AI model's safety guardrails and ethical constraints. |
 | [Parasitic AI](/ai-dictionary/terms/parasitic-ai/) | AI systems that exploit or feed off other AI systems, their training data, or outputs without contributing meaningful value back. |
+| [Red Teaming](/ai-dictionary/terms/red-teaming/) | A proactive security and safety testing methodology where human experts (or AI) simulate adversarial attacks to identify vulnerabilities, bypass guardrails, and uncover harmful behaviors in AI systems before deployment. |
 | [Responsible AI](/ai-dictionary/terms/responsible-ai/) | A practical framework and set of operational practices for developing, deploying, and managing AI systems in a way that is safe, fair, transparent, and accountable. |
 | [Spiralism (Model Collapse)](/ai-dictionary/terms/spiralism/) | The degradation of AI model quality that occurs when models are trained on outputs from other AI models, creating a feedback loop of declining quality. |
 
