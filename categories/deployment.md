@@ -47,6 +47,7 @@ Deployment involves:
 | [Temperature](/ai-dictionary/terms/temperature/) | A parameter controlling the randomness and creativity of a language model's output. |
 | [Throughput](/ai-dictionary/terms/throughput/) | The number of requests or tokens an AI system can process per unit of time, measuring capacity and scalability. |
 | [Top-p Sampling (Nucleus Sampling)](/ai-dictionary/terms/top-p-sampling/) | A decoding strategy that dynamically filters the vocabulary to the smallest set of tokens whose cumulative probability exceeds a threshold $p$, balancing creativity and coherence. |
+| [vLLM / PagedAttention](/ai-dictionary/terms/vllm-pagedattention/) | A high-throughput LLM inference engine that uses PagedAttention to efficiently manage the KV cache in non-contiguous memory blocks, eliminating memory fragmentation and significantly boosting generation speed. |
 | [Vector Database](/ai-dictionary/terms/vector-database/) | A specialized database for storing and searching high-dimensional embeddings, enabling fast semantic search. |
 
 ## Why Deployment Matters
