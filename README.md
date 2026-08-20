@@ -282,7 +282,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 ## 🔤 Browse All Terms (A-Z)
 
-<div style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+<div style="overflow-x: auto; -webkit-overflow-scrolling: touch;" markdown="1">
 
 | Letter | Terms |
 | :---: | :--- |
@@ -292,7 +292,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **D** | [Data Augmentation](./terms/data-augmentation/), [Data Contamination](./terms/data-contamination/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deepfake](./terms/deepfake/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Digital Biomarker](./terms/digital-biomarker/), [Digital Forensics](./terms/digital-forensics/), [Digital Labor](./terms/digital-labor/), [Digital Therapeutics (DTx)](./terms/digital-therapeutics/), [Digital Twin](./terms/digital-twin/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/), [Drug Discovery AI](./terms/drug-discovery-ai/) |
 | **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [eDiscovery (Electronic Discovery)](./terms/ediscovery/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/), [Expert Systems](./terms/expert-systems/) |
 | **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [Foundation Model](./terms/foundation-model/), [Frontier Model](./terms/frontier-model/) |
-| **G** | [GAN](./terms/gan/), [Generalization Error](./terms/generalization-error/), [Generative AI](./terms/generative-ai/), [Generative AI Disclosure](./terms/generative-ai-disclosure/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Gradient / Gradient Flow](./terms/gradient-flow/), [Graphics Processing Unit (GPU)](./terms/gpu/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
+| **G** | [GAN](./terms/gan/), [Generalization Error](./terms/generalization-error/), [Generative AI](./terms/generative-ai/), [Generative AI Disclosure](./terms/generative-ai-disclosure/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Gradient / Gradient Flow](./terms/gradient-flow/), [Graphics Processing Unit (GPU)](./terms/graphics-processing-unit/), [Grounding](./terms/grounding/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
 | **H** | [Hallucination](./terms/hallucination/), [Health Informatics](./terms/health-informatics/), [High-Risk AI System](./terms/high-risk-ai-system/), [HITL](./terms/hitl/), [Human-Centered AI (HCAI)](./terms/human-centered-ai/), [Hyperparameter](./terms/hyperparameter/) |
 | **I** | [Impact Assessment (Algorithmic)](./terms/impact-assessment/), [In Silico Trials](./terms/in-silico-trials/), [In-Context Learning](./terms/in-context-learning/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/), [Interoperability](./terms/interoperability/) |
 | **J** | [Jailbreak](./terms/jailbreak/) |
