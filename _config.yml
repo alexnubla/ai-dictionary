@@ -1,19 +1,30 @@
-title: "AI Dictionary of Terms"
-description: "A curated, living dictionary of AI/ML terminology with clear, accessible explanations."
+# Site Settings
+title: "AI Dictionary: 200+ Machine Learning Terms Explained Simply"
+description: "The ultimate free AI Dictionary and glossary. 200+ artificial intelligence and machine learning terms explained in plain English for beginners and experts."
 url: "https://alexnubla.github.io"
 baseurl: "/ai-dictionary"
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
 
 # Jekyll automatically processes folders containing files with YAML front matter.
 # No need to explicitly include 'terms' or 'categories'.
 
-permalink: pretty
-
 defaults:
   - scope:
-      path: ""
+      path: "" # Applies to all files
     values:
       layout: "default"
+      # Optional: Add default SEO image if you have a standard banner
+      # image: "/ai-dictionary/banner-ai-dictionary-1.png"
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag # <-- NEW: The gold standard for Jekyll SEO
+
+# Sitemap configuration (optional but helpful)
+sitemap:
+  file: "sitemap.xml"
