@@ -69,7 +69,7 @@
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "What is an AI dictionary?", "acceptedAnswer": { "@type": "Answer", "text": "An AI dictionary is a reference resource that defines artificial intelligence and machine learning terms in plain language, making complex concepts accessible to everyone." } },
-          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
+          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 210+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
           { "@type": "Question", "name": "Who is this AI dictionary for?", "acceptedAnswer": { "@type": "Answer", "text": "It is built for everyone. Every term includes a Simple Version written in plain English for beginners, alongside detailed technical definitions and code examples." } },
           { "@type": "Question", "name": "Is this AI dictionary free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary." } }
         ]
@@ -78,17 +78,23 @@
 
     {% else %}
 
-      <!-- Term Page Schema: DefinedTerm (for all individual term pages) -->
+      <!-- Term Page Schema: DefinedTerm (Enhanced for AI Scrapers & SEO) -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "DefinedTerm",
-        "name": "{{ page.title | replace: ' | AI Dictionary', '' }}",
-        "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}",
+        "name": "{{ page.title }}",
+        "description": "{{ page.description | strip_html | truncate: 160 }}",
+        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}",
         "inDefinedTermSet": {
           "@type": "DefinedTermSet",
           "name": "AI Dictionary of Terms",
           "url": "{{ site.url }}{{ site.baseurl }}/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Alex Nubla",
+          "url": "https://www.linkedin.com/in/alexnubla/"
         }
       }
       </script>
