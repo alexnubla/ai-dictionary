@@ -1,23 +1,23 @@
 ---
-title: "Enterprise AI"
-description: "AI infrastructure, governance, and management for organizations"
+title: "Enterprise AI & Agents"
+description: "AI infrastructure, governance, and autonomous agent management for organizations"
 ---
 
-# 🏢 Enterprise AI
+# 🏢 Enterprise AI & Agents
 
-AI infrastructure, governance, and management practices designed for organizational use, focusing on security, cost control, compliance, and scalability.
+AI infrastructure, governance, and management practices designed for organizational use, now expanded to include autonomous agentic systems, focusing on security, cost control, compliance, and scalability.
 
-## What is Enterprise AI?
+## What is Enterprise AI & Agents?
 
-Enterprise AI refers to the systems, processes, and infrastructure that organizations need to deploy, manage, and govern AI at scale. Unlike individual or experimental AI use, enterprise AI must address the complex requirements of large organizations.
+Enterprise AI refers to the systems, processes, and infrastructure that organizations need to deploy, manage, and govern AI at scale. With the rapid rise of agentic AI, this category now also encompasses autonomous systems that can perceive, plan, and execute multi-step tasks. Unlike individual or experimental AI use, enterprise AI and agents must address the complex requirements of large organizations.
 
-Enterprise AI encompasses:
-- **Infrastructure:** The technical systems that support AI workloads
-- **Governance:** Policies and controls for AI usage
-- **Security:** Protecting data and preventing unauthorized access
-- **Cost Management:** Tracking and allocating AI expenses
-- **Compliance:** Meeting regulatory and audit requirements
-- **Integration:** Connecting AI to existing enterprise systems
+Enterprise AI & Agents encompasses:
+- **Infrastructure:** The technical systems (like AI Gateways) that support AI workloads.
+- **Agentic Workflows:** Systems where AI autonomously uses tools, memory, and planning to achieve goals.
+- **Governance:** Policies and controls for both human-in-the-loop and autonomous AI usage.
+- **Security:** Protecting data and preventing unauthorized access or shadow AI.
+- **Cost Management:** Tracking and allocating AI expenses across teams and projects.
+- **Integration:** Connecting AI and agents to existing enterprise systems and APIs.
 
 ## Terms in This Category
 
@@ -34,21 +34,21 @@ Enterprise AI encompasses:
 | [Model Monitoring / Drift Detection](/ai-dictionary/terms/model-monitoring/) | Continuous tracking of AI model performance to detect degradation caused by changes in data distributions or input-output relationships. |
 | [Open Source](/ai-dictionary/terms/open-source/) | A development model where the source code, and often the training data and methodology, of a software or AI system is made freely available for anyone to view, modify, and distribute. |
 | [Predictive Analytics](/ai-dictionary/terms/predictive-analytics/) | The use of historical data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes. |
-| [ReAct Paradigm (Reasoning and Acting)](/ai-dictionary/terms/react-paradigm/) | A framework that combines reasoning and acting in language models, enabling them to generate reasoning traces (thoughts) and task-specific actions (e.g., searching or executing code) in an interleaved manner to solve complex problems. |
+| [ReAct Paradigm (Reasoning and Acting)](/ai-dictionary/terms/react-paradigm/) | A framework that combines reasoning and acting in language models, enabling them to generate reasoning traces and task-specific actions in an interleaved manner to solve complex problems. |
 | [Shadow AI](/ai-dictionary/terms/shadow-ai/) | The unauthorized use of AI tools by employees, bypassing official IT channels and creating data security and compliance risks. |
-| [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools. |
+| [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools, forming the basis of agentic behavior. |
 | [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers describe what they want in natural language and let AI generate the implementation. |
 
-## Why Enterprise AI Matters
+## Why Enterprise AI & Agents Matters
 
-As organizations adopt AI more broadly, they face unique challenges that go beyond just building models:
-- **Shadow AI:** Preventing unauthorized AI usage that creates security and compliance risks
-- **Cost Control:** Managing unpredictable AI expenses across multiple teams and projects
-- **Data Protection:** Ensuring sensitive information isn't exposed to external AI providers
-- **Audit Trails:** Maintaining records for compliance and accountability
-- **Vendor Management:** Avoiding lock-in and maintaining flexibility
+As organizations adopt AI and autonomous agents more broadly, they face unique challenges that go beyond just building models:
+- **Shadow AI:** Preventing unauthorized AI usage that creates security and compliance risks.
+- **Cost Control:** Managing unpredictable AI and agent execution expenses across multiple teams.
+- **Data Protection:** Ensuring sensitive information isn't exposed to external AI providers or leaked by agents.
+- **Audit Trails:** Maintaining records of autonomous agent actions for compliance and accountability.
+- **Vendor Management:** Avoiding lock-in and maintaining flexibility in a rapidly evolving tooling landscape.
 
-Understanding enterprise AI helps organizations build sustainable, secure, and governable AI programs that deliver value while managing risk.
+Understanding enterprise AI and agents helps organizations build sustainable, secure, and governable AI programs that deliver value while managing risk.
 
 ---
 *[← Back to Home]({{ site.baseurl }}/)* | *[View All Terms]({{ site.baseurl }}/terms/)*
