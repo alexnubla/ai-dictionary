@@ -14,7 +14,7 @@ date_added: 2026-08-22
 The field of study focused on identifying, exploiting, and defending against vulnerabilities in machine learning models through carefully crafted malicious inputs.
 
 ## The Simple Version
-> **Simple Version:** The study of how to "trick" AI models with sneaky inputs, and how to build defenses so the AI can't be fooled.
+The study of how to "trick" AI models with sneaky inputs, and how to build defenses so the AI can't be fooled.
 
 ## Detailed Explanation
 Adversarial Machine Learning (AML) is a subfield of AI security that examines the vulnerabilities of ML models to adversarial examples—inputs intentionally designed to cause the model to make mistakes. Attacks are generally categorized into three types: **Evasion Attacks** (manipulating inputs at inference time to bypass classifiers, e.g., adversarial patches on stop signs), **Poisoning Attacks** (corrupting the training data to embed backdoors or degrade performance), and **Model Extraction** (stealing a model's architecture or training data via repeated queries). Defending against AML requires techniques like adversarial training, input sanitization, and robust architecture design.
