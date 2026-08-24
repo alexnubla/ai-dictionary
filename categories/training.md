@@ -24,6 +24,7 @@ Training encompasses several phases:
 | [Adam / AdamW (Adaptive Moment Estimation)](/ai-dictionary/terms/adam-adamw/) | The industry-standard optimization algorithm used to train neural networks, which dynamically adapts the learning rate for every individual parameter. |
 | [Backpropagation](/ai-dictionary/terms/backpropagation/) | The fundamental algorithm for training neural networks by calculating and propagating error gradients backward to update weights. |
 | [Batch Size](/ai-dictionary/terms/batch-size/) | The number of training examples processed in a single iteration before the model's internal parameters are updated. |
+| [Best-of-N Decoding](/ai-dictionary/terms/best-of-n/) | An inference and alignment technique where a model generates multiple candidate responses to a single prompt, and a separate Reward Model scores them to select the single best output. |
 | [Catastrophic Forgetting](/ai-dictionary/terms/catastrophic-forgetting/) | A phenomenon where a model trained on a new task dramatically loses performance on previously learned tasks, essentially "forgetting" earlier knowledge. |
 | [Chain of Thought](/ai-dictionary/terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
 | [Context Engineering](/ai-dictionary/terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs to elicit desired behaviors. |
