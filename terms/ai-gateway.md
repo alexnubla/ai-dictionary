@@ -16,6 +16,10 @@ An AI Gateway is like having a single, smart front door for all AI services. Ins
 
 It's like having a really helpful receptionist who knows all the rules, keeps everything organized, and makes sure everyone gets what they need safely and efficiently.
 
+## Visual Architecture
+
+![AI Gateway Architecture](../assets/diagrams/ai-gateway-architecture.png)
+
 ## Detailed Explanation
 Just as an API Gateway manages traditional web traffic, an AI Gateway handles LLM requests. It provides a single point of control for authentication, rate limiting, prompt formatting, model routing, and logging. It abstracts the complexity of different AI providers away from the end-user applications.
 
