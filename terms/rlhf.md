@@ -16,6 +16,10 @@ RLHF works the same way with AI. First, the AI generates lots of different respo
 
 It's like having a teacher who doesn't just give you the answers, but tells you when you're on the right track. The AI learns what humans value and tries to match those values in its responses.
 
+## Visual Workflow
+
+![RLHF Workflow](../assets/diagrams/rlhf-workflow.png)
+
 ## Detailed Explanation
 RLHF is a three-phase training process that bridges the gap between what a model *can* do (predict text) and what we *want* it to do (be helpful, harmless, and honest).
 
