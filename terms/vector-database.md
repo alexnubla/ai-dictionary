@@ -14,6 +14,10 @@ Imagine a traditional library catalog. If you search for "automobile," it only f
 
 A vector database is like a library where every book has been assigned a "theme coordinate" in a massive, multi-dimensional room. If you search for "automobile," the system doesn't look for the word; it goes to the "automobile" coordinate and grabs all the books physically located nearby, which naturally include books about "cars" and "vehicles." It finds things by *meaning*, not by exact spelling.
 
+## Visual Workflow
+
+![Vector Database Workflow](../assets/diagrams/vector-database-workflow.png)
+
 ## Detailed Explanation
 As AI models generate embeddings (dense vectors representing data), traditional relational databases (SQL) or document stores (NoSQL) struggle to search them efficiently. Vector databases solve this.
 
