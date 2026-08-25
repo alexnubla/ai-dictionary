@@ -15,6 +15,10 @@ An obfuscation technique where malicious prompts are concealed within ASCII art,
 ## The Simple Version
 Hiding harmful commands inside weird formatting, invisible characters, or ASCII art so human reviewers and simple security filters can't see them, but the AI still reads them.
 
+## Visual Workflow
+
+![ASCII Smuggling Workflow](../assets/diagrams/ascii-smuggling-workflow.png)
+
 ## Detailed Explanation
 ASCII Smuggling exploits the difference between how humans (or simple regex-based filters) read text and how LLM tokenizers process it. An attacker might embed a harmful instruction using zero-width joiners, invisible Unicode characters, or by shaping text into an ASCII image. To a human reviewer or a basic string-matching firewall, the input looks like gibberish or a harmless image. However, the LLM's tokenizer breaks the input down into underlying character codes, reconstructs the hidden message, and executes the adversarial intent.
 
