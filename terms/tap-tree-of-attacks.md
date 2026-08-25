@@ -16,6 +16,10 @@ An advanced, automated black-box jailbreak algorithm that uses an attacker LLM t
 ## The Simple Version
 An automated AI red-teaming tool that acts like a persistent hacker, generating and refining attack prompts over multiple steps until it successfully breaks the target AI's safety rules.
 
+## Visual Workflow
+
+![TAP Tree of Attacks Workflow](../assets/diagrams/tap-workflow.png)
+
 ## Detailed Explanation
 Tree of Attacks with Pruning (TAP) is a sophisticated, automated method for discovering jailbreaks without requiring access to the target model's internal weights or gradients (black-box). It works by employing an "attacker" LLM to generate a tree of candidate prompts. These prompts are sent to the target model. A separate "judge" LLM evaluates the target's response to determine if the attack was successful. Successful branches are kept and iteratively refined (mutated) to become more effective, while unsuccessful branches are "pruned" (discarded). This evolutionary process efficiently navigates the vast space of possible prompts to find novel, complex jailbreaks that human red teamers might miss.
 
