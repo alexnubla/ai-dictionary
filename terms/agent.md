@@ -14,6 +14,10 @@ If an LLM is a very smart brain in a jar, an Agent is that brain given a body, h
 
 A chatbot waits for you to ask a question and gives one answer. An Agent is given a goal ("Book me a flight to London under $1,000") and figures out all the steps on its own: search flights, compare prices, check your calendar, book the best option, and add it to your itinerary.
 
+## Visual Workflow
+
+![AI Agent Execution Workflow](../assets/diagrams/agent-workflow.png)
+
 ## Detailed Explanation
 An Agent is the concrete instantiation of agentic AI principles. While "Agentic AI" describes the paradigm, an "Agent" is the actual system doing the work.
 
