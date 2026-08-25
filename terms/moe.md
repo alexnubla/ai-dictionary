@@ -16,6 +16,10 @@ Mixture of Experts works the same way. The model has many "expert" sub-networks,
 
 For example, Mixtral 8x7B has 8 expert networks but only uses 2 per input. It has the knowledge capacity of a 47B parameter model but the speed of a 13B model.
 
+## Visual Workflow
+
+![Mixture of Experts Workflow](../assets/diagrams/moe-workflow.png)
+
 ## Detailed Explanation
 MoE architectures address the scaling challenge: how do you make models bigger (more knowledge) without making them proportionally slower and more expensive?
 
