@@ -16,6 +16,10 @@ Now, imagine that same smart friend has a big filing cabinet right next to them,
 
 That's what RAG does. It gives the AI a filing cabinet of trustworthy information to look through *before* answering your question. That way, the answer is more likely to be right, and you can even check the source to make sure.
 
+## Visual Workflow
+
+![RAG Workflow Diagram](../assets/diagrams/rag-workflow.png)
+
 ## Detailed Explanation
 Instead of relying solely on the static, pre-trained knowledge of an LLM (which can lead to hallucinations or outdated info), RAG works in two steps:
 1. **Retrieval:** When a user asks a question, the system searches a vector database or document store for relevant context.
