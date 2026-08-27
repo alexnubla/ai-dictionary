@@ -129,9 +129,19 @@
         tr:nth-child(even) { background-color: #f9f9f9; }
 
         /* ===== MODERN TRANSLATE BUTTON STYLES ===== */
-        /* Hide the default Google Translate widget entirely */
-        #google_translate_element { display: none !important; }
-        .goog-te-gadget { display: none !important; }
+        
+        /* CRITICAL FIX: Hide the default widget visually without breaking DOM clicks */
+        #google_translate_element {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
         
         /* Custom Translate Button */
         .translate-button {
@@ -209,7 +219,7 @@
             <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
             
             <!-- NEW: Modern Translate Button -->
-            <button class="translate-button" onclick="document.querySelector('.goog-te-menu-value a').click()" aria-label="Translate page">
+            <button class="translate-button" onclick="triggerTranslate()" aria-label="Translate page">
                 <!-- Globe SVG Icon -->
                 <svg class="translate-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -229,10 +239,25 @@
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
-                includedLanguages: 'zh-CN,es,fr,ja,pt,tl', /* Chinese, Spanish, French, Japanese, Portuguese, Tagalog */
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                includedLanguages: 'zh-CN,es,fr,ja,pt,tl',
+                /* REMOVED InlineLayout.SIMPLE so it generates the dropdown menu */
                 autoDisplay: false
             }, 'google_translate_element');
+        }
+
+        function triggerTranslate() {
+            // Targets the hidden dropdown trigger and forces a click event
+            const menuValue = document.querySelector('.goog-te-menu-value');
+            if (menuValue) {
+                menuValue.click();
+            } else {
+                // Fallback in case Google changes their class names in the future
+                const selectBox = document.querySelector('.goog-te-combo');
+                if (selectBox) {
+                    selectBox.focus();
+                    selectBox.click();
+                }
+            }
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
