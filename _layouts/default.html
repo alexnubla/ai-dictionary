@@ -128,22 +128,62 @@
         th { background-color: #f6f8fa; font-weight: 600; }
         tr:nth-child(even) { background-color: #f9f9f9; }
 
-        /* NEW: Clean up Google Translate UI to match your modern aesthetic */
+        /* ===== MODERN TRANSLATE BUTTON STYLES ===== */
+        /* Hide the default Google Translate widget entirely */
+        #google_translate_element { display: none !important; }
+        .goog-te-gadget { display: none !important; }
+        
+        /* Custom Translate Button */
+        .translate-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            background-color: #ffffff;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #24292f;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+        }
+        
+        .translate-button:hover {
+            background-color: #f3f4f6;
+            border-color: #0969da;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+        }
+        
+        .translate-button:active {
+            background-color: #eef2f5;
+            transform: translateY(1px);
+        }
+        
+        /* Globe Icon */
+        .translate-icon {
+            width: 18px;
+            height: 18px;
+            color: #57606a;
+            transition: color 0.2s ease;
+        }
+        
+        .translate-button:hover .translate-icon {
+            color: #0969da;
+        }
+        
+        /* Hide Google's default top banner */
         .goog-te-banner-frame { display: none !important; }
         body { top: 0px !important; }
-        .goog-te-gadget { font-family: 'Inter', sans-serif !important; font-size: 14px !important; color: #24292f !important; }
-        .goog-te-gadget-simple { 
-            background-color: #ffffff !important; 
+        
+        /* Style the dropdown menu when it opens */
+        .goog-te-menu-frame { 
             border: 1px solid #d0d7de !important; 
-            padding: 6px 12px !important; 
-            border-radius: 6px !important; 
-            cursor: pointer;
-            transition: background-color 0.2s ease;
+            border-radius: 8px !important; 
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important; 
         }
-        .goog-te-gadget-simple:hover {
-            background-color: #f3f4f6 !important;
-        }
-        .goog-te-menu-value span { color: #24292f !important; }
     </style>
 </head>
 
@@ -167,8 +207,15 @@
     <header>
         <div class="header-content">
             <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
-            <!-- NEW: Google Translate Widget Container -->
-            <div id="google_translate_element"></div>
+            
+            <!-- NEW: Modern Translate Button -->
+            <button class="translate-button" onclick="document.querySelector('.goog-te-menu-value a').click()" aria-label="Translate page">
+                <!-- Globe SVG Icon -->
+                <svg class="translate-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>Translate</span>
+            </button>
         </div>
     </header>
 
@@ -177,7 +224,7 @@
         {{ content }}
     </div>
 
-    <!-- NEW: Google Translate Widget Script -->
+    <!-- Google Translate Widget Script (Hidden, but functional) -->
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
@@ -190,7 +237,7 @@
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <!-- NEW: Protect Term Titles AND Related Terms from Translation -->
+    <!-- Protect Term Titles AND Related Terms from Translation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // 1. Protect the main term title (H1)
@@ -203,15 +250,10 @@
             // 2. Protect the "Related Terms" section and its list
             const headings = document.querySelectorAll('h2, h3, h4');
             headings.forEach(heading => {
-                // Case-insensitive check for "Related Term" or "Related Terms"
                 if (heading.textContent.trim().toLowerCase().includes('related term')) {
-                    
-                    // Protect the heading itself
                     heading.setAttribute('translate', 'no');
                     heading.classList.add('notranslate');
                     
-                    // Protect all sibling elements (the <ul> and <li> items) 
-                    // until we hit the next heading (e.g., "Sources & Further Reading")
                     let nextElement = heading.nextElementSibling;
                     while (nextElement && !nextElement.tagName.match(/^H[2-6]$/)) {
                         nextElement.setAttribute('translate', 'no');
