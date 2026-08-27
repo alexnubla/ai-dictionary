@@ -141,13 +141,13 @@
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important; 
         }
 
-        /* Hide the default "Select Language" text, Google logo, and arrow */
+        /* Hide the default "Select Language" text, Google logo, and separator arrow */
         .goog-te-menu-value span:first-child { display: none !important; }
         .goog-te-gadget-simple img { display: none !important; }
         .goog-te-gadget-simple span[style*="border-left"] { display: none !important; }
         .goog-te-gadget { font-size: 0 !important; color: transparent !important; }
 
-        /* Style the actual Google button to look like our custom button */
+        /* Style the actual Google button to look like a modern custom button */
         .goog-te-gadget-simple {
             display: inline-flex !important;
             align-items: center !important;
@@ -172,22 +172,23 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08) !important;
         }
 
-        /* Add our custom globe icon via CSS */
+        /* Add modern Lucide Globe icon via CSS ::before */
         .goog-te-gadget-simple::before {
             content: '' !important;
             display: inline-block !important;
-            width: 18px !important;
-            height: 18px !important;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2357606a' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /%3E%3C/svg%3E") !important;
+            width: 20px !important;
+            height: 20px !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2357606a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E") !important;
             background-size: contain !important;
             background-repeat: no-repeat !important;
         }
 
+        /* Change icon color on hover */
         .goog-te-gadget-simple:hover::before {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%230969da' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /%3E%3C/svg%3E") !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230969da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E") !important;
         }
 
-        /* Add the word "Translate" */
+        /* Add the word "Translate" via CSS ::after */
         .goog-te-gadget-simple::after {
             content: 'Translate' !important;
             font-size: 14px !important;
@@ -217,7 +218,7 @@
         <div class="header-content">
             <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
             
-            <!-- Google Translate Widget (Styled via CSS above to look like a custom button) -->
+            <!-- Google Translate Widget (Styled via CSS above to look like a modern custom button) -->
             <div id="google_translate_element"></div>
         </div>
     </header>
@@ -232,13 +233,13 @@
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
-                includedLanguages: 'zh-CN,es,fr,ja,pt,tl',
+                includedLanguages: 'zh-CN,es,fr,ja,pt,tl', /* Chinese, Spanish, French, Japanese, Portuguese, Tagalog */
                 autoDisplay: false
             }, 'google_translate_element');
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    
+
     <!-- Protect Term Titles, Related Terms, AND Table Term Columns from Translation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -265,12 +266,11 @@
                 }
             });
 
-            // 3. NEW: Protect the first column of ANY table (e.g., the "Term" column on category pages)
+            // 3. Protect the first column of ANY table (e.g., the "Term" column on category pages)
             const tables = document.querySelectorAll('table');
             tables.forEach(table => {
                 const rows = table.querySelectorAll('tr');
                 rows.forEach(row => {
-                    // Target the first cell (td or th) in every row
                     const firstCell = row.querySelector('td:first-child, th:first-child');
                     if (firstCell) {
                         firstCell.setAttribute('translate', 'no');
