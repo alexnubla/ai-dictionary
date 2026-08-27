@@ -238,8 +238,8 @@
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <!-- Protect Term Titles AND Related Terms from Translation -->
+    
+    <!-- Protect Term Titles, Related Terms, AND Table Term Columns from Translation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // 1. Protect the main term title (H1)
@@ -263,6 +263,20 @@
                         nextElement = nextElement.nextElementSibling;
                     }
                 }
+            });
+
+            // 3. NEW: Protect the first column of ANY table (e.g., the "Term" column on category pages)
+            const tables = document.querySelectorAll('table');
+            tables.forEach(table => {
+                const rows = table.querySelectorAll('tr');
+                rows.forEach(row => {
+                    // Target the first cell (td or th) in every row
+                    const firstCell = row.querySelector('td:first-child, th:first-child');
+                    if (firstCell) {
+                        firstCell.setAttribute('translate', 'no');
+                        firstCell.classList.add('notranslate');
+                    }
+                });
             });
         });
     </script>
