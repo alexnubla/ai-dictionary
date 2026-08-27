@@ -78,7 +78,7 @@
 
     {% else %}
 
-      <!-- Term Page Schema: DefinedTerm (Enhanced for AI Scrapers & SEO) -->
+      <!-- Term Page Schema: DefinedTerm -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -128,61 +128,7 @@
         th { background-color: #f6f8fa; font-weight: 600; }
         tr:nth-child(even) { background-color: #f9f9f9; }
 
-        /* ===== MODERN TRANSLATE BUTTON STYLES ===== */
-        
-        /* CRITICAL FIX: Hide the default widget visually without breaking DOM clicks */
-        #google_translate_element {
-            position: absolute !important;
-            width: 1px !important;
-            height: 1px !important;
-            padding: 0 !important;
-            margin: -1px !important;
-            overflow: hidden !important;
-            clip: rect(0, 0, 0, 0) !important;
-            white-space: nowrap !important;
-            border: 0 !important;
-        }
-        
-        /* Custom Translate Button */
-        .translate-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 14px;
-            background-color: #ffffff;
-            border: 1px solid #d0d7de;
-            border-radius: 6px;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            font-size: 14px;
-            font-weight: 500;
-            color: #24292f;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-        }
-        
-        .translate-button:hover {
-            background-color: #f3f4f6;
-            border-color: #0969da;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-        }
-        
-        .translate-button:active {
-            background-color: #eef2f5;
-            transform: translateY(1px);
-        }
-        
-        /* Globe Icon */
-        .translate-icon {
-            width: 18px;
-            height: 18px;
-            color: #57606a;
-            transition: color 0.2s ease;
-        }
-        
-        .translate-button:hover .translate-icon {
-            color: #0969da;
-        }
+        /* ===== MODERN TRANSLATE BUTTON STYLES (CSS-ONLY DISGUISE) ===== */
         
         /* Hide Google's default top banner */
         .goog-te-banner-frame { display: none !important; }
@@ -193,6 +139,59 @@
             border: 1px solid #d0d7de !important; 
             border-radius: 8px !important; 
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important; 
+        }
+
+        /* Hide the default "Select Language" text, Google logo, and arrow */
+        .goog-te-menu-value span:first-child { display: none !important; }
+        .goog-te-gadget-simple img { display: none !important; }
+        .goog-te-gadget-simple span[style*="border-left"] { display: none !important; }
+        .goog-te-gadget { font-size: 0 !important; color: transparent !important; }
+
+        /* Style the actual Google button to look like our custom button */
+        .goog-te-gadget-simple {
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+            padding: 8px 14px !important;
+            background-color: #ffffff !important;
+            border: 1px solid #d0d7de !important;
+            border-radius: 6px !important;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            color: #24292f !important;
+            cursor: pointer !important;
+            transition: all 0.2s ease !important;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+            text-decoration: none !important;
+        }
+
+        .goog-te-gadget-simple:hover {
+            background-color: #f3f4f6 !important;
+            border-color: #0969da !important;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08) !important;
+        }
+
+        /* Add our custom globe icon via CSS */
+        .goog-te-gadget-simple::before {
+            content: '' !important;
+            display: inline-block !important;
+            width: 18px !important;
+            height: 18px !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2357606a' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /%3E%3C/svg%3E") !important;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+        }
+
+        .goog-te-gadget-simple:hover::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%230969da' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /%3E%3C/svg%3E") !important;
+        }
+
+        /* Add the word "Translate" */
+        .goog-te-gadget-simple::after {
+            content: 'Translate' !important;
+            font-size: 14px !important;
+            color: #24292f !important;
         }
     </style>
 </head>
@@ -218,14 +217,8 @@
         <div class="header-content">
             <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
             
-            <!-- NEW: Modern Translate Button -->
-            <button class="translate-button" onclick="triggerTranslate()" aria-label="Translate page">
-                <!-- Globe SVG Icon -->
-                <svg class="translate-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>Translate</span>
-            </button>
+            <!-- Google Translate Widget (Styled via CSS above to look like a custom button) -->
+            <div id="google_translate_element"></div>
         </div>
     </header>
 
@@ -234,30 +227,14 @@
         {{ content }}
     </div>
 
-    <!-- Google Translate Widget Script (Hidden, but functional) -->
+    <!-- Google Translate Widget Script -->
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
                 includedLanguages: 'zh-CN,es,fr,ja,pt,tl',
-                /* REMOVED InlineLayout.SIMPLE so it generates the dropdown menu */
                 autoDisplay: false
             }, 'google_translate_element');
-        }
-
-        function triggerTranslate() {
-            // Targets the hidden dropdown trigger and forces a click event
-            const menuValue = document.querySelector('.goog-te-menu-value');
-            if (menuValue) {
-                menuValue.click();
-            } else {
-                // Fallback in case Google changes their class names in the future
-                const selectBox = document.querySelector('.goog-te-combo');
-                if (selectBox) {
-                    selectBox.focus();
-                    selectBox.click();
-                }
-            }
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
