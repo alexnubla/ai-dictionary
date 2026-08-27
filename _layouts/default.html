@@ -4,50 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- MODERN FONT: Inter (Optimized for speed) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="AwSx8fOEbPm6Tlvarv8CFakRWVvQPGpzBleUiKPCrkQ" />
-    
-    <!-- CRITICAL SEO TAGS -->
+
+    <!-- CRITICAL SEO TAGS (Cleaned: Removed duplicates) -->
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | truncate: 160 }}">
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
-    
-    <!-- Open Graph for Social Sharing -->
+
+    <!-- Open Graph for Social Sharing (Cleaned: Removed duplicates) -->
     <meta property="og:title" content="{{ page.title | default: site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description | truncate: 160 }}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/banner-ai-dictionary-1.png">
-    
-    <!-- Twitter Card -->
+
+    <!-- Twitter Card (Cleaned: Removed duplicates) -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description | truncate: 160 }}">
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/banner-ai-dictionary-1.png">
 
-    <!-- PWA & Apple App Meta Tags -->
-    <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-    <meta name="theme-color" content="#002b4d">
-
-    <!-- CRITICAL: Explicit Apple Touch Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icon-180.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icon-180.png' | relative_url }}">
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="AI Dictionary">
-    
-    <!-- STRUCTURED DATA LOGIC -->
+    <!-- STRUCTURED DATA LOGIC (Fixed Liquid syntax and removed duplicates) -->
     {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl or page.url == site.baseurl | append: '/' %}
     
-      <!-- Homepage Schema: DefinedTermSet + FAQPage -->
+      <!-- Homepage Schema: DefinedTermSet -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -63,13 +46,14 @@
       }
       </script>
 
+      <!-- Homepage Schema: FAQPage -->
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "What is an AI dictionary?", "acceptedAnswer": { "@type": "Answer", "text": "An AI dictionary is a reference resource that defines artificial intelligence and machine learning terms in plain language, making complex concepts accessible to everyone." } },
-          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 210+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
+          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
           { "@type": "Question", "name": "Who is this AI dictionary for?", "acceptedAnswer": { "@type": "Answer", "text": "It is built for everyone. Every term includes a Simple Version written in plain English for beginners, alongside detailed technical definitions and code examples." } },
           { "@type": "Question", "name": "Is this AI dictionary free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary." } }
         ]
@@ -83,18 +67,12 @@
       {
         "@context": "https://schema.org",
         "@type": "DefinedTerm",
-        "name": "{{ page.title }}",
-        "description": "{{ page.description | strip_html | truncate: 160 }}",
-        "url": "{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}",
+        "name": "{{ page.title | replace: ' | AI Dictionary', '' }}",
+        "description": "{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}",
         "inDefinedTermSet": {
           "@type": "DefinedTermSet",
           "name": "AI Dictionary of Terms",
           "url": "{{ site.url }}{{ site.baseurl }}/"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Alex Nubla",
-          "url": "https://www.linkedin.com/in/alexnubla/"
         }
       }
       </script>
@@ -102,124 +80,49 @@
     {% endif %}
 
     <style>
-        /* MODERN FONT: Inter with crisp rendering */
         body { 
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
             margin: 0; 
             padding: 0; 
             line-height: 1.6; 
             color: #24292f; 
             background-color: #ffffff; 
-            -webkit-font-smoothing: antialiased; 
-            -moz-osx-font-smoothing: grayscale;
         }
         .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
         img { max-width: 100%; height: auto; border-radius: 12px; }
         
         /* Header Styles */
         header { background-color: #f6f8fa; border-bottom: 1px solid #d0d7de; padding: 15px 0; }
-        .header-content { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .header-content { max-width: 900px; margin: 0 auto; padding: 0 20px; }
         .site-title { font-size: 1.5rem; font-weight: 700; color: #0969da; text-decoration: none; }
         .site-title:hover { text-decoration: underline; }
 
-        /* Table Styles */
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.95rem; }
-        th, td { border: 1px solid #d0d7de; padding: 10px 15px; text-align: left; }
-        th { background-color: #f6f8fa; font-weight: 600; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-
-        /* ===== MODERN TRANSLATE BUTTON STYLES (CSS-ONLY DISGUISE) ===== */
-        
-        /* Hide Google's default top banner */
-        .goog-te-banner-frame { display: none !important; }
-        body { top: 0px !important; }
-        
-        /* Style the dropdown menu when it opens */
-        .goog-te-menu-frame { 
-            border: 1px solid #d0d7de !important; 
-            border-radius: 8px !important; 
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important; 
+        /* Table Styles (Cleaned: Removed duplicates) */
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0; 
+            font-size: 0.95rem; 
         }
-
-        /* Hide the default "Select Language" text, Google logo, and separator arrow */
-        .goog-te-menu-value span:first-child { display: none !important; }
-        .goog-te-gadget-simple img { display: none !important; }
-        .goog-te-gadget-simple span[style*="border-left"] { display: none !important; }
-        .goog-te-gadget { font-size: 0 !important; color: transparent !important; }
-
-        /* Style the actual Google button to look like a modern custom button */
-        .goog-te-gadget-simple {
-            display: inline-flex !important;
-            align-items: center !important;
-            gap: 8px !important;
-            padding: 8px 14px !important;
-            background-color: #ffffff !important;
-            border: 1px solid #d0d7de !important;
-            border-radius: 6px !important;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
-            font-size: 14px !important;
-            font-weight: 500 !important;
-            color: #24292f !important;
-            cursor: pointer !important;
-            transition: all 0.2s ease !important;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
-            text-decoration: none !important;
+        th, td { 
+            border: 1px solid #d0d7de; 
+            padding: 10px 15px; 
+            text-align: left; 
         }
-
-        .goog-te-gadget-simple:hover {
-            background-color: #f3f4f6 !important;
-            border-color: #0969da !important;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08) !important;
+        th { 
+            background-color: #f6f8fa; 
+            font-weight: 600; 
         }
-
-        /* Add modern Lucide Globe icon via CSS ::before */
-        .goog-te-gadget-simple::before {
-            content: '' !important;
-            display: inline-block !important;
-            width: 20px !important;
-            height: 20px !important;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2357606a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E") !important;
-            background-size: contain !important;
-            background-repeat: no-repeat !important;
-        }
-
-        /* Change icon color on hover */
-        .goog-te-gadget-simple:hover::before {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%230969da' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='2' y1='12' x2='22' y2='12'%3E%3C/line%3E%3Cpath d='M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'%3E%3C/path%3E%3C/svg%3E") !important;
-        }
-
-        /* Add the word "Translate" via CSS ::after */
-        .goog-te-gadget-simple::after {
-            content: 'Translate' !important;
-            font-size: 14px !important;
-            color: #24292f !important;
+        tr:nth-child(even) { 
+            background-color: #f9f9f9; 
         }
     </style>
 </head>
-
 <body>
-    <!-- Register Service Worker for Offline PWA -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}')
-            .then(registration => {
-              console.log('AI Dictionary PWA registered successfully!');
-            })
-            .catch(registrationError => {
-              console.log('PWA registration failed: ', registrationError);
-            });
-        });
-      }
-    </script>
-
     <!-- Site Header -->
     <header>
         <div class="header-content">
             <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
-            
-            <!-- Google Translate Widget (Styled via CSS above to look like a modern custom button) -->
-            <div id="google_translate_element"></div>
         </div>
     </header>
 
@@ -227,58 +130,5 @@
     <div class="container">
         {{ content }}
     </div>
-
-    <!-- Google Translate Widget Script -->
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                includedLanguages: 'zh-CN,es,fr,ja,pt,tl', /* Chinese, Spanish, French, Japanese, Portuguese, Tagalog */
-                autoDisplay: false
-            }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <!-- Protect Term Titles, Related Terms, AND Table Term Columns from Translation -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // 1. Protect the main term title (H1)
-            const termTitle = document.querySelector('h1');
-            if (termTitle) {
-                termTitle.setAttribute('translate', 'no');
-                termTitle.classList.add('notranslate');
-            }
-
-            // 2. Protect the "Related Terms" section and its list
-            const headings = document.querySelectorAll('h2, h3, h4');
-            headings.forEach(heading => {
-                if (heading.textContent.trim().toLowerCase().includes('related term')) {
-                    heading.setAttribute('translate', 'no');
-                    heading.classList.add('notranslate');
-                    
-                    let nextElement = heading.nextElementSibling;
-                    while (nextElement && !nextElement.tagName.match(/^H[2-6]$/)) {
-                        nextElement.setAttribute('translate', 'no');
-                        nextElement.classList.add('notranslate');
-                        nextElement = nextElement.nextElementSibling;
-                    }
-                }
-            });
-
-            // 3. Protect the first column of ANY table (e.g., the "Term" column on category pages)
-            const tables = document.querySelectorAll('table');
-            tables.forEach(table => {
-                const rows = table.querySelectorAll('tr');
-                rows.forEach(row => {
-                    const firstCell = row.querySelector('td:first-child, th:first-child');
-                    if (firstCell) {
-                        firstCell.setAttribute('translate', 'no');
-                        firstCell.classList.add('notranslate');
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 </html>
