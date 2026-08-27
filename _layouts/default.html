@@ -182,7 +182,7 @@
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en',
-                includedLanguages: 'zh-CN,es,fr,ja,pt', /* Chinese, Spanish, French, Japanese, Portuguese */
+                includedLanguages: 'zh-CN,es,fr,ja,pt,tl', /* Chinese, Spanish, French, Japanese, Portuguese, Tagalog */
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
                 autoDisplay: false
             }, 'google_translate_element');
@@ -190,16 +190,36 @@
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <!-- NEW: Protect Term Titles from Translation -->
+    <!-- NEW: Protect Term Titles AND Related Terms from Translation -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Finds the first H1 on the page (which Markdown renders as the Term Name)
-            // and applies both the W3C standard and Google-specific bypass attributes.
+            // 1. Protect the main term title (H1)
             const termTitle = document.querySelector('h1');
             if (termTitle) {
                 termTitle.setAttribute('translate', 'no');
                 termTitle.classList.add('notranslate');
             }
+
+            // 2. Protect the "Related Terms" section and its list
+            const headings = document.querySelectorAll('h2, h3, h4');
+            headings.forEach(heading => {
+                // Case-insensitive check for "Related Term" or "Related Terms"
+                if (heading.textContent.trim().toLowerCase().includes('related term')) {
+                    
+                    // Protect the heading itself
+                    heading.setAttribute('translate', 'no');
+                    heading.classList.add('notranslate');
+                    
+                    // Protect all sibling elements (the <ul> and <li> items) 
+                    // until we hit the next heading (e.g., "Sources & Further Reading")
+                    let nextElement = heading.nextElementSibling;
+                    while (nextElement && !nextElement.tagName.match(/^H[2-6]$/)) {
+                        nextElement.setAttribute('translate', 'no');
+                        nextElement.classList.add('notranslate');
+                        nextElement = nextElement.nextElementSibling;
+                    }
+                }
+            });
         });
     </script>
 </body>
