@@ -7,27 +7,39 @@
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="AwSx8fOEbPm6Tlvarv8CFakRWVvQPGpzBleUiKPCrkQ" />
 
-    <!-- CRITICAL SEO TAGS (Cleaned: Removed duplicates) -->
+    <!-- CRITICAL SEO TAGS -->
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | truncate: 160 }}">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
 
-    <!-- Open Graph for Social Sharing (Cleaned: Removed duplicates) -->
+    <!-- Open Graph for Social Sharing -->
     <meta property="og:title" content="{{ page.title | default: site.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description | truncate: 160 }}">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/banner-ai-dictionary-1.png">
 
-    <!-- Twitter Card (Cleaned: Removed duplicates) -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description | truncate: 160 }}">
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/banner-ai-dictionary-1.png">
 
-    <!-- STRUCTURED DATA LOGIC (Fixed Liquid syntax and removed duplicates) -->
+    <!-- PWA & Apple App Meta Tags (CRITICAL for Home Screen Logo) -->
+    <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+    <meta name="theme-color" content="#002b4d">
+
+    <!-- CRITICAL: Explicit Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icon-180.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icon-180.png' | relative_url }}">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AI Dictionary">
+
+    <!-- STRUCTURED DATA LOGIC -->
     {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl or page.url == site.baseurl | append: '/' %}
     
       <!-- Homepage Schema: DefinedTermSet -->
@@ -53,7 +65,7 @@
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "What is an AI dictionary?", "acceptedAnswer": { "@type": "Answer", "text": "An AI dictionary is a reference resource that defines artificial intelligence and machine learning terms in plain language, making complex concepts accessible to everyone." } },
-          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 160+ AI and machine learning terms across 8 specialized categories, ranging from foundational Architecture to Legal AI and Healthcare AI." } },
+          { "@type": "Question", "name": "How many terms are in this AI terminology glossary?", "acceptedAnswer": { "@type": "Answer", "text": "This living dictionary contains 220+ AI and machine learning terms across 9 specialized categories, ranging from foundational Architecture to Legal AI, Healthcare AI, and AI Security." } },
           { "@type": "Question", "name": "Who is this AI dictionary for?", "acceptedAnswer": { "@type": "Answer", "text": "It is built for everyone. Every term includes a Simple Version written in plain English for beginners, alongside detailed technical definitions and code examples." } },
           { "@type": "Question", "name": "Is this AI dictionary free to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! This is an open-source project licensed under the MIT License. You are free to use, share, and contribute to this machine learning glossary." } }
         ]
@@ -97,7 +109,7 @@
         .site-title { font-size: 1.5rem; font-weight: 700; color: #0969da; text-decoration: none; }
         .site-title:hover { text-decoration: underline; }
 
-        /* Table Styles (Cleaned: Removed duplicates) */
+        /* Table Styles */
         table { 
             width: 100%; 
             border-collapse: collapse; 
