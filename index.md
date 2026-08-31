@@ -22,7 +22,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-220+-blue?style=for-the-badge" alt="220+ Terms">
+  <img src="https://img.shields.io/badge/Terms-228-blue?style=for-the-badge" alt="228 Terms">
   <img src="https://img.shields.io/badge/Categories-9-green?style=for-the-badge" alt="9 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
