@@ -28,6 +28,9 @@ This category encompasses:
 | [Deep Prompt Injection](/ai-dictionary/terms/deep-prompt-injection/) | Hiding adversarial instructions deep within a massive context window to bypass initial safety filters while still influencing the model's output. |
 | [Framing Injection](/ai-dictionary/terms/framing-injection/) | Bypassing safety guardrails by wrapping a harmful request inside a seemingly benign, hypothetical, or academic context. |
 | [Indirect Prompt Injection](/ai-dictionary/terms/indirect-prompt-injection/) | Hiding malicious instructions within external, untrusted data sources (like websites or PDFs) that an AI system processes. |
+| [Just-In-Time (JIT) Access](/ai-dictionary/terms/just-in-time-access/) | A security model granting AI agents temporary, highly specific permissions to execute a tool or access data only for the exact duration of a task. |
+| [LLM Code Injection](/ai-dictionary/terms/llm-code-injection/) | A vulnerability where an attacker manipulates an AI model with code interpreter capabilities into writing and executing malicious code. |
+| [LLM Hijacking](/ai-dictionary/terms/llm-hijacking/) | The successful outcome of an adversarial attack where an attacker takes unauthorized control of an LLM's session, context, or connected tools. |
 | [Prompt Obfuscation (Encoding & Transliteration)](/ai-dictionary/terms/prompt-obfuscation/) | Concealing malicious prompts by converting them into alternative formats (e.g., Base64) or different alphabets to bypass keyword filters. |
 | [TAP (Tree of Attacks with Pruning)](/ai-dictionary/terms/tap-tree-of-attacks/) | An automated black-box jailbreak algorithm using an attacker LLM to iteratively generate and refine a tree of candidate attack prompts. |
 | [Token Breaking](/ai-dictionary/terms/token-breaking/) | Evading token-level safety classifiers by deliberately splitting a forbidden keyword across multiple tokens using spaces or special characters. |
