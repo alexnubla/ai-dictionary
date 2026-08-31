@@ -22,7 +22,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-223-blue?style=for-the-badge" alt="223 Terms">
+  <img src="https://img.shields.io/badge/Terms-220+-blue?style=for-the-badge" alt="220+ Terms">
   <img src="https://img.shields.io/badge/Categories-9-green?style=for-the-badge" alt="9 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
@@ -140,19 +140,21 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/deployment/" style="text-decoration: none !important; color: inherit !important;">🚀 Deployment</a></strong> — 27 terms · Putting models into production</summary>
+<summary><strong><a href="./categories/deployment/" style="text-decoration: none !important; color: inherit !important;">🚀 Deployment</a></strong> — 29 terms · Putting models into production</summary>
 
 <a href="./terms/batch-processing/">Batch Processing</a> · 
 <a href="./terms/beam-search/">Beam Search</a> · 
 <a href="./terms/caching/">Caching</a> · 
 <a href="./terms/edge-computing/">Edge Computing</a> · 
 <a href="./terms/feature-store/">Feature Store</a> · 
+<a href="./terms/gpu-cloud/">GPU Cloud</a> · 
 <a href="./terms/graphics-processing-unit/">Graphics Processing Unit (GPU)</a> · 
 <a href="./terms/grounding/">Grounding</a> · 
 <a href="./terms/inference/">Inference</a> · 
 <a href="./terms/inference-time-compute/">Inference-Time Compute</a> · 
 <a href="./terms/kv-cache/">KV Cache</a> · 
 <a href="./terms/latency/">Latency</a> · 
+<a href="./terms/llm-reverse-proxy/">LLM Reverse Proxy</a> · 
 <a href="./terms/mcp/">MCP</a> · 
 <a href="./terms/model-serving/">Model Serving</a> · 
 <a href="./terms/observability/">Observability</a> · 
@@ -294,7 +296,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/ai-security/" style="text-decoration: none !important; color: inherit !important;">🔒 AI Security &amp; Adversarial ML</a></strong> — 10 terms · AI security vulnerabilities, adversarial attacks, and red teaming methodologies</summary>
+<summary><strong><a href="./categories/ai-security/" style="text-decoration: none !important; color: inherit !important;">🔒 AI Security &amp; Adversarial ML</a></strong> — 13 terms · AI security vulnerabilities, adversarial attacks, and red teaming methodologies</summary>
 
 <a href="./terms/adversarial-machine-learning/">Adversarial Machine Learning</a> · 
 <a href="./terms/ascii-smuggling/">ASCII Smuggling</a> · 
@@ -303,6 +305,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <a href="./terms/deep-prompt-injection/">Deep Prompt Injection</a> · 
 <a href="./terms/framing-injection/">Framing Injection</a> · 
 <a href="./terms/indirect-prompt-injection/">Indirect Prompt Injection</a> · 
+<a href="./terms/just-in-time-access/">Just-In-Time (JIT) Access</a> · 
+<a href="./terms/llm-code-injection/">LLM Code Injection</a> · 
+<a href="./terms/llm-hijacking/">LLM Hijacking</a> · 
 <a href="./terms/prompt-obfuscation/">Prompt Obfuscation (Encoding &amp; Transliteration)</a> · 
 <a href="./terms/tap-tree-of-attacks/">TAP (Tree of Attacks with Pruning)</a> · 
 <a href="./terms/token-breaking/">Token Breaking</a>
@@ -323,12 +328,12 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **D** | [DAN (Do Anything Now) Jailbreak](./terms/dan-jailbreak/), [Data Augmentation](./terms/data-augmentation/), [Data Contamination](./terms/data-contamination/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deep Prompt Injection](./terms/deep-prompt-injection/), [Deepfake](./terms/deepfake/), [De-identification](./terms/de-identification/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Digital Biomarker](./terms/digital-biomarker/), [Digital Forensics](./terms/digital-forensics/), [Digital Labor](./terms/digital-labor/), [Digital Pathology](./terms/digital-pathology/), [Digital Therapeutics (DTx)](./terms/digital-therapeutics/), [Digital Twin](./terms/digital-twin/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/), [Drug Discovery AI](./terms/drug-discovery-ai/) |
 | **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [eDiscovery (Electronic Discovery)](./terms/ediscovery/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/), [Expert Systems](./terms/expert-systems/) |
 | **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [FlashAttention](./terms/flashattention/), [Foundation Model](./terms/foundation-model/), [Framing Injection](./terms/framing-injection/), [Frontier Model](./terms/frontier-model/) |
-| **G** | [GAN](./terms/gan/), [Generalization Error](./terms/generalization-error/), [Generative AI](./terms/generative-ai/), [Generative AI Disclosure](./terms/generative-ai-disclosure/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Gradient / Gradient Flow](./terms/gradient-flow/), [Graphics Processing Unit (GPU)](./terms/graphics-processing-unit/), [Grounding](./terms/grounding/), [GRPO (Group Relative Policy Optimization)](./terms/grpo/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
+| **G** | [GAN](./terms/gan/), [Generalization Error](./terms/generalization-error/), [Generative AI](./terms/generative-ai/), [Generative AI Disclosure](./terms/generative-ai-disclosure/), [GPT](./terms/gpt/), [Gradient Descent](./terms/gradient-descent/), [Gradient / Gradient Flow](./terms/gradient-flow/), [Graphics Processing Unit (GPU)](./terms/graphics-processing-unit/), [GPU Cloud](./terms/gpu-cloud/), [Grounding](./terms/grounding/), [GRPO (Group Relative Policy Optimization)](./terms/grpo/), [GRU](./terms/gru/), [Guardrails](./terms/guardrails/) |
 | **H** | [Hallucination](./terms/hallucination/), [Health Informatics](./terms/health-informatics/), [High-Risk AI System](./terms/high-risk-ai-system/), [HITL](./terms/hitl/), [Human-Centered AI (HCAI)](./terms/human-centered-ai/), [Hyperparameter](./terms/hyperparameter/) |
 | **I** | [Impact Assessment (Algorithmic)](./terms/impact-assessment/), [In Silico Trials](./terms/in-silico-trials/), [In-Context Learning](./terms/in-context-learning/), [Indirect Prompt Injection](./terms/indirect-prompt-injection/), [Inference](./terms/inference/), [Inference-Time Compute](./terms/inference-time-compute/), [Interoperability](./terms/interoperability/) |
-| **J** | [Jailbreak](./terms/jailbreak/) |
+| **J** | [Jailbreak](./terms/jailbreak/), [Just-In-Time (JIT) Access](./terms/just-in-time-access/) |
 | **K** | [KV Cache](./terms/kv-cache/) |
-| **L** | [Latency](./terms/latency/), [Layer Normalization](./terms/layer-normalization/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/) |
+| **L** | [Latency](./terms/latency/), [Layer Normalization](./terms/layer-normalization/), [Learning Rate](./terms/learning-rate/), [LLM](./terms/llm/), [LLM Code Injection](./terms/llm-code-injection/), [LLM Hijacking](./terms/llm-hijacking/), [LLM Reverse Proxy](./terms/llm-reverse-proxy/), [LoRA](./terms/lora/), [Loss Function](./terms/loss-function/), [LRM](./terms/lrm/), [LSTM](./terms/lstm/) |
 | **M** | [Machine Learning (ML)](./terms/machine-learning/), [Mamba / SSMs (State Space Models)](./terms/mamba-ssms/), [MCP](./terms/mcp/), [Medical Imaging AI](./terms/medical-imaging-ai/), [Mixture of Experts (MoE)](./terms/moe/), [MLOps / LLMOps](./terms/mlops/), [Model](./terms/model/), [Model Monitoring / Drift Detection](./terms/model-monitoring/), [Model Serving](./terms/model-serving/), [Multimodal](./terms/multimodal/) |
 | **N** | [Narrow AI](./terms/narrow-ai/), [Natural Language Processing (NLP)](./terms/nlp/), [NER (Named Entity Recognition)](./terms/ner/), [Neural Network](./terms/neural-network/), [Non-Deterministic](./terms/non-deterministic/) |
 | **O** | [Object Detection](./terms/object-detection/), [Observability](./terms/observability/), [Open Source](./terms/open-source/), [Open-Weight Model](./terms/open-weight-model/), [Optimizer](./terms/optimizer/), [Orchestration](./terms/orchestration/), [Overfitting / Underfitting](./terms/overfitting-underfitting/) |
