@@ -27,12 +27,14 @@ Deployment involves:
 | [Caching](/ai-dictionary/terms/caching/) | Storing and reusing previous computation results to avoid redundant work, reducing latency and costs. |
 | [Edge Computing](/ai-dictionary/terms/edge-computing/) | Running AI inference on local devices rather than cloud infrastructure, enabling low-latency, privacy-preserving applications. |
 | [Feature Store](/ai-dictionary/terms/feature-store/) | A centralized infrastructure layer that manages, stores, and serves ML features for both training and inference, ensuring consistency and enabling reuse. |
+| [GPU Cloud](/ai-dictionary/terms/gpu-cloud/) | A cloud computing service that provides on-demand access to specialized Graphics Processing Units (GPUs) over the internet for training and running AI models. |
 | [Graphics Processing Unit (GPU)](/ai-dictionary/terms/gpu/) | Specialized hardware with thousands of parallel cores, foundational for training and running AI models due to its ability to perform massive parallel computations. |
 | [Grounding](/ai-dictionary/terms/grounding/) | The process of anchoring an AI model's output to specific, verifiable external sources to ensure factual accuracy. |
 | [Inference](/ai-dictionary/terms/inference/) | The phase where a trained model is used to make predictions on new data, optimized for speed and scale. |
 | [Inference-Time Compute](/ai-dictionary/terms/inference-time-compute/) | Computational resources used during inference, with reasoning models using significantly more to achieve better performance. |
 | [KV Cache (Key-Value Cache)](/ai-dictionary/terms/kv-cache/) | An inference optimization that stores Key and Value tensors from previous tokens, avoiding redundant recomputation during autoregressive generation. |
 | [Latency](/ai-dictionary/terms/latency/) | The time delay between a request and response, critical for user experience and system responsiveness. |
+| [LLM Reverse Proxy](/ai-dictionary/terms/llm-reverse-proxy/) | A specialized intermediary server that sits between an organization's AI applications and external LLM providers to manage API keys, route traffic, and enforce security policies. |
 | [MCP (Model Context Protocol)](/ai-dictionary/terms/mcp/) | An open standard protocol for universally connecting LLMs to external data sources, tools, and systems. |
 | [Model Serving](/ai-dictionary/terms/model-serving/) | The infrastructure and software systems that deploy trained models into production, making them accessible via APIs for real-time predictions. |
 | [Observability](/ai-dictionary/terms/observability/) | The ability to understand AI system behavior in production through metrics, logs, and traces. |
