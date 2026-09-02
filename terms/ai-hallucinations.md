@@ -17,7 +17,15 @@ When an AI model confidently generates factually incorrect, nonsensical, or fabr
 When an AI makes things up with complete confidence—like stating false facts, inventing sources that don't exist, or attempting actions in systems that aren't real.
 
 ## Detailed Explanation
-AI hallucinations occur when Large Language Models (LLMs) generate outputs that are internally coherent and confidently stated but factually wrong or entirely fabricated. This happens because LLMs are probabilistic pattern matchers, not truth-seeking databases. They predict the next most likely token based on training data patterns, not on verified facts. Hallucinations manifest in several forms: (1) **Factual Errors**—stating incorrect information (e.g., wrong dates, false statistics); (2) **Fabricated Sources**—citing research papers, news articles, or legal cases that don't exist; (3) **Logical Inconsistencies**—contradicting earlier statements within the same response; and (4) **Phantom Resources**—attempting to access or reference systems, accounts, or data that don't exist (e.g., AWS account IDs like 123456789012). In security contexts, hallucinations can be both a vulnerability (attackers exploiting AI errors) and a detection signal (identifying AI-generated attacks by their hallucination patterns).
+AI hallucinations occur when Large Language Models (LLMs) generate outputs that are internally coherent and confidently stated but factually wrong or entirely fabricated. This happens because LLMs are probabilistic pattern matchers, not truth-seeking databases. They predict the next most likely token based on training data patterns, not on verified facts. 
+
+Hallucinations typically manifest in four primary forms:
+- **Factual Errors:** Stating incorrect information, such as wrong dates, false statistics, or incorrect historical events.
+- **Fabricated Sources:** Citing research papers, news articles, or legal cases that do not actually exist.
+- **Logical Inconsistencies:** Contradicting earlier statements or facts within the same response.
+- **Phantom Resources:** Attempting to access or reference systems, accounts, or data that do not exist (e.g., an AI agent attempting to assume roles in fake AWS account IDs like `123456789012`).
+
+In security contexts, hallucinations can be both a vulnerability (where attackers exploit AI errors to bypass filters) and a valuable forensic detection signal (identifying AI-generated attacks by their nonsensical hallucination patterns).
 
 ## Key Characteristics
 - **Confidence Without Accuracy:** Hallucinations are delivered with the same confident tone as correct answers, making them difficult to distinguish without verification.
