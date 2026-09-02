@@ -36,6 +36,7 @@ Enterprise AI & Agents encompasses:
 | [Predictive Analytics](/ai-dictionary/terms/predictive-analytics/) | The use of historical data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes. |
 | [ReAct Paradigm (Reasoning and Acting)](/ai-dictionary/terms/react-paradigm/) | A framework that combines reasoning and acting in language models, enabling them to generate reasoning traces and task-specific actions in an interleaved manner to solve complex problems. |
 | [Shadow AI](/ai-dictionary/terms/shadow-ai/) | The unauthorized use of AI tools by employees, bypassing official IT channels and creating data security and compliance risks. |
+| [SOAR (Security Orchestration, Automation, and Response)](/ai-dictionary/terms/soar/) | A security technology stack that combines threat management, incident response, and security automation into a unified platform for machine-speed response. |
 | [Tool Use / Function Calling](/ai-dictionary/terms/tool-use/) | The capability of language models to generate structured calls to external functions, APIs, or tools, forming the basis of agentic behavior. |
 | [Vibe Coding](/ai-dictionary/terms/vibe-coding/) | A software development approach where developers describe what they want in natural language and let AI generate the implementation. |
 
