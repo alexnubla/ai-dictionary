@@ -26,7 +26,13 @@ AI hallucinations occur when Large Language Models (LLMs) generate outputs that 
 - **Detectable Patterns:** In attack scenarios, hallucinations often reveal AI involvement (e.g., attempting to assume roles in fake account IDs with sequential numbers like 123456789012 or 210987654321).
 
 ## Business Context
-For enterprises deploying AI systems, hallucinations pose critical risks: (1) **Compliance Violations**—AI providing incorrect legal, financial, or medical advice; (2) **Reputational Damage**—chatbots citing fake sources or making false claims about products; (3) **Security Threats**—autonomous agents hallucinating non-existent resources, which can be used as a forensic signal to detect AI-driven attacks; and (4) **Operational Errors**—AI-driven automation executing actions based on false premises. Mitigation requires grounding AI outputs in verified data sources (RAG), implementing fact-checking layers, and maintaining human-in-the-loop (HITL) review for high-stakes decisions.
+For enterprises deploying AI systems, hallucinations pose critical risks:
+- **Compliance Violations:** AI providing incorrect legal, financial, or medical advice.
+- **Reputational Damage:** Chatbots citing fake sources or making false claims about products.
+- **Security Threats:** Autonomous agents hallucinating non-existent resources, which can be used as a forensic signal to detect AI-driven attacks.
+- **Operational Errors:** AI-driven automation executing actions based on false premises.
+
+Mitigation requires grounding AI outputs in verified data sources (RAG), implementing fact-checking layers, and maintaining human-in-the-loop (HITL) review for high-stakes decisions.
 
 ## Real-World Example
 During the 2025 Sysdig 8-minute cloud compromise, the attacking AI agent attempted to assume the `OrganizationAccountAccessRole` in AWS account IDs that did not belong to the target organization: `123456789012` (ascending digits) and `210987654321` (descending digits). These nonsensical account IDs are classic AI hallucinations—the model was generating plausible-looking but non-existent resource identifiers, providing strong forensic evidence that the attack was LLM-assisted rather than human-operated.
