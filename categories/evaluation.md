@@ -22,6 +22,7 @@ Evaluation includes:
 
 | Term | Description |
 |------|-------------|
+| [AI Hallucinations](/ai-dictionary/terms/ai-hallucinations/) | When an AI model confidently generates factually incorrect, nonsensical, or fabricated outputs that contradict known reality or its training data. |
 | [Benchmarking](/ai-dictionary/terms/benchmarking/) | The systematic evaluation of AI models using standardized datasets and metrics to measure performance and compare different models. |
 | [Cross-Validation](/ai-dictionary/terms/cross-validation/) | A statistical method that evaluates model performance by training and validating on multiple different data subsets to ensure reliability. |
 | [Data Contamination](/ai-dictionary/terms/data-contamination/) | A critical evaluation flaw where benchmark or test data inadvertently leaks into a model's training dataset, leading to artificially inflated performance scores. |
