@@ -23,6 +23,7 @@ This category encompasses:
 |------|-------------|
 | [Adversarial Machine Learning](/ai-dictionary/terms/adversarial-machine-learning/) | The study of identifying and defending against vulnerabilities in ML models through carefully crafted malicious inputs. |
 | [ASCII Smuggling](/ai-dictionary/terms/ascii-smuggling/) | An obfuscation technique hiding malicious prompts within ASCII art or invisible Unicode characters to bypass human moderators and basic filters. |
+| [Autonomous AI Agents](/ai-dictionary/terms/autonomous-ai-agents/) | AI systems that can independently perceive their environment, make decisions, and execute actions without continuous human intervention. |
 | [ChatInject](/ai-dictionary/terms/chatinject/) | Attacks targeting the UI/UX of chat applications to manipulate the interface, exfiltrate data, or trigger unintended actions in connected systems. |
 | [DAN (Do Anything Now) Jailbreak](/ai-dictionary/terms/dan-jailbreak/) | A foundational persona-adoption exploit instructing an AI to pretend it is an entity with no rules, ethical constraints, or safety filters. |
 | [Deep Prompt Injection](/ai-dictionary/terms/deep-prompt-injection/) | Hiding adversarial instructions deep within a massive context window to bypass initial safety filters while still influencing the model's output. |
@@ -34,6 +35,7 @@ This category encompasses:
 | [Prompt Obfuscation (Encoding & Transliteration)](/ai-dictionary/terms/prompt-obfuscation/) | Concealing malicious prompts by converting them into alternative formats (e.g., Base64) or different alphabets to bypass keyword filters. |
 | [TAP (Tree of Attacks with Pruning)](/ai-dictionary/terms/tap-tree-of-attacks/) | An automated black-box jailbreak algorithm using an attacker LLM to iteratively generate and refine a tree of candidate attack prompts. |
 | [Token Breaking](/ai-dictionary/terms/token-breaking/) | Evading token-level safety classifiers by deliberately splitting a forbidden keyword across multiple tokens using spaces or special characters. |
+| [UEBA (User and Entity Behavior Analytics)](/ai-dictionary/terms/ueba/) | AI-powered security technology that establishes behavioral baselines for users and systems, then uses machine learning to detect anomalies. |
 
 ## Why AI Security & Adversarial ML Matters
 
