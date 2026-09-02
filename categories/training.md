@@ -27,6 +27,7 @@ Training encompasses several phases:
 | [Best-of-N Decoding](/ai-dictionary/terms/best-of-n/) | An inference and alignment technique where a model generates multiple candidate responses to a single prompt, and a separate Reward Model scores them to select the single best output. |
 | [Catastrophic Forgetting](/ai-dictionary/terms/catastrophic-forgetting/) | A phenomenon where a model trained on a new task dramatically loses performance on previously learned tasks, essentially "forgetting" earlier knowledge. |
 | [Chain of Thought](/ai-dictionary/terms/chain-of-thought/) | A prompting technique that encourages models to generate intermediate reasoning steps before producing a final answer. |
+| [Constitutional AI](/ai-dictionary/terms/constitutional-ai/) | A training methodology that aligns AI models with human values by providing them with a written set of principles (a "constitution") to self-critique and revise their own outputs. |
 | [Context Engineering](/ai-dictionary/terms/context-engineering/) | The discipline of designing and optimizing the complete context provided to LLMs to elicit desired behaviors. |
 | [Convergence](/ai-dictionary/terms/convergence/) | The point during training when the model's loss function stabilizes and stops decreasing significantly, indicating it has learned the patterns. |
 | [Data Augmentation](/ai-dictionary/terms/data-augmentation/) | A technique used to artificially increase the size and diversity of a training dataset by applying label-preserving transformations to existing data. |
