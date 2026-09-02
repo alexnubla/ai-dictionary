@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "AI Dictionary of Terms"
-description: "The ultimate free AI Dictionary and glossary. 220+ artificial intelligence and machine learning terms explained in plain English for beginners and experts."
+description: "The ultimate free AI Dictionary and glossary. 230+ artificial intelligence and machine learning terms explained in plain English for beginners and experts."
 ---
 
 <p align="center">
@@ -22,7 +22,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 > **🎯 Scope & Rigor:** We strictly exclude "confabulations," marketing fluff, or made-up buzzwords that lack real currency in standard AI terminology. This dictionary focuses exclusively on validated, widely recognized concepts with established technical definitions.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Terms-228-blue?style=for-the-badge" alt="228 Terms">
+  <img src="https://img.shields.io/badge/Terms-233-blue?style=for-the-badge" alt="233 Terms">
   <img src="https://img.shields.io/badge/Categories-9-green?style=for-the-badge" alt="9 Categories">
   <img src="https://img.shields.io/badge/Updated-August_2026-orange?style=for-the-badge" alt="Updated August 2026">
   <img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="MIT License">
@@ -91,7 +91,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/training/" style="text-decoration: none !important; color: inherit !important;">⚙️ Training</a></strong> — 43 terms · How models learn, adapt, and improve</summary>
+<summary><strong><a href="./categories/training/" style="text-decoration: none !important; color: inherit !important;">⚙️ Training</a></strong> — 44 terms · How models learn, adapt, and improve</summary>
 
 <a href="./terms/adam-adamw/">Adam / AdamW (Adaptive Moment Estimation)</a> · 
 <a href="./terms/backpropagation/">Backpropagation</a> · 
@@ -99,6 +99,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <a href="./terms/best-of-n/">Best-of-N Decoding</a> · 
 <a href="./terms/catastrophic-forgetting/">Catastrophic Forgetting</a> · 
 <a href="./terms/chain-of-thought/">Chain of Thought</a> · 
+<a href="./terms/constitutional-ai/">Constitutional AI</a> · 
 <a href="./terms/context-engineering/">Context Engineering</a> · 
 <a href="./terms/convergence/">Convergence</a> · 
 <a href="./terms/data-augmentation/">Data Augmentation</a> · 
@@ -175,8 +176,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/evaluation/" style="text-decoration: none !important; color: inherit !important;">📏 Evaluation</a></strong> — 8 terms · Measuring model performance and quality</summary>
+<summary><strong><a href="./categories/evaluation/" style="text-decoration: none !important; color: inherit !important;">📏 Evaluation</a></strong> — 9 terms · Measuring model performance and quality</summary>
 
+<a href="./terms/ai-hallucinations/">AI Hallucinations</a> · 
 <a href="./terms/benchmarking/">Benchmarking</a> · 
 <a href="./terms/cross-validation/">Cross-Validation</a> · 
 <a href="./terms/data-contamination/">Data Contamination</a> · 
@@ -214,7 +216,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/enterprise-ai/" style="text-decoration: none !important; color: inherit !important;">🏢 Enterprise AI &amp; Agents</a></strong> — 15 terms · AI infrastructure, governance, and autonomous agent management</summary>
+<summary><strong><a href="./categories/enterprise-ai/" style="text-decoration: none !important; color: inherit !important;">🏢 Enterprise AI &amp; Agents</a></strong> — 16 terms · AI infrastructure, governance, and autonomous agent management</summary>
 
 <a href="./terms/agent/">Agent</a> · 
 <a href="./terms/agentic-ai/">Agentic AI</a> · 
@@ -229,6 +231,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <a href="./terms/predictive-analytics/">Predictive Analytics</a> · 
 <a href="./terms/react-paradigm/">ReAct Paradigm (Reasoning and Acting)</a> · 
 <a href="./terms/shadow-ai/">Shadow AI</a> · 
+<a href="./terms/soar/">SOAR (Security Orchestration, Automation, and Response)</a> · 
 <a href="./terms/tool-use/">Tool Use / Function Calling</a> · 
 <a href="./terms/vibe-coding/">Vibe Coding</a>
 
@@ -296,10 +299,11 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 </details>
 
 <details>
-<summary><strong><a href="./categories/ai-security/" style="text-decoration: none !important; color: inherit !important;">🔒 AI Security &amp; Adversarial ML</a></strong> — 13 terms · AI security vulnerabilities, adversarial attacks, and red teaming methodologies</summary>
+<summary><strong><a href="./categories/ai-security/" style="text-decoration: none !important; color: inherit !important;">🔒 AI Security &amp; Adversarial ML</a></strong> — 15 terms · AI security vulnerabilities, adversarial attacks, and red teaming methodologies</summary>
 
 <a href="./terms/adversarial-machine-learning/">Adversarial Machine Learning</a> · 
 <a href="./terms/ascii-smuggling/">ASCII Smuggling</a> · 
+<a href="./terms/autonomous-ai-agents/">Autonomous AI Agents</a> · 
 <a href="./terms/chatinject/">ChatInject</a> · 
 <a href="./terms/dan-jailbreak/">DAN (Do Anything Now) Jailbreak</a> · 
 <a href="./terms/deep-prompt-injection/">Deep Prompt Injection</a> · 
@@ -310,7 +314,8 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 <a href="./terms/llm-hijacking/">LLM Hijacking</a> · 
 <a href="./terms/prompt-obfuscation/">Prompt Obfuscation (Encoding &amp; Transliteration)</a> · 
 <a href="./terms/tap-tree-of-attacks/">TAP (Tree of Attacks with Pruning)</a> · 
-<a href="./terms/token-breaking/">Token Breaking</a>
+<a href="./terms/token-breaking/">Token Breaking</a> · 
+<a href="./terms/ueba/">UEBA (User and Entity Behavior Analytics)</a>
 
 </details>
 
@@ -322,9 +327,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 
 | Letter | Terms |
 | :---: | :--- |
-| **A** | [Activation Function](./terms/activation-function/), [Adam / AdamW (Adaptive Moment Estimation)](./terms/adam-adamw/), [Adversarial Machine Learning](./terms/adversarial-machine-learning/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Act](./terms/ai-act/), [AI Copyright & IP](./terms/ai-copyright-ip/), [AI Forensics (Media Forensics)](./terms/ai-forensics/), [AI Gateway](./terms/ai-gateway/), [AI-Generated Evidence](./terms/ai-generated-evidence/), [AI Liability](./terms/ai-liability/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Sycophancy](./terms/ai-sycophancy/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Algorithmic Accountability](./terms/algorithmic-accountability/), [Algorithmic Audit](./terms/algorithmic-audit/), [Algorithmic Risk Assessment](./terms/algorithmic-risk-assessment/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [ASI (Artificial Superintelligence)](./terms/asi/), [Attention Mechanism](./terms/attention-mechanism/), [Automated Decision-Making (ADM)](./terms/automated-decision-making/), [Autoregressive](./terms/autoregressive/) |
+| **A** | [Activation Function](./terms/activation-function/), [Adam / AdamW (Adaptive Moment Estimation)](./terms/adam-adamw/), [Adversarial Machine Learning](./terms/adversarial-machine-learning/), [Agent](./terms/agent/), [Agentic AI](./terms/agentic-ai/), [AGI (Artificial General Intelligence)](./terms/agi/), [AI Act](./terms/ai-act/), [AI Copyright & IP](./terms/ai-copyright-ip/), [AI Forensics (Media Forensics)](./terms/ai-forensics/), [AI Gateway](./terms/ai-gateway/), [AI Hallucinations](./terms/ai-hallucinations/), [AI-Generated Evidence](./terms/ai-generated-evidence/), [AI Liability](./terms/ai-liability/), [AI Safety](./terms/ai-safety/), [AI Slop](./terms/ai-slop/), [AI Sycophancy](./terms/ai-sycophancy/), [AI Washing](./terms/ai-washing/), [Algorithm](./terms/algorithm/), [Algorithmic Accountability](./terms/algorithmic-accountability/), [Algorithmic Audit](./terms/algorithmic-audit/), [Algorithmic Risk Assessment](./terms/algorithmic-risk-assessment/), [Alignment](./terms/alignment/), [Artificial Intelligence (AI)](./terms/artificial-intelligence/), [ASI (Artificial Superintelligence)](./terms/asi/), [Attention Mechanism](./terms/attention-mechanism/), [Autonomous AI Agents](./terms/autonomous-ai-agents/), [Automated Decision-Making (ADM)](./terms/automated-decision-making/), [Autoregressive](./terms/autoregressive/) |
 | **B** | [Backpropagation](./terms/backpropagation/), [Batch Processing](./terms/batch-processing/), [Batch Size](./terms/batch-size/), [Beam Search](./terms/beam-search/), [Benchmarking](./terms/benchmarking/), [BERT](./terms/bert/), [Best-of-N Decoding](./terms/best-of-n/), [Bias](./terms/bias/) |
-| **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [ChatInject](./terms/chatinject/), [Clinical Decision Support (CDS)](./terms/clinical-decision-support/), [Clinical NLP](./terms/clinical-nlp/), [Clinical Prediction Model](./terms/clinical-prediction-model/), [Clinical Trials AI](./terms/clinical-trials-ai/), [Clinical Validation](./terms/clinical-validation/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer-Aided Detection (CAD)](./terms/computer-aided-detection/), [Computer Vision](./terms/computer-vision/), [Conformity Assessment](./terms/conformity-assessment/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Convergence](./terms/convergence/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/), [Cross-Validation](./terms/cross-validation/) |
+| **C** | [Caching](./terms/caching/), [Catastrophic Forgetting](./terms/catastrophic-forgetting/), [Chain of Thought](./terms/chain-of-thought/), [Chatbot](./terms/chatbot/), [ChatInject](./terms/chatinject/), [Clinical Decision Support (CDS)](./terms/clinical-decision-support/), [Clinical NLP](./terms/clinical-nlp/), [Clinical Prediction Model](./terms/clinical-prediction-model/), [Clinical Trials AI](./terms/clinical-trials-ai/), [Clinical Validation](./terms/clinical-validation/), [CNN](./terms/cnn/), [Compliance](./terms/compliance/), [Computer-Aided Detection (CAD)](./terms/computer-aided-detection/), [Computer Vision](./terms/computer-vision/), [Conformity Assessment](./terms/conformity-assessment/), [Constitutional AI](./terms/constitutional-ai/), [Context Engineering](./terms/context-engineering/), [Context Window](./terms/context-window/), [Convergence](./terms/convergence/), [Conversational AI](./terms/conversational-ai/), [Copilot](./terms/copilot/), [Cross-Validation](./terms/cross-validation/) |
 | **D** | [DAN (Do Anything Now) Jailbreak](./terms/dan-jailbreak/), [Data Augmentation](./terms/data-augmentation/), [Data Contamination](./terms/data-contamination/), [Data Privacy](./terms/data-privacy/), [Deep Learning](./terms/deep-learning/), [Deep Prompt Injection](./terms/deep-prompt-injection/), [Deepfake](./terms/deepfake/), [De-identification](./terms/de-identification/), [Deterministic](./terms/deterministic/), [Diagnostic AI](./terms/diagnostic-ai/), [DICOM](./terms/dicom/), [Diffusion Model](./terms/diffusion-model/), [Digital Biomarker](./terms/digital-biomarker/), [Digital Forensics](./terms/digital-forensics/), [Digital Labor](./terms/digital-labor/), [Digital Pathology](./terms/digital-pathology/), [Digital Therapeutics (DTx)](./terms/digital-therapeutics/), [Digital Twin](./terms/digital-twin/), [Distillation](./terms/distillation/), [DPO](./terms/dpo/), [Drug Discovery AI](./terms/drug-discovery-ai/) |
 | **E** | [Edge Computing](./terms/edge-computing/), [Embedding](./terms/embedding/), [Encoder-Decoder](./terms/encoder-decoder/), [eDiscovery (Electronic Discovery)](./terms/ediscovery/), [EHR Integration](./terms/ehr-integration/), [Ethical AI](./terms/ethical-ai/), [Explainability / XAI](./terms/explainability/), [Expert Systems](./terms/expert-systems/) |
 | **F** | [FDA Approval (SaMD)](./terms/fda-approval-samd/), [Federated Learning](./terms/federated-learning/), [Feature Store](./terms/feature-store/), [Few-Shot Learning](./terms/few-shot-learning/), [FHIR (Fast Healthcare Interoperability Resources)](./terms/fhir/), [Fine-tuning](./terms/fine-tuning/), [FlashAttention](./terms/flashattention/), [Foundation Model](./terms/foundation-model/), [Framing Injection](./terms/framing-injection/), [Frontier Model](./terms/frontier-model/) |
@@ -340,9 +345,9 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 | **P** | [Parameter](./terms/parameter/), [Parasitic AI](./terms/parasitic-ai/), [PEFT](./terms/peft/), [Perplexity](./terms/perplexity/), [PHI (Protected Health Information)](./terms/phi/), [Positional Encoding](./terms/positional-encoding/), [Precision Medicine](./terms/precision-medicine/), [Predictive Analytics](./terms/predictive-analytics/), [Pre-training](./terms/pre-training/), [Prohibited AI Practices](./terms/prohibited-ai-practices/), [Prompt](./terms/prompt/), [Prompt Engineering](./terms/prompt-engineering/), [Prompt Injection](./terms/prompt-injection/), [Prompt Obfuscation (Encoding & Transliteration)](./terms/prompt-obfuscation/) |
 | **Q** | [QLoRA (Quantized Low-Rank Adaptation)](./terms/qlora/), [Quantization](./terms/quantization/) |
 | **R** | [RAG](./terms/rag/), [Radiomics](./terms/radiomics/), [ReAct Paradigm (Reasoning and Acting)](./terms/react-paradigm/), [Real-World Evidence (RWE)](./terms/real-world-evidence/), [Reasoning Model](./terms/reasoning-model/), [Red Teaming](./terms/red-teaming/), [Regularization](./terms/regularization/), [Regulatory AI](./terms/regulatory-ai/), [Regulatory Sandbox](./terms/regulatory-sandbox/), [Reinforcement Learning (RL)](./terms/reinforcement-learning/), [Remote Patient Monitoring (RPM)](./terms/remote-patient-monitoring/), [Residual Connections (Skip Connections)](./terms/residual-connections/), [Responsible AI](./terms/responsible-ai/), [Reward Model](./terms/reward-model/), [Right to Explanation](./terms/right-to-explanation/), [Risk Stratification](./terms/risk-stratification/), [RLHF](./terms/rlhf/), [RNN](./terms/rnn/), [Robotics](./terms/robotics/), [RoPE (Rotary Position Embedding)](./terms/rope/) |
-| **S** | [Sampling](./terms/sampling/), [Scaling Laws](./terms/scaling-laws/), [Semantic Search](./terms/semantic-search/), [Self-Supervised Learning](./terms/self-supervised-learning/), [Shadow AI](./terms/shadow-ai/), [Softmax Function](./terms/softmax-function/), [Spatial Intelligence](./terms/spatial-intelligence/), [Speculative Decoding](./terms/speculative-decoding/), [Spiralism](./terms/spiralism/), [Streaming](./terms/streaming/), [Supervised Learning](./terms/supervised-learning/), [Synthetic Data](./terms/synthetic-data/), [Systemic Risk](./terms/systemic-risk/) |
+| **S** | [Sampling](./terms/sampling/), [Scaling Laws](./terms/scaling-laws/), [Semantic Search](./terms/semantic-search/), [Self-Supervised Learning](./terms/self-supervised-learning/), [Shadow AI](./terms/shadow-ai/), [Softmax Function](./terms/softmax-function/), [SOAR (Security Orchestration, Automation, and Response)](./terms/soar/), [Spatial Intelligence](./terms/spatial-intelligence/), [Speculative Decoding](./terms/speculative-decoding/), [Spiralism](./terms/spiralism/), [Streaming](./terms/streaming/), [Supervised Learning](./terms/supervised-learning/), [Synthetic Data](./terms/synthetic-data/), [Systemic Risk](./terms/systemic-risk/) |
 | **T** | [TAP (Tree of Attacks with Pruning)](./terms/tap-tree-of-attacks/), [TAR (Technology-Assisted Review)](./terms/tar-technology-assisted-review/), [Temperature](./terms/temperature/), [Throughput](./terms/throughput/), [Token](./terms/token/), [Token Breaking](./terms/token-breaking/), [Tool Use / Function Calling](./terms/tool-use/), [Top-p Sampling (Nucleus Sampling)](./terms/top-p-sampling/), [Training](./terms/training/), [Transfer Learning](./terms/transfer-learning/), [Transformer](./terms/transformer/), [Trustworthy AI](./terms/trustworthy-ai/) |
-| **U** | [Unsupervised Learning](./terms/unsupervised-learning/) |
+| **U** | [UEBA (User and Entity Behavior Analytics)](./terms/ueba/), [Unsupervised Learning](./terms/unsupervised-learning/) |
 | **V** | [Validation Set](./terms/validation-set/), [Vanishing Gradient Problem](./terms/vanishing-gradient-problem/), [vLLM / PagedAttention](./terms/vllm-pagedattention/), [Vector Database](./terms/vector-database/), [Vibe Coding](./terms/vibe-coding/) |
 | **W** | [Wearable AI](./terms/wearable-ai/), [Weights](./terms/weights/) |
 | **X** | [XGBoost](./terms/xgboost/) |
@@ -361,7 +366,7 @@ Built for **everyone** — from complete beginners to seasoned practitioners.
 An AI dictionary is a curated reference resource that defines artificial intelligence and machine learning terminology in plain language, making complex concepts accessible to everyone.
 
 **How many terms are in this AI terminology glossary?**  
-This living dictionary contains 220+ AI and machine learning terms across 9 specialized categories, ranging from foundational Architecture to Legal AI, Healthcare AI, and AI Security.
+This living dictionary contains 230+ AI and machine learning terms across 9 specialized categories, ranging from foundational Architecture to Legal AI, Healthcare AI, and AI Security.
 
 **Who is this AI dictionary for?**  
 It is built for everyone. Every term includes a "Simple Version" written in plain English for beginners, alongside detailed technical definitions and code examples for developers and practitioners.
@@ -395,7 +400,7 @@ This project is open source under the [MIT License](LICENSE).
       "name": "How many terms are in this AI terminology glossary?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This living dictionary contains 220+ AI and machine learning terms across 9 specialized categories, ranging from foundational Architecture to Legal AI, Healthcare AI, and AI Security."
+        "text": "This living dictionary contains 230+ AI and machine learning terms across 9 specialized categories, ranging from foundational Architecture to Legal AI, Healthcare AI, and AI Security."
       }
     },
     {
