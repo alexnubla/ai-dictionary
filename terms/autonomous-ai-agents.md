@@ -21,7 +21,15 @@ AI systems that can operate on their own without constant human guidance—makin
 ![Autonomous AI Agent Workflow](../assets/diagrams/autonomous-agent-workflow.png)
 
 ## Detailed Explanation
-Autonomous AI Agents represent a significant evolution from conversational chatbots to action-oriented systems. Unlike traditional AI that waits for user input, autonomous agents can independently: (1) perceive their environment through APIs, sensors, or data streams; (2) reason about goals and constraints using LLMs; (3) plan multi-step actions; (4) execute tools and functions; and (5) learn from outcomes to self-correct. In cybersecurity contexts, these agents can operate as both offensive weapons (autonomous attack pipelines that find vulnerabilities, write exploits, and execute breaches) and defensive tools (autonomous SOAR systems that detect, isolate, and remediate threats in seconds).
+Autonomous AI Agents represent a significant evolution from conversational chatbots to action-oriented systems. Unlike traditional AI that waits for user input, autonomous agents can independently:
+
+1. Perceive their environment through APIs, sensors, or data streams.
+2. Reason about goals and constraints using LLMs.
+3. Plan multi-step actions.
+4. Execute tools and functions.
+5. Learn from outcomes to self-correct.
+
+In cybersecurity contexts, these agents can operate as both offensive weapons (autonomous attack pipelines that find vulnerabilities, write exploits, and execute breaches) and defensive tools (autonomous SOAR systems that detect, isolate, and remediate threats in seconds).
 
 ## Key Characteristics
 - **Goal-Directed Behavior:** Agents pursue specific objectives (e.g., "exfiltrate financial data" or "contain ransomware") without step-by-step human instructions.
@@ -38,11 +46,13 @@ In a 2025 Sysdig-documented attack, an autonomous AI agent gained initial access
 
 ## Common Misconceptions
 - **Myth:** Autonomous agents are fully independent and don't need human oversight.
-  **Reality:** Current agents still require human-defined goals, constraints, and guardrails. They are autonomous in execution but not in strategic decision-making.
+- **Reality:** Current agents still require human-defined goals, constraints, and guardrails. They are autonomous in execution but not in strategic decision-making.
+
 - **Myth:** Only attackers use autonomous agents.
-  **Reality:** Defensive autonomous agents (SOAR, automated patching, UEBA) are equally critical. The future is autonomous vs. autonomous warfare.
+- **Reality:** Defensive autonomous agents (SOAR, automated patching, UEBA) are equally critical. The future is autonomous vs. autonomous warfare.
+
 - **Myth:** Autonomous agents are science fiction.
-  **Reality:** They are actively documented in 2024-2026 attacks. The Meta AI chatbot exploit (20,225 accounts hijacked) and 8-minute cloud compromises prove they are operational today.
+- **Reality:** They are actively documented in 2024-2026 attacks. The Meta AI chatbot exploit (20,225 accounts hijacked) and 8-minute cloud compromises prove they are operational today.
 
 ## Related Terms
 - [Agent](../agent/)
